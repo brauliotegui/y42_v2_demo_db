@@ -1,5 +1,878 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "8649d992-0aa6-45ba-b548-a59841d00bef",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "8649d992-0aa6-45ba-b548-a59841d00bef",
+        "title": "Aggregations",
+        "transformObject": {
+          "columns": [
+            {
+              "name": "orders_id",
+              "alias": "new_orders_day_channel",
+              "func": "COUNT"
+            }
+          ],
+          "groupBy": [
+            "order_date|day",
+            "last_click_channel"
+          ]
+        },
+        "transformationType": "GROUP_BY"
+      },
+      "isGroup": true,
+      "location": "1051 266"
+    },
+    {
+      "key": "06db2ae0-d630-4414-8941-7648ef0d8f93",
+      "type": "FILTER",
+      "category": "FILTER",
+      "transformationStep": {
+        "id": "06db2ae0-d630-4414-8941-7648ef0d8f93",
+        "title": "Filter",
+        "transformObject": {
+          "global_op": [
+            "AND"
+          ],
+          "filterOps": [
+            {
+              "variable_field_name": "repeat_order",
+              "variable_type": "STRING",
+              "operations": [
+                {
+                  "operator": "=",
+                  "value_type": "NONE",
+                  "operator_type": "absolute",
+                  "values": [
+                    "FALSE"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "transformationType": "FILTER"
+      },
+      "isGroup": true,
+      "location": "783 266"
+    },
+    {
+      "key": "da6fc4ff-3529-4c7d-b9e0-903862dba887",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "da6fc4ff-3529-4c7d-b9e0-903862dba887",
+        "title": "test_adspend_combined",
+        "datasourceName": "ads_spend_combined",
+        "transformObject": {
+          "source": "src/Models/UI/ads_spend_combined",
+          "table": "src/Models/UI/ads_spend_combined/ads_spend_combined",
+          "lang": ""
+        },
+        "transformationType": "INPUT"
+      },
+      "isGroup": true,
+      "location": "0 0"
+    },
+    {
+      "key": "c5589c2d-83b6-4c62-8eb0-88f21b367030",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "c5589c2d-83b6-4c62-8eb0-88f21b367030",
+        "title": "Join",
+        "transformObject": {
+          "left": "da6fc4ff-3529-4c7d-b9e0-903862dba887",
+          "type": "inner",
+          "right": "8649d992-0aa6-45ba-b548-a59841d00bef",
+          "customMapping": {
+            "last_click_channel": "last_click_channel"
+          },
+          "joinConditions": [
+            {
+              "left": "date",
+              "right": "order_date"
+            },
+            {
+              "left": "last_click_channel",
+              "right": "last_click_channel"
+            }
+          ]
+        },
+        "transformationType": "JOIN"
+      },
+      "isGroup": true,
+      "location": "1319 266"
+    },
+    {
+      "key": "971515a8-a10a-4f69-9c7b-1bcaedf16efb",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "971515a8-a10a-4f69-9c7b-1bcaedf16efb",
+        "title": "demo_orders_combined",
+        "datasourceName": "orders_combined",
+        "transformObject": {
+          "source": "src/Models/UI/orders_combined",
+          "table": "src/Models/UI/orders_combined/orders_combined",
+          "lang": ""
+        },
+        "transformationType": "INPUT"
+      },
+      "isGroup": true,
+      "location": "0 133"
+    },
+    {
+      "key": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c",
+        "title": "Join",
+        "transformObject": {
+          "left": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
+          "type": "left",
+          "right": "7eada821-756d-4272-a496-351c31ab4b34",
+          "customMapping": {
+            "orders_id": "orders_id",
+            "total_amount": "total_amount",
+            "order_date": "order_date",
+            "customers_id": "customers_id",
+            "shop": "shop",
+            "clv": "clv",
+            "partitioned_order": "partitioned_order",
+            "first_order_id": "first_order_id",
+            "first_order_date": "first_order_date",
+            "orders_count": "orders_count",
+            "repeat_order": "repeat_order",
+            "months_since_first_order": "months_since_first_order",
+            "days_since_first_order": "days_since_first_order",
+            "weeks_since_first_order": "weeks_since_first_order",
+            "last_click_channel": "last_click_channel"
+          },
+          "joinConditions": [
+            {
+              "left": "orders_id",
+              "right": "orders_id"
+            }
+          ]
+        },
+        "transformationType": "JOIN"
+      },
+      "isGroup": true,
+      "location": "2123 266"
+    },
+    {
+      "isSidebarType": true,
+      "version": 1,
+      "key": "3b201680-fc9a-4c82-9b45-89fc1e5f6c73",
+      "category": "stickyNode",
+      "size": "200 120",
+      "location": "-72.7217562900825 -111.40083867784892",
+      "background": "#FFF1CC",
+      "text": "1. attributed CAC",
+      "textColor": "#03053D",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 2",
+      "shadowBlur": 5,
+      "font": "normal 14px Segoe UI",
+      "group": "",
+      "layerName": "",
+      "zOrder": null
+    },
+    {
+      "isSidebarType": true,
+      "version": 1,
+      "key": "b7ebe219-27aa-46df-b28e-fc18eddc500b",
+      "category": "stickyNode",
+      "size": "200 120",
+      "location": "-68.99555994079918 514.9846019409081",
+      "background": "#FFF1CC",
+      "text": "adspend/new orders",
+      "textColor": "#03053D",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 2",
+      "shadowBlur": 5,
+      "font": "normal 14px Segoe UI",
+      "group": "",
+      "layerName": "",
+      "zOrder": null
+    },
+    {
+      "key": "d2131bbd-8e11-4feb-bc2d-fc42655989f2",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "d2131bbd-8e11-4feb-bc2d-fc42655989f2",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "avg_adpend_day_channel",
+            "originalString": "@adspend/@new_orders_day_channel",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "operator": "/",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "@adspend",
+                      "range": [
+                        0,
+                        8
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 8
+                        }
+                      }
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "name": "@new_orders_day_channel",
+                      "range": [
+                        9,
+                        32
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 32
+                        }
+                      }
+                    },
+                    "range": [
+                      0,
+                      32
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 32
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    32
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 32
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                32
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 32
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "@adspend",
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "/",
+                  "range": [
+                    8,
+                    9
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 9
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "value": "@new_orders_day_channel",
+                  "range": [
+                    9,
+                    32
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 32
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "1587 266"
+    },
+    {
+      "key": "59ad89fe-9220-4ffc-8dbe-f02669f397fe",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "59ad89fe-9220-4ffc-8dbe-f02669f397fe",
+        "title": "src/Integrations/Shopify/b97a4df6-a617-4d60-980a-6a5c5a8aa2f6-demo_orders_mock_data-000000000000.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "Shopify",
+        "transformObject": {
+          "source": "src/Integrations/Shopify",
+          "table": "src/Integrations/Shopify/b97a4df6-a617-4d60-980a-6a5c5a8aa2f6-demo_orders_mock_data-000000000000.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "0 266"
+    },
+    {
+      "key": "94320ea5-6ea6-471b-9852-9380b8d6c1ec",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "94320ea5-6ea6-471b-9852-9380b8d6c1ec",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "total_amount",
+            "source": "total_amount",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "order_date",
+            "source": "order_date",
+            "type": "DATE",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "customers_id",
+            "source": "customers_id",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "shop",
+            "source": "shop",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "first_order_id",
+            "source": "first_order_id",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "first_order_date",
+            "source": "first_order_date",
+            "type": "DATE",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "clv",
+            "source": "clv",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "repeat_order",
+            "source": "repeat_order",
+            "type": "BOOLEAN",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "months_since_first_order",
+            "source": "months_since_first_order",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "days_since_first_order",
+            "source": "days_since_first_order",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "weeks_since_first_order",
+            "source": "weeks_since_first_order",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "orders_count",
+            "source": "orders_count",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "247 266"
+    },
+    {
+      "key": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
+        "title": "",
+        "transformationType": "JOIN",
+        "transformObject": {
+          "type": "left",
+          "left": "971515a8-a10a-4f69-9c7b-1bcaedf16efb",
+          "right": "94320ea5-6ea6-471b-9852-9380b8d6c1ec",
+          "joinConditions": [
+            {
+              "left": "orders_id",
+              "right": "orders_id"
+            }
+          ],
+          "customMapping": {
+            "orders_id": "orders_id"
+          }
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "515 266"
+    },
+    {
+      "key": "7eada821-756d-4272-a496-351c31ab4b34",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "7eada821-756d-4272-a496-351c31ab4b34",
+        "title": "",
+        "transformationType": "JOIN",
+        "transformObject": {
+          "type": "left",
+          "left": "06db2ae0-d630-4414-8941-7648ef0d8f93",
+          "right": "d2131bbd-8e11-4feb-bc2d-fc42655989f2",
+          "joinConditions": [
+            {
+              "left": "order_date",
+              "right": "date"
+            },
+            {
+              "left": "last_click_channel",
+              "right": "last_click_channel"
+            }
+          ],
+          "customMapping": {
+            "last_click_channel": "last_click_channel",
+            "order_date": "order_date"
+          }
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "1855 266"
+    },
+    {
+      "key": "603f2f3e-068e-43a3-91f7-425e670830ab",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "603f2f3e-068e-43a3-91f7-425e670830ab",
+        "title": "orders_ads_combined",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "orders_ads_combined",
+          "fields": [
+            {
+              "target": "orders_id",
+              "source": "orders_id",
+              "type": "STRING",
+              "display": true,
+              "changed": true,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "total_amount",
+              "source": "total_amount",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "order_date",
+              "source": "order_date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "customers_id",
+              "source": "customers_id",
+              "type": "STRING",
+              "display": true,
+              "changed": true,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "shop",
+              "source": "shop",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "clv",
+              "source": "clv",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "partitioned_order",
+              "source": "partitioned_order",
+              "type": "INTEGER",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_order_id",
+              "source": "first_order_id",
+              "type": "STRING",
+              "display": true,
+              "changed": true,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_order_date",
+              "source": "first_order_date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "orders_count",
+              "source": "orders_count",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "repeat_order",
+              "source": "repeat_order",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "months_since_first_order",
+              "source": "months_since_first_order",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "days_since_first_order",
+              "source": "days_since_first_order",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "weeks_since_first_order",
+              "source": "weeks_since_first_order",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "last_click_channel",
+              "source": "last_click_channel",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adspend",
+              "source": "adspend",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "new_orders_day_channel",
+              "source": "new_orders_day_channel",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "avg_adpend_day_channel",
+              "source": "avg_adpend_day_channel",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "2399.07735889851 264.1537929150744"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "59ad89fe-9220-4ffc-8dbe-f02669f397fe",
+      "to": "94320ea5-6ea6-471b-9852-9380b8d6c1ec"
+    },
+    {
+      "from": "971515a8-a10a-4f69-9c7b-1bcaedf16efb",
+      "to": "a0703479-f28d-4db6-9d46-fbdefedf4db3"
+    },
+    {
+      "from": "94320ea5-6ea6-471b-9852-9380b8d6c1ec",
+      "to": "a0703479-f28d-4db6-9d46-fbdefedf4db3"
+    },
+    {
+      "from": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
+      "to": "06db2ae0-d630-4414-8941-7648ef0d8f93"
+    },
+    {
+      "from": "06db2ae0-d630-4414-8941-7648ef0d8f93",
+      "to": "8649d992-0aa6-45ba-b548-a59841d00bef"
+    },
+    {
+      "from": "8649d992-0aa6-45ba-b548-a59841d00bef",
+      "to": "c5589c2d-83b6-4c62-8eb0-88f21b367030"
+    },
+    {
+      "from": "da6fc4ff-3529-4c7d-b9e0-903862dba887",
+      "to": "c5589c2d-83b6-4c62-8eb0-88f21b367030"
+    },
+    {
+      "from": "c5589c2d-83b6-4c62-8eb0-88f21b367030",
+      "to": "d2131bbd-8e11-4feb-bc2d-fc42655989f2"
+    },
+    {
+      "from": "06db2ae0-d630-4414-8941-7648ef0d8f93",
+      "to": "7eada821-756d-4272-a496-351c31ab4b34"
+    },
+    {
+      "from": "d2131bbd-8e11-4feb-bc2d-fc42655989f2",
+      "to": "7eada821-756d-4272-a496-351c31ab4b34"
+    },
+    {
+      "from": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
+      "to": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c"
+    },
+    {
+      "from": "7eada821-756d-4272-a496-351c31ab4b34",
+      "to": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c"
+    },
+    {
+      "from": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c",
+      "to": "603f2f3e-068e-43a3-91f7-425e670830ab"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
