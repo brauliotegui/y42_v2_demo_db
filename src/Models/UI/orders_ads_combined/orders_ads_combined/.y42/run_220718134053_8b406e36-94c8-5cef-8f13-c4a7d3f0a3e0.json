@@ -1,0 +1,38 @@
+{
+  "request_id": "220718134053_8b406e36-94c8-5cef-8f13-c4a7d3f0a3e0",
+  "status": "pending",
+  "request": {
+    "target_credentials": "9d464949-0b6d-4a3c-ab97-09d63f108acf",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "603f2f3e-068e-43a3-91f7-425e670830ab"
+    },
+    "created_at": "2022-07-18T13:40:53.933454+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/orders_ads_combined/orders_ads_combined",
+        "id": "46:d8ae7a05-7565-4491-a7c2-53c6f11fdcd1",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_v2_demo_db",
+        "commit_sha": "d288cc98867164a59e848e0cf5fd82de0239370d"
+      }
+    },
+    "context": {
+      "company_id": 46,
+      "company_slug": "v2demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-18T13:40:53.933454+00:00",
+  "_signature": "F4I0T0IfcqQxWbMV98aQOuMyPZfMxKz362kOIuAXfLPsIBdkSAFTWePxJ5mm7Be6fik2wzb3mMWV4CS+IZXZBQ=="
+}
