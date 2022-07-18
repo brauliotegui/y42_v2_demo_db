@@ -1,6 +1,6 @@
 {
   "request_id": "220718120852_f30649c9-ce6b-509c-ad88-94b90e86e10d",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "9d464949-0b6d-4a3c-ab97-09d63f108acf",
     "source_settings": {
@@ -34,5 +34,33 @@
     }
   },
   "created_at": "2022-07-18T12:08:52.123538+00:00",
-  "_signature": "H7kBmyBi31OtncpSmkl17rOixJtK+CRsBPOVOgK151FNAzXiEpBBrS8jrVFU0KWfWhhutyT2eSdg7VwS7sdDBg=="
+  "finished_at": "2022-07-18T12:09:41.363962+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-18T12:09:41.363829+00:00",
+    "row_count": 905,
+    "current_import_row_count": 905,
+    "size_in_bytes": 25948,
+    "external_id": "3a95efb8-54d3-44f5-bdd8-bb43a165f27a",
+    "columns": [
+      {
+        "field_name": "date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "last_click_channel",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adspend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220718120852_f30649c9-ce6b-509c-ad88-94b90e86e10d",
+    "external_url": "https://console.cloud.google.com/bigquery?p=v2-beta-tours&d=y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a&t=220718120852_f30649c9-ce6b-509c-ad88-94b90e86e10d&page=table"
+  },
+  "_signature": "mOBhMbJXewFQnIEjOxYAPhCS7no68VSpUb0wjjSiGvYV4/+awqQKsOXug8J+URRz7AHGoi4rsmgKXS+OlT2UBA=="
 }
