@@ -1,6 +1,6 @@
 {
   "request_id": "220718120224_0a2746fa-d5b1-57b2-a4cf-fcb033c7a3db",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "9d464949-0b6d-4a3c-ab97-09d63f108acf",
     "source_settings": {
@@ -53,7 +53,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "9b9004e4-ded5-48d6-9e2d-66725b6eedf2",
     "storage_file": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/88008753-3164-4261-8377-48a5c4a1a871",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-18T12:03:11.635813+00:00",
+    "row_count": 78526,
+    "current_import_row_count": 78526,
+    "size_in_bytes": 3847774,
+    "columns": [
+      {
+        "field_name": "orders_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "total_amount",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "order_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "customers_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "shop",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clv",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220718120224_0a2746fa-d5b1-57b2-a4cf-fcb033c7a3db",
+    "external_url": "https://console.cloud.google.com/bigquery?p=v2-beta-tours&d=y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a&t=220718120224_0a2746fa-d5b1-57b2-a4cf-fcb033c7a3db&page=table"
   },
-  "_signature": "DE5nd84/WVD3MuERU4QxsKkPUWQ+OY/DNY9PhyflzuJ0I3tFkJE7swLwuDqImmdtwRtEN1qG7+KLk64+rmB8BA=="
+  "finished_at": "2022-07-18T12:03:11.635949+00:00",
+  "_signature": "SpxngXd4n7jMbxzhxe3upTdJMvG4/UVNaJmkMLLYVGVRQo69yhRXXJ5VGUxehktxEBGZQXxttBEKiFjMyZ2NAg=="
 }
