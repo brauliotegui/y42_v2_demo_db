@@ -1,6 +1,6 @@
 {
   "request_id": "220718134053_8b406e36-94c8-5cef-8f13-c4a7d3f0a3e0",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "9d464949-0b6d-4a3c-ab97-09d63f108acf",
     "source_settings": {
@@ -34,5 +34,108 @@
     }
   },
   "created_at": "2022-07-18T13:40:53.933454+00:00",
-  "_signature": "F4I0T0IfcqQxWbMV98aQOuMyPZfMxKz362kOIuAXfLPsIBdkSAFTWePxJ5mm7Be6fik2wzb3mMWV4CS+IZXZBQ=="
+  "finished_at": "2022-07-18T13:41:57.009202+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-18T13:41:57.009011+00:00",
+    "row_count": 79978,
+    "current_import_row_count": 79978,
+    "size_in_bytes": 10377401,
+    "external_id": "b568d163-57da-434d-a3b9-ca9a9ac1b153",
+    "columns": [
+      {
+        "field_name": "orders_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "total_amount",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "order_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "customers_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "shop",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clv",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "first_order_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "first_order_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "orders_count",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "repeat_order",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "months_since_first_order",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "days_since_first_order",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "weeks_since_first_order",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "last_click_channel",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "adspend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "new_orders_day_channel",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "avg_adpend_day_channel",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220718134053_8b406e36-94c8-5cef-8f13-c4a7d3f0a3e0",
+    "external_url": "https://console.cloud.google.com/bigquery?p=v2-beta-tours&d=y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a&t=220718134053_8b406e36-94c8-5cef-8f13-c4a7d3f0a3e0&page=table"
+  },
+  "_signature": "WNWPrIrmlbzr3tech+1KF3mBRzSHNLgr+GqNoe3qxzgoQIs8xbR/zbhEoAaAJMTe81EcMOuR8RqgWQo7ORW2CA=="
 }
