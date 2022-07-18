@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycdsxV7LzaEAtmg6fkjAUuzt7bW0_idjs_ozT6RCWm52jwRxBLPIJJwKbrajAlf3_jS94STWzmOLO2ZtH9t43cZ0SxQ",
+  "originalName": "demo_orders_amazon.csv",
+  "size": "104526",
+  "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/a03082cf-3239-4c42-8cb3-5c76b708484b",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
