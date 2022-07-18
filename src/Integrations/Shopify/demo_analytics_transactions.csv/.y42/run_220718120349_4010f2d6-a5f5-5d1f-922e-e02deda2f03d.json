@@ -1,6 +1,6 @@
 {
   "request_id": "220718120349_4010f2d6-a5f5-5d1f-922e-e02deda2f03d",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "9d464949-0b6d-4a3c-ab97-09d63f108acf",
     "source_settings": {
@@ -53,7 +53,36 @@
     "write_disposition": "TRUNCATE",
     "external_id": "9fdf1f1f-0550-4b0c-b363-ac81f3ca69ce",
     "storage_file": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/cc8cc39f-abec-4cf4-89f4-ecf221cf0a85",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-18T12:04:41.498214+00:00",
+    "row_count": 81215,
+    "current_import_row_count": 81215,
+    "size_in_bytes": 2948186,
+    "columns": [
+      {
+        "field_name": "transaction_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "transaction_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "last_click_channel",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clv",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220718120349_4010f2d6-a5f5-5d1f-922e-e02deda2f03d",
+    "external_url": "https://console.cloud.google.com/bigquery?p=v2-beta-tours&d=y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a&t=220718120349_4010f2d6-a5f5-5d1f-922e-e02deda2f03d&page=table"
   },
-  "_signature": "/pEGrSg8zdE23pyhNhhp1XDz8t1ACm2k58xz5jekm/w1JYAxZBjYzIdErlQ7hv8HBr0mYMXyKDVl4qjWZSvZCA=="
+  "finished_at": "2022-07-18T12:04:41.498358+00:00",
+  "_signature": "p3TWRzUznFsQdo3ix+n6gc0mEZswY/d4fd0bx5WkQQIsT6vx4DnGt49BxezqCf2bEYjkL3/wK+65r2EhezfsDA=="
 }
