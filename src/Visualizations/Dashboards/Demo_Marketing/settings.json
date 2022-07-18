@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.1/visualization/visualization-dashboard-settings.json",
+  "theme": "Demo Marketing-c1f71a8e-22e9-4ad9-99ab-26cbc71dcb7e.json",
+  "order": [
+    "src/Visualizations/Dashboards/Demo_Marketing/Tab_1"
+  ],
+  "last_used_datasource_table_path": "src/Models/UI/orders_ads_combined/orders_ads_combined"
+}
