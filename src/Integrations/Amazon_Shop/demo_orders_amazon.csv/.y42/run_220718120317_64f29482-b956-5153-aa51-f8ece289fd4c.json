@@ -1,0 +1,51 @@
+{
+  "request_id": "220718120317_64f29482-b956-5153-aa51-f8ece289fd4c",
+  "status": "pending",
+  "request": {
+    "target_credentials": "9d464949-0b6d-4a3c-ab97-09d63f108acf",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+      "content-type": "text/csv",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycdsxV7LzaEAtmg6fkjAUuzt7bW0_idjs_ozT6RCWm52jwRxBLPIJJwKbrajAlf3_jS94STWzmOLO2ZtH9t43cZ0SxQ",
+      "originalName": "demo_orders_amazon.csv",
+      "size": "104526",
+      "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/a03082cf-3239-4c42-8cb3-5c76b708484b",
+      "csv_options": {
+        "field_delimiter": ",",
+        "allow_quoted_new_lines": true,
+        "null_marker": "",
+        "ignore_unknown_values": false,
+        "encoding": "UTF-8",
+        "quote": "\"",
+        "skip_leading_rows": null
+      }
+    },
+    "created_at": "2022-07-18T12:03:17.042014+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Amazon_Shop/demo_orders_amazon.csv",
+        "id": "46:d8ae7a05-7565-4491-a7c2-53c6f11fdcd1",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_v2_demo_db",
+        "commit_sha": "7efc8d7a7e48bcc2ad94795811f903d951a3860a"
+      }
+    },
+    "context": {
+      "company_id": 46,
+      "company_slug": "v2demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-18T12:03:17.042014+00:00",
+  "_signature": "2Ug16sf4nnYQjUimdIppMc9jrdX8wMQ9VNrOChOaOQ7bcF9xvZVWvz8f8/SUcpyZzfz+SbDFw+/iWs6goqs7AA=="
+}
