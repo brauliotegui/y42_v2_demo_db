@@ -1,0 +1,51 @@
+{
+  "request_id": "220718120224_0a2746fa-d5b1-57b2-a4cf-fcb033c7a3db",
+  "status": "pending",
+  "request": {
+    "target_credentials": "9d464949-0b6d-4a3c-ab97-09d63f108acf",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+      "content-type": "text/csv",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycdvJf1DPPE6Z43i8duMu-vd7TKmc71fz7oAMn_1gVm7vFpqiWKgibyy2ExX8z0Caj1u1JHK2yvcv75HJVT0ehYNpIw",
+      "originalName": "demo_orders_shopify.csv",
+      "size": "3212002",
+      "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/88008753-3164-4261-8377-48a5c4a1a871",
+      "csv_options": {
+        "field_delimiter": ",",
+        "allow_quoted_new_lines": true,
+        "null_marker": "",
+        "ignore_unknown_values": false,
+        "encoding": "UTF-8",
+        "quote": "\"",
+        "skip_leading_rows": null
+      }
+    },
+    "created_at": "2022-07-18T12:02:24.537194+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Shopify/demo_orders_shopify.csv",
+        "id": "46:d8ae7a05-7565-4491-a7c2-53c6f11fdcd1",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_v2_demo_db",
+        "commit_sha": "6f33a8aad0183a2be0796c07680b3594e03b5f01"
+      }
+    },
+    "context": {
+      "company_id": 46,
+      "company_slug": "v2demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-18T12:02:24.537194+00:00",
+  "_signature": "K2evX0My9bNx8Qryd617sfUWmWJMLKTdLGUnn5lW2kjjSgA29uIcqsV437UWnokXXbVkx6wZ0xw2XotR5acfBg=="
+}
