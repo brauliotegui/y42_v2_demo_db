@@ -2,18 +2,18 @@
   "$schema": "https://s.y42.com/frontend/0.0.1/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 4,
-    "y": 1
+    "x": 808,
+    "y": 9
   },
   "size": {
-    "height": 468,
-    "width": 792.5
+    "height": 460,
+    "width": 784
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon"
+    "widgetPath": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon___Copy"
   },
   "styles": {
     "background-color": "#5b5c6e",

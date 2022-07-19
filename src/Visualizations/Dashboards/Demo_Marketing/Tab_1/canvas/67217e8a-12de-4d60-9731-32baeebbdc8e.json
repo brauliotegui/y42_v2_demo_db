@@ -3,17 +3,17 @@
   "type": "Widget",
   "position": {
     "x": 4,
-    "y": 1
+    "y": -476.525390625
   },
   "size": {
-    "height": 468,
-    "width": 792.5
+    "height": 469,
+    "width": 796
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon"
+    "widgetPath": "src/Visualizations/Widgets/Monthly_Adspend_by_Channel"
   },
   "styles": {
     "background-color": "#5b5c6e",
