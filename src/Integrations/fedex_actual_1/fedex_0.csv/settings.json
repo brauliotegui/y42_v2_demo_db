@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycdtTAzeyDBXKyBXCs89FYFsGjJZwoJshhuvTgFN9b-OOxEbdK-IhsDeXvNxDHf7iYxaUBLBehmMJi7xvfUdQm97eQyWd_KDp",
+  "originalName": "fedex_0.csv",
+  "size": "71241228",
+  "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/42f4861c-e8ed-46f9-9cbb-facb78385f66",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "NA",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
