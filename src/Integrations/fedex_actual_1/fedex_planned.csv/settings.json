@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycdtaX4Gd-f7MUY4jjUGzCTc2uAhupaRKHAp1p2kaKT0fLWFT_I_4hDMLKHOdKcTSC1lomSoUb8Q0KHJD1Sf6wwQFyyX5R0Qo",
+  "originalName": "fedex_planned.csv",
+  "size": "115094311",
+  "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/df254a9e-0978-47eb-8e32-82eff0c49415",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "NA",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
