@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.3/core/y42-metadata.json",
-  "name": "fedex_actual_1",
+  "name": "logistics_data",
   "description": "",
   "tags": [],
   "owners": {
