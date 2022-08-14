@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+  "content-type": "text/csv",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycdv-5vXvAqR5WDgu2JVBjZ6THtO6gNMAvyIhCKF_qGOtf5-BCLLavPu4Y2unMK_G0PaI7rqyRX1O78Seb9KtKozB76uzDgWk",
+  "originalName": "logistics.csv",
+  "size": "250771898",
+  "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/e539e848-1392-49f9-9a22-f8588e25a1d2",
+  "csv_options": {
+    "field_delimiter": ",",
+    "allow_quoted_new_lines": true,
+    "null_marker": "NA",
+    "ignore_unknown_values": false,
+    "encoding": "UTF-8",
+    "quote": "\"",
+    "skip_leading_rows": null
+  }
+}
