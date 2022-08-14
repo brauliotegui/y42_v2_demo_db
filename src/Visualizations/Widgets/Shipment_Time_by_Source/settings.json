@@ -1,0 +1,121 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.3/visualization/visualization-widget-settings.json",
+  "chart_type": "treemap_chart",
+  "settings": {
+    "series": [
+      {
+        "field_id": "4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
+        "mark": "area",
+        "stack_name": 1,
+        "format": "inherit",
+        "show_right_axis": false,
+        "label": {
+          "show": true,
+          "field_ids": [],
+          "rotate": 0,
+          "align": "center",
+          "verticalAlign": "top"
+        }
+      }
+    ],
+    "show_legend": true,
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "lineStyle": {
+        "type": "solid",
+        "opacity": 1
+      }
+    },
+    "dimensions": [
+      "0ee0e932_74d3_4f57_9cca_935f0cac02a1"
+    ],
+    "breakdowns": [],
+    "size": [],
+    "datasource_table_path": "src/Models/UI/logistics/logistics",
+    "chart_type": "treemap_chart",
+    "filters": [],
+    "fields": [
+      {
+        "field": "source",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_source_0ee0e932_74d3_4f57_9cca_935f0cac02a1",
+        "id": "0ee0e932_74d3_4f57_9cca_935f0cac02a1",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "actual_shipment_time",
+        "aggregation": "AVG",
+        "type": "FLOAT",
+        "alias": "AVG_actual_shipment_time_4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
+        "id": "4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
+          "mark": "area",
+          "stack_name": 1,
+          "format": "inherit",
+          "show_right_axis": false,
+          "label": {
+            "show": true,
+            "field_ids": [],
+            "rotate": 0,
+            "align": "center",
+            "verticalAlign": "top"
+          }
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [
+        "0ee0e932_74d3_4f57_9cca_935f0cac02a1"
+      ],
+      "breakdowns": [],
+      "size": []
+    }
+  },
+  "datasource_table_path": "src/Models/UI/logistics/logistics",
+  "filters": [],
+  "fields": [
+    {
+      "field": "source",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_source_0ee0e932_74d3_4f57_9cca_935f0cac02a1",
+      "id": "0ee0e932_74d3_4f57_9cca_935f0cac02a1",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "actual_shipment_time",
+      "aggregation": "AVG",
+      "type": "FLOAT",
+      "alias": "AVG_actual_shipment_time_4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
+      "id": "4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

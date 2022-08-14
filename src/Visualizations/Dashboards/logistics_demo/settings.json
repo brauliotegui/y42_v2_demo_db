@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.3/visualization/visualization-dashboard-settings.json",
+  "theme": "src/Visualizations/Themes/roma-99a3cc6b-576b-4542-842e-3a678cc3976d.json",
+  "order": [
+    "src/Visualizations/Dashboards/logistics_demo/Tab_1"
+  ],
+  "last_used_datasource_table_path": "src/Models/UI/logistics/logistics"
+}

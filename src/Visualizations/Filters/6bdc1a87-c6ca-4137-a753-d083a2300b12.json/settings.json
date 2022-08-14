@@ -1,0 +1,9 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.3/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Models/UI/logistics/logistics",
+  "field_name": "date",
+  "data_type": "DATE",
+  "type": "date",
+  "operations": [],
+  "options": {}
+}
