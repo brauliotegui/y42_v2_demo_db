@@ -44,9 +44,9 @@
     "fields": [
       {
         "field": "date",
-        "aggregation": "YEAR",
+        "aggregation": "MONTH_YEAR",
         "type": "DATE",
-        "alias": "YEAR_date_07640063_15e4_4706_9733_bcb68bc3a9cc",
+        "alias": "MONTH_YEAR_date_07640063_15e4_4706_9733_bcb68bc3a9cc",
         "id": "07640063_15e4_4706_9733_bcb68bc3a9cc",
         "lowCodeString": null,
         "functionTree": null,
