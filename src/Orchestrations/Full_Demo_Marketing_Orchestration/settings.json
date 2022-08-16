@@ -1,8 +1,123 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.3/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "0 7 1/1 * *",
   "forceSchedule": false,
-  "linkDataArray": [],
-  "nodeDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "a851156a-d50b-408f-ab31-f078701903a4",
+      "to": "d9504ea6-2808-4070-bfbc-44a7cdbf1342"
+    },
+    {
+      "from": "565e03ed-2b65-4341-a348-d596c03a43a5",
+      "to": "d9504ea6-2808-4070-bfbc-44a7cdbf1342"
+    },
+    {
+      "from": "d9504ea6-2808-4070-bfbc-44a7cdbf1342",
+      "to": "2b016a92-1272-4890-9333-f5533f0e1c4f"
+    },
+    {
+      "from": "0fd30657-d815-4768-858d-2ce93039da93",
+      "to": "2b016a92-1272-4890-9333-f5533f0e1c4f"
+    },
+    {
+      "from": "f39210ab-04d5-478e-96d8-9cf27bd0f934",
+      "to": "2377c08b-9092-446f-9970-156ee1ab692c"
+    },
+    {
+      "from": "c215e324-c969-4466-83c2-afdd35c2b6c9",
+      "to": "2377c08b-9092-446f-9970-156ee1ab692c"
+    },
+    {
+      "from": "742aff4a-d7c9-4d13-a84d-31b8f7d40d6e",
+      "to": "2377c08b-9092-446f-9970-156ee1ab692c"
+    },
+    {
+      "from": "2377c08b-9092-446f-9970-156ee1ab692c",
+      "to": "2b016a92-1272-4890-9333-f5533f0e1c4f"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "2b016a92-1272-4890-9333-f5533f0e1c4f",
+      "path": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "location": "1048.0913899932318 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "d9504ea6-2808-4070-bfbc-44a7cdbf1342",
+      "path": "src/Models/UI/orders_combined/orders_combined",
+      "location": "524.0456949966158 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "a851156a-d50b-408f-ab31-f078701903a4",
+      "path": "src/Integrations/Shopify/demo_orders_shopify.csv",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "565e03ed-2b65-4341-a348-d596c03a43a5",
+      "path": "src/Integrations/Amazon_Shop/demo_orders_amazon.csv",
+      "location": "0 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "0fd30657-d815-4768-858d-2ce93039da93",
+      "path": "src/Integrations/Shopify/b97a4df6-a617-4d60-980a-6a5c5a8aa2f6-demo_orders_mock_data-000000000000.csv",
+      "location": "0 124",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "2377c08b-9092-446f-9970-156ee1ab692c",
+      "path": "src/Models/UI/ads_spend_combined/ads_spend_combined",
+      "location": "524.0456949966158 186",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "f39210ab-04d5-478e-96d8-9cf27bd0f934",
+      "path": "src/Integrations/Amazon_Ads/demo_amazon_ads.csv",
+      "location": "0 186",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "c215e324-c969-4466-83c2-afdd35c2b6c9",
+      "path": "src/Integrations/Google_Ads/demo_google_ads.csv",
+      "location": "0 248",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "742aff4a-d7c9-4d13-a84d-31b8f7d40d6e",
+      "path": "src/Integrations/Facebook_Ads/demo_facebook_ads.csv",
+      "location": "0 310",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
