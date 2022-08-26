@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.1/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.y42.com/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "bar_line_chart",
   "settings": {
     "series": [
@@ -232,7 +232,6 @@
       "alias": "MONTH_YEAR_order_date_c45f47d8_0444_4665_8476_2a5c2c5e38d8",
       "id": "c45f47d8_0444_4665_8476_2a5c2c5e38d8",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -243,7 +242,6 @@
       "alias": "VALUE_last_click_channel_74e03b1a_6233_4992_afdd_cbe7fe007a5c",
       "id": "74e03b1a_6233_4992_afdd_cbe7fe007a5c",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -254,7 +252,6 @@
       "alias": "SUM_avg_adpend_day_channel_e71cae44_80a8_4e39_900a_543ab62228ca",
       "id": "e71cae44_80a8_4e39_900a_543ab62228ca",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.1/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.y42.com/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "bar_line_chart",
   "settings": {
     "series": [
@@ -247,7 +247,6 @@
       "alias": "MONTH_YEAR_order_date_fec8cff7_4af4_4615_ad4a_0f0117c2cc9e",
       "id": "fec8cff7_4af4_4615_ad4a_0f0117c2cc9e",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -258,7 +257,6 @@
       "alias": "VALUE_repeat_order_02689af9_f2fb_49ae_bbc8_01855c5f480d",
       "id": "02689af9_f2fb_49ae_bbc8_01855c5f480d",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -269,7 +267,6 @@
       "alias": "SUM_total_amount_1dd07cda_dd1c_4237_9863_9314784fe8bb",
       "id": "1dd07cda_dd1c_4237_9863_9314784fe8bb",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }
