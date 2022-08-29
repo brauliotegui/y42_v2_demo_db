@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.3/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.y42.com/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "numeric",
   "settings": {
     "series": [
@@ -49,7 +49,6 @@
         "alias": "MONTH_YEAR_date_07640063_15e4_4706_9733_bcb68bc3a9cc",
         "id": "07640063_15e4_4706_9733_bcb68bc3a9cc",
         "lowCodeString": null,
-        "functionTree": null,
         "show_in_percentage": false,
         "filters": []
       },
@@ -60,7 +59,6 @@
         "alias": "AVG_shipment_delay_83f769d2_2f05_4b49_b5f7_075c97894ef7",
         "id": "83f769d2_2f05_4b49_b5f7_075c97894ef7",
         "lowCodeString": null,
-        "functionTree": null,
         "show_in_percentage": false,
         "filters": []
       }
@@ -114,7 +112,6 @@
       "alias": "YEAR_date_07640063_15e4_4706_9733_bcb68bc3a9cc",
       "id": "07640063_15e4_4706_9733_bcb68bc3a9cc",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -125,7 +122,6 @@
       "alias": "AVG_actual_shipment_time_57f18383_9423_41b6_92a3_bf89705a6929",
       "id": "57f18383_9423_41b6_92a3_bf89705a6929",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }

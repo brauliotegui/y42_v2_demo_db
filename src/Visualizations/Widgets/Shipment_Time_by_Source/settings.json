@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.3/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.y42.com/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "treemap_chart",
   "settings": {
     "series": [
@@ -43,7 +43,6 @@
         "alias": "VALUE_source_0ee0e932_74d3_4f57_9cca_935f0cac02a1",
         "id": "0ee0e932_74d3_4f57_9cca_935f0cac02a1",
         "lowCodeString": null,
-        "functionTree": null,
         "show_in_percentage": false,
         "filters": []
       },
@@ -54,7 +53,6 @@
         "alias": "AVG_actual_shipment_time_4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
         "id": "4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
         "lowCodeString": null,
-        "functionTree": null,
         "show_in_percentage": false,
         "filters": []
       }
@@ -102,7 +100,6 @@
       "alias": "VALUE_source_0ee0e932_74d3_4f57_9cca_935f0cac02a1",
       "id": "0ee0e932_74d3_4f57_9cca_935f0cac02a1",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -113,7 +110,6 @@
       "alias": "AVG_actual_shipment_time_4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
       "id": "4cff9c70_86c9_453f_96f9_b5bbe4953ef7",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }

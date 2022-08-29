@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.3/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.y42.com/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "bar_line_chart",
   "settings": {
     "series": [
@@ -231,7 +231,6 @@
       "alias": "VALUE_carrier_name_937b5aba_ff43_44f2_97cd_343a202c992d",
       "id": "937b5aba_ff43_44f2_97cd_343a202c992d",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -242,7 +241,6 @@
       "alias": "DISTINCT_carrier_num_3e979c8b_c16c_4430_b528_db821d638b04",
       "id": "3e979c8b_c16c_4430_b528_db821d638b04",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }

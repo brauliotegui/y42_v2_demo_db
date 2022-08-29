@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.3/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.y42.com/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "numeric",
   "settings": {
     "series": [
@@ -49,7 +49,6 @@
         "alias": "MONTH_YEAR_date_c934e669_1e3d_4c5c_9c2d_09dc8dd5766c",
         "id": "c934e669_1e3d_4c5c_9c2d_09dc8dd5766c",
         "lowCodeString": null,
-        "functionTree": null,
         "show_in_percentage": false,
         "filters": []
       },
@@ -60,7 +59,6 @@
         "alias": "AVG_distance_b9be0a34_5e05_46f0_81ec_7ff043fa239f",
         "id": "b9be0a34_5e05_46f0_81ec_7ff043fa239f",
         "lowCodeString": null,
-        "functionTree": null,
         "show_in_percentage": false,
         "filters": []
       }
@@ -114,7 +112,6 @@
       "alias": "YEAR_date_c934e669_1e3d_4c5c_9c2d_09dc8dd5766c",
       "id": "c934e669_1e3d_4c5c_9c2d_09dc8dd5766c",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -125,7 +122,6 @@
       "alias": "AVG_distance_b9be0a34_5e05_46f0_81ec_7ff043fa239f",
       "id": "b9be0a34_5e05_46f0_81ec_7ff043fa239f",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }
