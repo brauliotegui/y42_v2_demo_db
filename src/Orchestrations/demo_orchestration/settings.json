@@ -155,22 +155,6 @@
       "ATTACHED_TO": null
     },
     {
-      "key": "a646cec9-982d-49a6-b386-d514b193c5ca",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "nodeGroupNode",
-      "size": "400 200",
-      "location": "-826.3302880390631 -118.54496458164053",
-      "groupTitle": "Group Nodes Together",
-      "groupDescription": "Group Description goes here...",
-      "expanded": true,
-      "layerName": "",
-      "zOrder": {
-        "class": "NaN"
-      },
-      "locked": false
-    },
-    {
       "key": "7bde79bb-1bcb-48c4-a996-06e14f902633",
       "isSidebarType": true,
       "version": 1,
