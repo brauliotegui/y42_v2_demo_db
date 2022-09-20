@@ -1,0 +1,21 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.5/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+  "field_name": "repeat_order",
+  "data_type": "STRING",
+  "type": "dropdown",
+  "operations": [
+    {
+      "operator": "=",
+      "values": [
+        "FALSE"
+      ],
+      "operator_type": "absolute",
+      "value_type": "NONE"
+    }
+  ],
+  "options": [
+    "TRUE",
+    "FALSE"
+  ]
+}
