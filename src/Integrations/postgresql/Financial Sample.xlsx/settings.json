@@ -1,8 +1,10 @@
 {
-  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#xlsx",
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/table.json",
   "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
   "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycdtH1GKegbW1cu3dU7erExOIeXZ7KHaJuRYFG34pHjeSTTfHyd3rMPocAqnNVmJz268a7kgAoSWpLglIt_BEallzJl41OI-C",
   "originalName": "Financial Sample.xlsx",
   "size": "83418",
-  "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/a5ba79af-1726-4c5e-9a4a-38b1abbb557e"
+  "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/a5ba79af-1726-4c5e-9a4a-38b1abbb557e",
+  "identifier": "Sheet1",
+  "_signature": "X2KNaDMepz3++f188e8dM1t7W5OKN+f6X4BHCedeTXe8ynVx3aN0dJrIUTqBBsqNkzhrrwn/u3J99ZO4t602BA=="
 }
