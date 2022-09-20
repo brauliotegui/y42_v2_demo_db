@@ -1,9 +1,9 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/core/y42-metadata.json",
-  "name": "Demo Marketing",
+  "name": "Sales Internal Performance",
   "description": "",
   "tags": [
-    "Marketing"
+    "Sales Team"
   ],
   "owners": {
     "user_ids": [],
