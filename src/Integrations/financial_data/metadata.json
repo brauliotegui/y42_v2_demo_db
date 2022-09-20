@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/core/y42-metadata.json",
-  "name": "Amazon Ads",
+  "name": "financial_data",
   "description": "",
   "tags": [],
   "owners": {
