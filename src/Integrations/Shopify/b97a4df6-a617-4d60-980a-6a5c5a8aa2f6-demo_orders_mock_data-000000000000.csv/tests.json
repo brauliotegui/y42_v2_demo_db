@@ -1,0 +1,115 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.5/data-test/data-test-settings.json",
+  "tests": [
+    {
+      "type": "schema",
+      "allow_new_columns": false,
+      "schema": [
+        {
+          "column": "clv",
+          "allow_null_values": false,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "customers_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "days_since_first_order",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "first_order_date",
+          "allow_null_values": true,
+          "required": false,
+          "type": "DATE"
+        },
+        {
+          "column": "first_order_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "last_click_channel",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "months_since_first_order",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "order_date",
+          "allow_null_values": true,
+          "required": true,
+          "type": "DATE"
+        },
+        {
+          "column": "orders_count",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "orders_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "repeat_order",
+          "allow_null_values": true,
+          "required": true,
+          "type": "BOOLEAN"
+        },
+        {
+          "column": "shop",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "total_amount",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "weeks_since_first_order",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        }
+      ],
+      "id": "0"
+    },
+    {
+      "type": "column",
+      "column": "total_amount",
+      "column_conditions": {
+        "operations": [
+          {
+            "type": "INTEGER",
+            "operator": ">",
+            "operator_type": "absolute",
+            "value_type": "NONE",
+            "values": [
+              0
+            ]
+          }
+        ],
+        "rows_failed_condition": "absolute",
+        "rows_failed_by_condition": 0
+      }
+    }
+  ]
+}
