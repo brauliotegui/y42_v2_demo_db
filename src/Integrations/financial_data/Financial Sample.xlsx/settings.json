@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#xlsx",
+  "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/o?uploadType=resumable&upload_id=ADPycds6bgw20vCCwmsPoKwb8dML-tGK6TSZ2kMac03ZJA6rNlJstKuqKkLMcD2wvu4mP4tKlBKsOl7iNd8FE66FlGB89g",
+  "originalName": "Financial Sample.xlsx",
+  "size": "83418",
+  "uri": "gs://y42_v2demo_a8e03d14098f40598737d9a4a34f2c0a/userUploads/v2/46/file-upload/0f8193f3-a4e5-4398-9767-d64b6cec93f9"
+}
