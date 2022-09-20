@@ -2,7 +2,8 @@
   "$schema": "https://s.y42.com/frontend/0.0.5/visualization/visualization-dashboard-settings.json",
   "theme": "src/Visualizations/Themes/Product & Tech KPIs-30978c88-2a1e-48af-9a21-47543bc3c7ec.json",
   "order": [
-    "src/Visualizations/Dashboards/Product___Tech_KPIs/Tab_1"
+    "src/Visualizations/Dashboards/Product___Tech_KPIs/Tab_1",
+    "src/Visualizations/Dashboards/Product___Tech_KPIs/Tab_2"
   ],
   "enable_cross_filtering": true
 }

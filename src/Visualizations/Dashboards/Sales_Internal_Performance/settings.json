@@ -2,7 +2,8 @@
   "$schema": "https://s.y42.com/frontend/0.0.5/visualization/visualization-dashboard-settings.json",
   "theme": "src/Visualizations/Themes/Sales Internal Performance-0a670cfc-1fe0-45c1-ba1a-3d86f7f02aec.json",
   "order": [
-    "src/Visualizations/Dashboards/Sales_Internal_Performance/Tab_1"
+    "src/Visualizations/Dashboards/Sales_Internal_Performance/Tab_1",
+    "src/Visualizations/Dashboards/Sales_Internal_Performance/Tab_2"
   ],
   "enable_cross_filtering": true
 }
