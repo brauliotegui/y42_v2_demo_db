@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.5/orchestration/orchestration-settings.json",
+  "cronExpression": "",
+  "forceSchedule": false,
+  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "3eb9b996-e493-49ac-b879-53daace4775d",
+      "path": "src/Integrations/financial_data/Financial Sample.xlsx",
+      "location": "0 0",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
+  "visualDataArray": []
+}
