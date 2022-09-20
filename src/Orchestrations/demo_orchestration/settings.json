@@ -2,165 +2,17 @@
   "$schema": "https://s.y42.com/frontend/0.0.5/orchestration/orchestration-settings.json",
   "cronExpression": "",
   "forceSchedule": false,
-  "linkDataArray": [
-    {
-      "from": "c2eb3edb-ad1f-475d-8935-9660b9111067",
-      "to": "db6bde3f-3421-4649-86ef-781b026e32a6"
-    },
-    {
-      "from": "f45f1241-8ae6-4196-aa1a-007d80dc71a0",
-      "to": "db6bde3f-3421-4649-86ef-781b026e32a6"
-    },
-    {
-      "from": "0076994c-58b1-4f47-8ee8-7e768583848f",
-      "to": "db6bde3f-3421-4649-86ef-781b026e32a6"
-    },
-    {
-      "from": "db6bde3f-3421-4649-86ef-781b026e32a6",
-      "to": "95ba3013-3527-4a3b-9dd2-214951f5d06c"
-    },
-    {
-      "from": "c2eb3edb-ad1f-475d-8935-9660b9111067",
-      "to": "472da3bb-e787-4c1a-adeb-d4e12b670b79"
-    },
-    {
-      "from": "3068f29e-17e5-494f-a983-f7ca5191537c",
-      "to": "6f3afa1a-2a62-4c20-b4d9-db76a184b57d"
-    },
-    {
-      "from": "44d5d943-3ca8-461a-a70a-daaa38ee3de1",
-      "to": "6f3afa1a-2a62-4c20-b4d9-db76a184b57d"
-    },
-    {
-      "from": "6f3afa1a-2a62-4c20-b4d9-db76a184b57d",
-      "to": "89f2fe1d-8aed-40c0-af66-9aaceb247fca"
-    },
-    {
-      "from": "979c389b-0a0b-4caf-8b86-ad67fc725a5c",
-      "to": "89f2fe1d-8aed-40c0-af66-9aaceb247fca"
-    },
-    {
-      "from": "db6bde3f-3421-4649-86ef-781b026e32a6",
-      "to": "89f2fe1d-8aed-40c0-af66-9aaceb247fca"
-    }
-  ],
+  "linkDataArray": [],
   "nodeDataArray": [
     {
-      "key": "95ba3013-3527-4a3b-9dd2-214951f5d06c",
-      "path": "src/Exports/Operations___Exports/ads_spend_combined___ads_spend_combined",
-      "location": "524.0456949966159 0",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "db6bde3f-3421-4649-86ef-781b026e32a6",
-      "path": "src/Models/UI/ads_spend_combined/ads_spend_combined",
+      "key": "3eb9b996-e493-49ac-b879-53daace4775d",
+      "path": "src/Integrations/financial_data/Financial Sample.xlsx",
       "location": "0 0",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "c2eb3edb-ad1f-475d-8935-9660b9111067",
-      "path": "src/Integrations/Amazon_Ads/demo_amazon_ads.csv",
-      "location": "-806.3302880390631 -78.54496458164053",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": false
-      }
-    },
-    {
-      "key": "f45f1241-8ae6-4196-aa1a-007d80dc71a0",
-      "path": "src/Integrations/Google_Ads/demo_google_ads.csv",
-      "location": "-806.3302880390631 -16.544964581640528",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": false
-      }
-    },
-    {
-      "key": "0076994c-58b1-4f47-8ee8-7e768583848f",
-      "path": "src/Integrations/Facebook_Ads/demo_facebook_ads.csv",
-      "location": "-806.3302880390631 45.45503541835947",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "472da3bb-e787-4c1a-adeb-d4e12b670b79",
-      "path": "src/Models/SQL/ad_spend_agg/table_1",
-      "location": "0 62",
-      "onFailure": "ignore",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "89f2fe1d-8aed-40c0-af66-9aaceb247fca",
-      "path": "src/Models/UI/orders_ads_combined/orders_ads_combined",
-      "location": "1048.0913899932318 124",
-      "onFailure": "ignore",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "6f3afa1a-2a62-4c20-b4d9-db76a184b57d",
-      "path": "src/Models/UI/orders_combined/orders_combined",
-      "location": "524.0456949966159 124",
-      "onFailure": "ignore",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "3068f29e-17e5-494f-a983-f7ca5191537c",
-      "path": "src/Integrations/Shopify/demo_orders_shopify.csv",
-      "location": "0 124",
-      "onFailure": "ignore",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "44d5d943-3ca8-461a-a70a-daaa38ee3de1",
-      "path": "src/Integrations/Amazon_Shop/demo_orders_amazon.csv",
-      "location": "0 186",
-      "onFailure": "ignore",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "979c389b-0a0b-4caf-8b86-ad67fc725a5c",
-      "path": "src/Integrations/Shopify/b97a4df6-a617-4d60-980a-6a5c5a8aa2f6-demo_orders_mock_data-000000000000.csv",
-      "location": "0 248",
       "onFailure": "ignore",
       "nodeConfig": {
         "incremental": true
       }
     }
   ],
-  "visualDataArray": [
-    {
-      "key": "0969fdea-fc96-4531-b192-0b97e477d4c4",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "attentionNode",
-      "location": "-410.65266507200727 -181.96096702070315",
-      "ATTACHED_TO": null
-    },
-    {
-      "key": "7bde79bb-1bcb-48c4-a996-06e14f902633",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "emojiNode",
-      "location": "1397.1370849898476 118.37420263281268",
-      "emoji": "💜"
-    }
-  ]
+  "visualDataArray": []
 }
