@@ -1,0 +1,9 @@
+{
+  "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
+  "columns": [
+    "ad_group_id",
+    "resource_name",
+    "date"
+  ],
+  "import": "ad_group_ad_report"
+}
