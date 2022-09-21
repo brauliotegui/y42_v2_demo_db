@@ -8,7 +8,7 @@
       "key": "3eb9b996-e493-49ac-b879-53daace4775d",
       "path": "src/Integrations/financial_data/Financial Sample.xlsx",
       "location": "0 0",
-      "onFailure": "ignore",
+      "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
       }
