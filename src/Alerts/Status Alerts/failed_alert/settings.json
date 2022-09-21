@@ -19,7 +19,9 @@
     {
       "type": "email",
       "custom_emails": [],
-      "user_ids": [],
+      "user_ids": [
+        "hai.bui@y42.com"
+      ],
       "team_ids": [
         "1508e3ce-4ad9-48d7-b736-b68b66d9206f"
       ]
