@@ -8,7 +8,7 @@
       "key": "1c208a55-acaf-4ec2-9271-e77a4bde801e",
       "path": "src/Models/SQL/failed_model_test/table_1",
       "location": "0 62",
-      "onFailure": "ignore",
+      "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
       }
