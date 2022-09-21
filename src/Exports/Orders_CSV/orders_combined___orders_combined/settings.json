@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.y42.com/exports/csv/0.0.0/table",
+  "datasource_table_path": "src/Models/UI/orders_combined/orders_combined"
+}
