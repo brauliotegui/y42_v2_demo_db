@@ -5,10 +5,10 @@
   "linkDataArray": [],
   "nodeDataArray": [
     {
-      "key": "3eb9b996-e493-49ac-b879-53daace4775d",
-      "path": "src/Integrations/financial_data/Financial Sample.xlsx",
+      "key": "3896a066-65b4-4f24-8a15-37b902bdb79b",
+      "path": "src/Models/SQL/ad_spend_agg/table_1",
       "location": "0 0",
-      "onFailure": "stop",
+      "onFailure": "ignore",
       "nodeConfig": {
         "incremental": true
       }
