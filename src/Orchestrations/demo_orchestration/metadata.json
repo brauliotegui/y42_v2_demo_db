@@ -1,8 +1,10 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/core/y42-metadata.json",
-  "name": "demo_orchestration",
+  "name": "Demo Alert",
   "description": "",
-  "tags": [],
+  "tags": [
+    "alert_demo"
+  ],
   "owners": {
     "user_ids": [],
     "team_ids": []
