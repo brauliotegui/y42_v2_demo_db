@@ -2,7 +2,135 @@
   "$schema": "https://s.y42.com/frontend/0.0.5/orchestration/orchestration-settings.json",
   "cronExpression": "",
   "forceSchedule": false,
-  "linkDataArray": [],
-  "nodeDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "a8ac5b3f-f410-4aad-8ccd-e22f11a16700",
+      "to": "d0ac7960-ab9a-4aff-9dd4-30d9b785abd2"
+    },
+    {
+      "from": "9c0dfd24-1afc-4f0f-bcf7-80a3d73aa3bb",
+      "to": "d0ac7960-ab9a-4aff-9dd4-30d9b785abd2"
+    },
+    {
+      "from": "d0ac7960-ab9a-4aff-9dd4-30d9b785abd2",
+      "to": "337107f0-e776-4617-bbf4-78d464a4912d"
+    },
+    {
+      "from": "137a54ef-7279-44ff-8b3f-cdf473b644ee",
+      "to": "337107f0-e776-4617-bbf4-78d464a4912d"
+    },
+    {
+      "from": "b5dea8db-8407-41db-b6b6-e7efec48b936",
+      "to": "162cab04-a718-461d-9f93-6f6019e9b914"
+    },
+    {
+      "from": "48b5dad6-9cde-4567-9e59-93b95354d2e1",
+      "to": "162cab04-a718-461d-9f93-6f6019e9b914"
+    },
+    {
+      "from": "d1ea8fe2-7adc-4a2a-848b-11413a8851f5",
+      "to": "162cab04-a718-461d-9f93-6f6019e9b914"
+    },
+    {
+      "from": "162cab04-a718-461d-9f93-6f6019e9b914",
+      "to": "337107f0-e776-4617-bbf4-78d464a4912d"
+    },
+    {
+      "from": "337107f0-e776-4617-bbf4-78d464a4912d",
+      "to": "8bd56f29-255b-4e01-964c-f74f7ee90647"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "8bd56f29-255b-4e01-964c-f74f7ee90647",
+      "path": "src/Exports/orders_ads_export/orders_ads_combined___orders_ads_combined",
+      "location": "1572.1370849898476 0",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "337107f0-e776-4617-bbf4-78d464a4912d",
+      "path": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "location": "1048.0913899932318 0",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "d0ac7960-ab9a-4aff-9dd4-30d9b785abd2",
+      "path": "src/Models/UI/orders_combined/orders_combined",
+      "location": "524.0456949966158 0",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "a8ac5b3f-f410-4aad-8ccd-e22f11a16700",
+      "path": "src/Integrations/Shopify/demo_orders_shopify.csv",
+      "location": "0 0",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "9c0dfd24-1afc-4f0f-bcf7-80a3d73aa3bb",
+      "path": "src/Integrations/Amazon_Shop/demo_orders_amazon.csv",
+      "location": "0 62",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "137a54ef-7279-44ff-8b3f-cdf473b644ee",
+      "path": "src/Integrations/Shopify/b97a4df6-a617-4d60-980a-6a5c5a8aa2f6-demo_orders_mock_data-000000000000.csv",
+      "location": "0 124",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "162cab04-a718-461d-9f93-6f6019e9b914",
+      "path": "src/Models/UI/ads_spend_combined/ads_spend_combined",
+      "location": "524.0456949966158 186",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "b5dea8db-8407-41db-b6b6-e7efec48b936",
+      "path": "src/Integrations/Amazon_Ads/demo_amazon_ads.csv",
+      "location": "0 186",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "48b5dad6-9cde-4567-9e59-93b95354d2e1",
+      "path": "src/Integrations/Google_Ads/demo_google_ads.csv",
+      "location": "0 248",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "d1ea8fe2-7adc-4a2a-848b-11413a8851f5",
+      "path": "src/Integrations/Facebook_Ads/demo_facebook_ads.csv",
+      "location": "0 310",
+      "onFailure": "ignore",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
