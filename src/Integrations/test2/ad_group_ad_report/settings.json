@@ -3,16 +3,8 @@
   "columns": [
     "campaign_id",
     "campaign_name",
-    "ad_group_id",
-    "ad_group_name",
-    "ad_id",
-    "ad_name",
-    "ad_type",
-    "ad_group",
     "resource_name",
-    "date",
-    "clicks",
-    "cost_micros"
+    "date"
   ],
   "import": "ad_group_ad_report"
 }
