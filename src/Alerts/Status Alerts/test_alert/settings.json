@@ -1,8 +1,9 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/alert/status-alert-settings.json",
-  "feature_type": "Orchestration",
+  "feature_type": "SQL-Model",
   "alert_on": [
-    "failure"
+    "failure",
+    "success"
   ],
   "triggered_by": [
     "user",
@@ -11,7 +12,7 @@
   "title": "",
   "message_body": "<p>failed test</p>",
   "patterns": [
-    "demo_orchestration"
+    "ad_spend_agg"
   ],
   "tags": [],
   "destinations": [
