@@ -1,9 +1,10 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/core/y42-metadata.json",
-  "name": "Demo Alert",
+  "name": "Demo Failed Alert",
   "description": "",
   "tags": [
-    "alert_demo"
+    "alert_demo",
+    "fail"
   ],
   "owners": {
     "user_ids": [],
