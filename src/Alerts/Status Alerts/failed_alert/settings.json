@@ -10,11 +10,10 @@
   ],
   "title": "Arrr, this one failed!",
   "message_body": "\n<p>Hi,</p><br/>\n\n<p>The {{feature_type}}: {{object_name}} was a {{status}} at {{completed_at}}.</p>\n<p>Here is the link to your {{feature_type}}: {{url}}</p><br/>\n\n<p>Have a nice day,</p>\n<p>Y42</p>\n",
-  "patterns": [],
-  "tags": [
-    "fail",
-    "alert_demo"
+  "patterns": [
+    "demo_orchestration"
   ],
+  "tags": [],
   "destinations": [
     {
       "type": "email",
