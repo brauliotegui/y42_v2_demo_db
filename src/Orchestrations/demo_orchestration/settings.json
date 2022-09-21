@@ -5,9 +5,9 @@
   "linkDataArray": [],
   "nodeDataArray": [
     {
-      "key": "3896a066-65b4-4f24-8a15-37b902bdb79b",
-      "path": "src/Models/SQL/ad_spend_agg/table_1",
-      "location": "0 0",
+      "key": "1c208a55-acaf-4ec2-9271-e77a4bde801e",
+      "path": "src/Models/SQL/failed_model_test/table_1",
+      "location": "0 62",
       "onFailure": "ignore",
       "nodeConfig": {
         "incremental": true
