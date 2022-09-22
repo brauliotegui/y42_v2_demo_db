@@ -14,5 +14,8 @@
       }
     }
   ],
-  "visualDataArray": []
+  "visualDataArray": [],
+  "executionTimeout": {
+    "hours": 1
+  }
 }
