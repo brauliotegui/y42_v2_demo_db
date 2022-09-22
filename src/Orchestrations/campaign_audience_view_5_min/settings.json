@@ -1,13 +1,13 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "0/10 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [],
   "nodeDataArray": [
     {
       "key": "645e3e41-d0b3-43a2-ac67-529419a31ce8",
       "path": "src/Integrations/Prod_GA_Customer_Name/campaign_audience_view",
-      "location": "-312.8571428571429 -18.57142857142867",
+      "location": "0 0",
       "onFailure": "ignore",
       "nodeConfig": {
         "incremental": true
