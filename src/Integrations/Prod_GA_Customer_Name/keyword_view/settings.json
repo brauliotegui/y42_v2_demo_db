@@ -1,7 +1,0 @@
-{
-  "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
-  "columns": [
-    "resource_name"
-  ],
-  "import": "keyword_view"
-}
