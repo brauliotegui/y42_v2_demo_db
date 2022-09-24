@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/orchestration/orchestration-settings.json",
-  "cronExpression": "0/10 * 1/1 * *",
+  "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
   "nodeDataArray": [
