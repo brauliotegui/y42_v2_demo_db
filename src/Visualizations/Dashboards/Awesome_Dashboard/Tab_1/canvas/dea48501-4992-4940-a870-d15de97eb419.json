@@ -1,0 +1,33 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.5/visualization/visualization-canvas-element.json",
+  "type": "Widget",
+  "position": {
+    "x": 750.9775505602929,
+    "y": 279.7425842285156
+  },
+  "size": {
+    "height": 372.2084045410156,
+    "width": 538.4981000223129
+  },
+  "zIndex": 0,
+  "layer": "default",
+  "angle": 0,
+  "typeSettings": {
+    "widgetPath": "src/Visualizations/Widgets/Monthly_Adspend_by_Channel"
+  },
+  "styles": {
+    "background-color": "#ffffff",
+    "border-color": "#f2f2f2",
+    "border-style": "solid",
+    "border-width": "1px",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}

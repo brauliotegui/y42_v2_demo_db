@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.5/visualization/visualization-dashboard-settings.json",
-  "theme": "src/Visualizations/Themes/roma-072dee60-7aad-4494-9862-1382ac858496.json",
+  "theme": "src/Visualizations/Themes/Y42 Theme-211f8ac9-0054-4264-85aa-fdcf9a366061.json",
   "order": [
     "src/Visualizations/Dashboards/Awesome_Dashboard/Tab_1",
     "src/Visualizations/Dashboards/Awesome_Dashboard/Costs",
