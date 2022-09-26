@@ -1,5 +1,5 @@
 Select 
-  last_click_channel as channel,
-  sum(adspend) as total_adspend
-from {{ ref('src/Integrations/Amazon_Ads/demo_amazon_ads.csv') }}
-GROUP BY channel
+  `order_date`,
+  `last_click_channel`,
+  `adspend`
+from {{ ref('src/Integrations/Facebook_Ads/demo_facebook_ads.csv') }}

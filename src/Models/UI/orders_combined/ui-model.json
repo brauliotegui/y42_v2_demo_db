@@ -462,7 +462,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "2391 0"
+      "location": "2399.408 -4.203999999999837"
     },
     {
       "key": "2d7d11d2-f5ad-41b5-8123-f43855e16832",
@@ -645,7 +645,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "2906 0"
+      "location": "2721.024 -63.059999999999945"
     }
   ],
   "linkDataArray": [
@@ -702,5 +702,5 @@
       "to": "2d7d11d2-f5ad-41b5-8123-f43855e16832"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
+  "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
