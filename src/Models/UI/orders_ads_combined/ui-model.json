@@ -23,7 +23,7 @@
         "transformationType": "GROUP_BY"
       },
       "isGroup": true,
-      "location": "1051 266"
+      "location": "1046.8421436411775 184.92180100295673"
     },
     {
       "key": "06db2ae0-d630-4414-8941-7648ef0d8f93",
@@ -169,36 +169,36 @@
       "version": 1,
       "key": "3b201680-fc9a-4c82-9b45-89fc1e5f6c73",
       "category": "stickyNode",
-      "size": "200 120",
-      "location": "-72.7217562900825 -111.40083867784892",
-      "background": "#FFF1CC",
+      "size": "223 172",
+      "location": "1153.1877341133409 218.84501583890952",
+      "background": "#e9ccffff",
       "text": "1. attributed CAC",
       "textColor": "#03053D",
       "shadowColor": "#00000050",
       "shadowOffset": "1 2",
       "shadowBlur": 5,
-      "font": "normal 14px Segoe UI",
+      "font": "bold 18px Segoe UI",
       "group": "",
-      "layerName": "",
-      "zOrder": null
+      "layerName": "bringToBack",
+      "zOrder": -2
     },
     {
       "isSidebarType": true,
       "version": 1,
       "key": "b7ebe219-27aa-46df-b28e-fc18eddc500b",
       "category": "stickyNode",
-      "size": "200 120",
-      "location": "-68.99555994079918 514.9846019409081",
-      "background": "#FFF1CC",
-      "text": "adspend/new orders",
+      "size": "253 205",
+      "location": "1694.2726623615263 116.31317334769642",
+      "background": "#e6ccffff",
+      "text": "ad spend/new orders",
       "textColor": "#03053D",
       "shadowColor": "#00000050",
       "shadowOffset": "1 2",
       "shadowBlur": 5,
-      "font": "normal 14px Segoe UI",
+      "font": "bold 22px Segoe UI",
       "group": "",
-      "layerName": "",
-      "zOrder": null
+      "layerName": "bringToBack",
+      "zOrder": -1
     },
     {
       "key": "d2131bbd-8e11-4feb-bc2d-fc42655989f2",
@@ -217,7 +217,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "1587 266"
+      "location": "1585.2726623615263 76.81753567356543"
     },
     {
       "key": "59ad89fe-9220-4ffc-8dbe-f02669f397fe",
@@ -726,5 +726,5 @@
       "to": "603f2f3e-068e-43a3-91f7-425e670830ab"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
+  "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
