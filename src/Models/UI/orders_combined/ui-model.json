@@ -465,11 +465,11 @@
       "location": "2391 0"
     },
     {
-      "key": "2d7d11d2-f5ad-41b5-8123-f43855e16832",
+      "key": "af71316c-f759-427e-a0de-557cb10d42cb",
       "type": "OUTPUT",
       "category": "OUTPUT",
       "transformationStep": {
-        "id": "2d7d11d2-f5ad-41b5-8123-f43855e16832",
+        "id": "af71316c-f759-427e-a0de-557cb10d42cb",
         "title": "orders_combined",
         "transformationType": "OUTPUT",
         "transformObject": {
@@ -589,7 +589,7 @@
               "target": "orders_id_diff",
               "source": "orders_id_diff",
               "type": "INTEGER",
-              "display": false,
+              "display": true,
               "changed": false,
               "description": "",
               "source_alias": "",
@@ -645,7 +645,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "2906 0"
+      "location": "2633.040635887775 6.187046900943244"
     }
   ],
   "linkDataArray": [
@@ -698,9 +698,11 @@
       "to": "39263a2d-ef01-4bf0-915d-65fdd2d68575"
     },
     {
+      "to": "af71316c-f759-427e-a0de-557cb10d42cb",
       "from": "39263a2d-ef01-4bf0-915d-65fdd2d68575",
-      "to": "2d7d11d2-f5ad-41b5-8123-f43855e16832"
+      "frompid": "OUT",
+      "topid": "IN"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
+  "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
