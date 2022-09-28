@@ -670,14 +670,6 @@
       "to": "b5ba72fd-b562-4754-ade3-5549dfbe9c2e"
     },
     {
-      "from": "a850f625-75d6-4ea2-acc9-155cfc03da4c",
-      "to": "01098e56-378d-47fe-be72-9b865c2dd5ee"
-    },
-    {
-      "from": "b5ba72fd-b562-4754-ade3-5549dfbe9c2e",
-      "to": "01098e56-378d-47fe-be72-9b865c2dd5ee"
-    },
-    {
       "from": "01098e56-378d-47fe-be72-9b865c2dd5ee",
       "to": "b43893f7-e8ec-4fa5-ad08-9a6fe2f6a3e4"
     },
@@ -702,6 +694,18 @@
       "from": "39263a2d-ef01-4bf0-915d-65fdd2d68575",
       "frompid": "OUT",
       "topid": "IN"
+    },
+    {
+      "from": "b5ba72fd-b562-4754-ade3-5549dfbe9c2e",
+      "to": "01098e56-378d-47fe-be72-9b865c2dd5ee",
+      "frompid": "OUT",
+      "topid": "R"
+    },
+    {
+      "from": "a850f625-75d6-4ea2-acc9-155cfc03da4c",
+      "to": "01098e56-378d-47fe-be72-9b865c2dd5ee",
+      "frompid": "OUT",
+      "topid": "L"
     }
   ],
   "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
