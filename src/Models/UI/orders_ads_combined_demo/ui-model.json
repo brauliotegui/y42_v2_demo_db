@@ -1,5 +1,288 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "432a82f2-16c2-4b22-bf44-cd2cef5fd57b",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "432a82f2-16c2-4b22-bf44-cd2cef5fd57b",
+        "title": "orders_ads_combined",
+        "transformationType": "INPUT",
+        "datasourceName": "orders_ads_combined",
+        "transformObject": {
+          "source": "src/Models/UI/orders_ads_combined",
+          "table": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-455.90909090909093 -202.53773584905662"
+    },
+    {
+      "key": "8704f3e5-7394-44d4-a4ce-0d637dcc725f",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "8704f3e5-7394-44d4-a4ce-0d637dcc725f",
+        "title": "orders_ads_combined_demo",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "orders_ads_combined_demo",
+          "fields": [
+            {
+              "target": "orders_id",
+              "source": "orders_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "total_amount",
+              "source": "total_amount",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "order_date",
+              "source": "order_date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "customers_id",
+              "source": "customers_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "shop",
+              "source": "shop",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "clv",
+              "source": "clv",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_order_id",
+              "source": "first_order_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "first_order_date",
+              "source": "first_order_date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "orders_count",
+              "source": "orders_count",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "repeat_order",
+              "source": "repeat_order",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "months_since_first_order",
+              "source": "months_since_first_order",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "days_since_first_order",
+              "source": "days_since_first_order",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "weeks_since_first_order",
+              "source": "weeks_since_first_order",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "last_click_channel",
+              "source": "last_click_channel",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adspend",
+              "source": "adspend",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "new_orders_day_channel",
+              "source": "new_orders_day_channel",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "avg_adpend_day_channel",
+              "source": "avg_adpend_day_channel",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-78.61157024793386 -212.4811320754717"
+    },
+    {
+      "key": "4e99a92d-32a7-4b4a-bd6d-6cbb1e8e78fb",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "stickyNode",
+      "size": "190 190",
+      "location": "-232 62",
+      "background": "#FFF1CC",
+      "text": "I think we should join other data sources onto this table",
+      "textColor": "#03053D",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 12",
+      "shadowBlur": 7,
+      "font": "normal 20px Segoe UI",
+      "group": "",
+      "layerName": "bringToFront",
+      "zOrder": 1
+    },
+    {
+      "key": "beca12a2-26cb-42fa-87fd-ba3393e6d670",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-255 72",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "230a27b8-a76d-437f-8967-0ab0322670f7",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-163 -86",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "8704f3e5-7394-44d4-a4ce-0d637dcc725f",
+      "from": "432a82f2-16c2-4b22-bf44-cd2cef5fd57b",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
