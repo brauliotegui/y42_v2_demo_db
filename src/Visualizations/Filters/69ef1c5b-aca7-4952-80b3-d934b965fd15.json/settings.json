@@ -1,0 +1,9 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
+  "field_name": "date",
+  "data_type": "DATETIME",
+  "type": "date",
+  "operations": [],
+  "options": {}
+}
