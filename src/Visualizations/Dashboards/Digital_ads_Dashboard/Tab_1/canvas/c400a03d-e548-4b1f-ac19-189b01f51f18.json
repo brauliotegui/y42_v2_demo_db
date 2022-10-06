@@ -2,18 +2,18 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 401,
-    "y": 212
+    "x": 1027.9608154296875,
+    "y": 437.13946533203125
   },
   "size": {
-    "height": 756.0731289583896,
-    "width": 607.6553288084775
+    "height": 491.78294978375106,
+    "width": 944.5266259690727
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/Daily_ads_spend_per_source"
+    "widgetPath": "src/Visualizations/Widgets/Spend_per_campaign_YTD"
   },
   "styles": {
     "background-color": "#ffffff00",

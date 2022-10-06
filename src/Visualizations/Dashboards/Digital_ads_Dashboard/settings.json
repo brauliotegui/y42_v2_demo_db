@@ -4,5 +4,6 @@
   "order": [
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Tab_1"
   ],
+  "last_used_datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
   "enable_cross_filtering": true
 }

@@ -252,7 +252,295 @@
     },
     "show_total_for_stacks": [
       "all"
-    ]
+    ],
+    "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
+    "chart_type": "bar_line_chart",
+    "filters": [],
+    "fields": [
+      {
+        "field": "date",
+        "aggregation": "MONTH_YEAR",
+        "type": "DATETIME",
+        "alias": "MONTH_YEAR_date_9f31c677_6c99_4218_82fc_02b68685705a",
+        "id": "9f31c677_6c99_4218_82fc_02b68685705a",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "spend",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_spend_2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+        "id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "ad_source",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_ad_source_36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
+        "id": "36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+          "mark": "bar",
+          "stack_name": 1,
+          "label": {
+            "show": true,
+            "field_ids": [],
+            "rotate": 0,
+            "align": "center",
+            "verticalAlign": "top"
+          },
+          "tooltip": {
+            "show": true,
+            "field_ids": []
+          },
+          "show_right_axis": false,
+          "format": "0a",
+          "cumulative": false,
+          "hidden": false,
+          "formatConfig": {
+            "numeralFormat": "0a",
+            "formatType": "NUMBER",
+            "decimalPlaces": 0,
+            "negativeSymbol": {
+              "show": true,
+              "type": "symbol"
+            },
+            "displayType": "DISPLAY_UNITS",
+            "separator": "NONE",
+            "locale": "",
+            "prefixOrSuffix": "suffix",
+            "customFormat": ""
+          }
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [
+        "9f31c677_6c99_4218_82fc_02b68685705a"
+      ],
+      "breakdowns": [
+        "36a6c009_33d9_4327_bc9b_6b7a43a7a15d"
+      ],
+      "series_on_y": true,
+      "serieAxis": {
+        "min": null,
+        "max": null,
+        "show": true,
+        "type": "value",
+        "axisName": {
+          "nameRotate": 0,
+          "nameGap": 10,
+          "nameLocation": "middle",
+          "nameTextStyle": {
+            "backgroundColor": "transparent",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7"
+          }
+        },
+        "axisLine": {
+          "showLabel": true,
+          "symbol": "none",
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "axisLabel": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "right",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "show": true,
+          "rotate": 0,
+          "margin": 22,
+          "suffix": "",
+          "max_characters": null,
+          "value_conversion": "Automatic",
+          "date_format": "",
+          "value_format": "inherit"
+        },
+        "splitLine": {
+          "showLabel": false,
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "dataZoom": {
+          "show": false,
+          "start": 0,
+          "end": 100
+        }
+      },
+      "dimensionAxis": {
+        "min": null,
+        "max": null,
+        "show": true,
+        "type": "time",
+        "axisName": {
+          "nameRotate": 0,
+          "nameGap": 10,
+          "nameLocation": "middle",
+          "nameTextStyle": {
+            "backgroundColor": "transparent",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7"
+          }
+        },
+        "axisLine": {
+          "showLabel": true,
+          "symbol": "none",
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "axisLabel": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "show": true,
+          "rotate": 0,
+          "margin": 22,
+          "suffix": "",
+          "max_characters": null,
+          "value_conversion": "Automatic",
+          "date_format": "",
+          "value_format": "inherit"
+        },
+        "splitLine": {
+          "showLabel": false,
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "dataZoom": {
+          "show": true,
+          "start": 0,
+          "end": 100
+        }
+      },
+      "show_stack_by": true,
+      "show_stack_by_100_percent": false,
+      "stackFormatConfig": {
+        "format": "0a",
+        "config": {
+          "numeralFormat": "0a",
+          "formatType": "NUMBER",
+          "decimalPlaces": 0,
+          "negativeSymbol": {
+            "show": true,
+            "type": "symbol"
+          },
+          "displayType": "DISPLAY_UNITS",
+          "separator": "NONE",
+          "locale": "",
+          "prefixOrSuffix": "prefix",
+          "customFormat": ""
+        }
+      },
+      "color_by": {
+        "hiddenValues": {},
+        "area": "breakdowns"
+      },
+      "conditional_formatting_rules": [
+        {
+          "operator": "contains",
+          "value": "Google",
+          "color": "#303f9f"
+        },
+        {
+          "operator": "contains",
+          "value": "Facebook",
+          "color": "#03a9f4"
+        }
+      ],
+      "sort": {
+        "order": "NONE",
+        "sort_by": "SERIES",
+        "sortByField": true,
+        "fieldSortKey": null,
+        "stackNameSortKey": null
+      },
+      "show_total_for_stacks": [
+        "all"
+      ]
+    }
   },
   "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
   "filters": [],
