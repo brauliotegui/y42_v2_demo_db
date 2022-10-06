@@ -901,7 +901,7 @@
               "right": "id"
             }
           ],
-          "customMapping": []
+          "customMapping": {}
         }
       },
       "isGroup": true,
