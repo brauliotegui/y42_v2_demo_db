@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
+  "columns": [
+    "applied_labels",
+    "client_customer",
+    "currency_code",
+    "descriptive_name",
+    "hidden",
+    "id",
+    "level",
+    "manager",
+    "resource_name",
+    "status",
+    "test_account",
+    "time_zone"
+  ],
+  "import": "customer_client"
+}
