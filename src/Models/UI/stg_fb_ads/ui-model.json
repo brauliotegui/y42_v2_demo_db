@@ -1,5 +1,25 @@
 {
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "e58e8100-315c-4b5e-ac9e-31252dc0556a",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "e58e8100-315c-4b5e-ac9e-31252dc0556a",
+        "title": "ads_insights",
+        "transformationType": "INPUT",
+        "datasourceName": "FB_ads_integration",
+        "transformObject": {
+          "source": "src/Integrations/FB_ads_integration",
+          "table": "src/Integrations/FB_ads_integration/ads_insights",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-846.5294117647059 -256.07142857142856"
+    }
+  ],
   "linkDataArray": [],
   "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
