@@ -107,230 +107,230 @@
             {
               "target": "clicks",
               "source": "clicks",
-              "type": "number",
+              "type": "INTEGER",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "clicks",
               "source_alias": "AD_PERFORMANCE_REPORT",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "ad_id",
               "source": "ad_id",
-              "type": "number",
+              "type": "INTEGER",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "ad_id",
               "source_alias": "AD_PERFORMANCE_REPORT",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "conversions",
               "source": "conversions",
-              "type": "number",
+              "type": "NUMERIC",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "conversions",
               "source_alias": "REPLACE",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "impressions",
               "source": "impressions",
-              "type": "number",
+              "type": "INTEGER",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "impressions",
               "source_alias": "AD_PERFORMANCE_REPORT",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "conversions_value",
               "source": "conversions_value",
-              "type": "number",
+              "type": "NUMERIC",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "conversions_value",
               "source_alias": "REPLACE",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "date",
               "source": "date",
-              "type": "date",
+              "type": "DATE",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "date",
               "source_alias": "Date Parser Node",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "campaign_name",
               "source": "campaign_name",
-              "type": "text",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "campaign_name",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "adgroup_id",
               "source": "adgroup_id",
-              "type": "number",
+              "type": "INTEGER",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "adgroup_id",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "ad_source",
               "source": "ad_source",
-              "type": "text",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "ad_source",
               "source_alias": "Function Node",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "account_name",
               "source": "account_name",
-              "type": "text",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "account_name",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "ad_type",
               "source": "ad_type",
-              "type": "text",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "ad_type",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "campaign_id",
               "source": "campaign_id",
-              "type": "number",
+              "type": "INTEGER",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "campaign_id",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "ad_name",
               "source": "ad_name",
-              "type": "text",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "ad_name",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "currency",
               "source": "currency",
-              "type": "text",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "currency",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "adgroup_name",
               "source": "adgroup_name",
-              "type": "text",
+              "type": "STRING",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "adgroup_name",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "spend",
               "source": "cost",
-              "type": "number",
+              "type": "INTEGER",
               "display": true,
               "changed": false,
               "description": "",
               "display_name": "spend",
               "source_alias": "Function Node",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "resource_name",
               "source": "resource_name",
-              "type": "text",
+              "type": "STRING",
               "display": false,
               "changed": false,
               "description": "",
               "display_name": "resource_name",
               "source_alias": "google_ads_metrics",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "customer_client_id",
               "source": "customer_client_id",
-              "type": "text",
+              "type": "STRING",
               "display": false,
               "changed": false,
               "description": "",
               "display_name": "customer_client_id",
               "source_alias": "Function Node",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "id",
               "source": "id",
-              "type": "number",
+              "type": "INTEGER",
               "display": false,
               "changed": false,
               "description": "",
               "display_name": "id",
               "source_alias": "customer_client",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             }
           ]
         }
@@ -350,7 +350,7 @@
         "transformObject": [
           {
             "target": "conversions",
-            "outputType": "number",
+            "outputType": "NUMERIC",
             "manipulationType": "Replace",
             "manipulation": {
               "targetColumn": "conversions",
@@ -359,7 +359,7 @@
                   "token": "null",
                   "fullMatch": false,
                   "caseSensitive": false,
-                  "replaceWith": "0",
+                  "replaceWith": "",
                   "isNull": true
                 }
               ]
@@ -367,7 +367,7 @@
           },
           {
             "target": "conversions_value",
-            "outputType": "number",
+            "outputType": "NUMERIC",
             "manipulationType": "Replace",
             "manipulation": {
               "targetColumn": "conversions_value",
@@ -376,7 +376,7 @@
                   "token": "null",
                   "fullMatch": false,
                   "caseSensitive": false,
-                  "replaceWith": "0",
+                  "replaceWith": "",
                   "isNull": true
                 }
               ]
