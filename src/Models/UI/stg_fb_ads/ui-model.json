@@ -535,10 +535,10 @@
         "title": "",
         "transformObject": [
           {
-            "format": "YYYY-MM-DD 00:00:00+00",
             "target": "date_start",
-            "timeZone": "UTC",
-            "targetColumn": "date_start"
+            "targetColumn": "date_start",
+            "format": "YYYY/MM/DD",
+            "timeZone": "UTC"
           }
         ],
         "transformationType": "DATE_PARSER"
