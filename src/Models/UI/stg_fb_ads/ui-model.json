@@ -1128,7 +1128,7 @@
         "transformationType": "FILTER"
       },
       "isGroup": true,
-      "location": "2834.5462152077657 527.4307866672743"
+      "location": "2825.1179694961497 855.5337374315176"
     },
     {
       "key": "60b20db0-954e-4b17-b890-b31440a647ec",
@@ -1167,7 +1167,7 @@
         "transformationType": "FILTER"
       },
       "isGroup": true,
-      "location": "3117.5462152077657 527.4307866672743"
+      "location": "3112.6776049995624 527.4307866672743"
     },
     {
       "key": "e5909a60-9baa-4952-9d21-9d34fd126b67",
@@ -1755,24 +1755,6 @@
       "fixedPosition": false
     },
     {
-      "to": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
-      "from": "89b72fee-09e5-402a-aa2c-409088c50421",
-      "topid": "IN",
-      "zOrder": -65,
-      "frompid": "OUT",
-      "layerName": "bringToBack",
-      "fixedPosition": false
-    },
-    {
-      "to": "60b20db0-954e-4b17-b890-b31440a647ec",
-      "from": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
-      "topid": "IN",
-      "zOrder": -69,
-      "frompid": "OUT",
-      "layerName": "bringToBack",
-      "fixedPosition": false
-    },
-    {
       "to": "b64c9b11-7b31-41f5-831b-f33b50870a55",
       "from": "60b20db0-954e-4b17-b890-b31440a647ec",
       "topid": "IN",
@@ -1844,6 +1826,12 @@
     {
       "from": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
       "to": "89b72fee-09e5-402a-aa2c-409088c50421",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "89b72fee-09e5-402a-aa2c-409088c50421",
+      "to": "60b20db0-954e-4b17-b890-b31440a647ec",
       "frompid": "OUT",
       "topid": "IN"
     }
