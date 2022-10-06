@@ -1253,72 +1253,38 @@
         "title": "",
         "transformObject": [
           {
-            "target": "action_value_7d_click",
-            "outputType": "number",
-            "manipulation": {
-              "cases": [
-                {
-                  "token": "null",
-                  "isNull": true,
-                  "fullMatch": false,
-                  "replaceWith": "0",
-                  "caseSensitive": false
-                }
-              ],
-              "targetColumn": "action_value_7d_click"
-            },
-            "manipulationType": "Replace"
-          },
-          {
-            "target": "action_values_1d_view",
-            "outputType": "number",
-            "manipulation": {
-              "cases": [
-                {
-                  "token": "null",
-                  "isNull": true,
-                  "fullMatch": false,
-                  "replaceWith": "0",
-                  "caseSensitive": false
-                }
-              ],
-              "targetColumn": "action_values_1d_view"
-            },
-            "manipulationType": "Replace"
-          },
-          {
             "target": "action_7d_click",
-            "outputType": "number",
+            "outputType": "NUMERIC",
+            "manipulationType": "Replace",
             "manipulation": {
+              "targetColumn": "action_7d_click",
               "cases": [
                 {
                   "token": "null",
-                  "isNull": true,
                   "fullMatch": false,
-                  "replaceWith": "0",
-                  "caseSensitive": false
+                  "caseSensitive": false,
+                  "replaceWith": "",
+                  "isNull": true
                 }
-              ],
-              "targetColumn": "action_7d_click"
-            },
-            "manipulationType": "Replace"
+              ]
+            }
           },
           {
             "target": "action_1d_view",
-            "outputType": "number",
+            "outputType": "NUMERIC",
+            "manipulationType": "Replace",
             "manipulation": {
+              "targetColumn": "action_1d_view",
               "cases": [
                 {
                   "token": "null",
-                  "isNull": true,
                   "fullMatch": false,
-                  "replaceWith": "0",
-                  "caseSensitive": false
+                  "caseSensitive": false,
+                  "replaceWith": "",
+                  "isNull": true
                 }
-              ],
-              "targetColumn": "action_1d_view"
-            },
-            "manipulationType": "Replace"
+              ]
+            }
           }
         ],
         "transformationType": "REPLACE"
@@ -1334,10 +1300,6 @@
         "id": "c14fdad7-2fec-4bd5-b926-b8db56c69266",
         "title": "",
         "transformObject": [
-          {
-            "target": "action_value_7d_click_1d_view",
-            "originalString": "@action_value_7d_click+@action_values_1d_view"
-          },
           {
             "target": "action_7d_click_1d_view",
             "originalString": "@action_7d_click+@action_1d_view"
@@ -1357,11 +1319,11 @@
         "title": "",
         "transformObject": [
           {
-            "type": "text",
+            "type": "NUMERIC",
             "source": "action_values",
             "target": "action_values",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "action_values",
@@ -1369,11 +1331,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "text",
+            "type": "NUMERIC",
             "source": "actions",
             "target": "actions",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "actions",
@@ -1381,47 +1343,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "text",
-            "source": "action_values_type",
-            "target": "action_values_type",
-            "applied": true,
-            "changed": false,
-            "display": false,
-            "description": "",
-            "display_name": "action_values_type",
-            "source_alias": "Json Extraction",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "number",
-            "source": "action_value_7d_click",
-            "target": "action_value_7d_click",
-            "applied": true,
-            "changed": false,
-            "display": false,
-            "description": "",
-            "display_name": "action_value_7d_click",
-            "source_alias": "REPLACE",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "number",
-            "source": "action_values_1d_view",
-            "target": "action_values_1d_view",
-            "applied": true,
-            "changed": false,
-            "display": false,
-            "description": "",
-            "display_name": "action_values_1d_view",
-            "source_alias": "REPLACE",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "text",
+            "type": "STRING",
             "source": "action_type",
             "target": "action_type",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "action_type",
@@ -1429,11 +1355,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "number",
+            "type": "NUMERIC",
             "source": "action_7d_click",
             "target": "action_7d_click",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "action_7d_click",
@@ -1441,11 +1367,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "number",
+            "type": "NUMERIC",
             "source": "action_1d_view",
             "target": "action_1d_view",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "action_1d_view",
@@ -1453,23 +1379,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "number",
-            "source": "action_value_7d_click_1d_view",
-            "target": "conversions_value",
-            "applied": true,
-            "changed": false,
-            "display": true,
-            "description": "",
-            "display_name": "conversions_value",
-            "source_alias": "Function Node",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "number",
+            "type": "NUMERIC",
             "source": "action_7d_click_1d_view",
             "target": "conversions",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": true,
             "description": "",
             "display_name": "conversions",
@@ -1541,23 +1455,6 @@
         "id": "ffab7b71-bae9-4b57-a3c7-4e468370e1c4",
         "title": "",
         "transformObject": [
-          {
-            "target": "conversions_value",
-            "outputType": "number",
-            "manipulationType": "Replace",
-            "manipulation": {
-              "targetColumn": "conversions_value",
-              "cases": [
-                {
-                  "token": "null",
-                  "fullMatch": false,
-                  "caseSensitive": false,
-                  "replaceWith": "0",
-                  "isNull": true
-                }
-              ]
-            }
-          },
           {
             "target": "conversions",
             "outputType": "number",
@@ -1701,14 +1598,9 @@
         "transformObject": {
           "columns": [
             {
-              "func": "SUM",
               "name": "conversions",
-              "alias": "conversions"
-            },
-            {
-              "func": "SUM",
-              "name": "conversions_value",
-              "alias": "conversions_value"
+              "alias": "conversions",
+              "func": "SUM"
             }
           ],
           "groupBy": [
