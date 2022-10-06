@@ -1612,48 +1612,6 @@
       "isGroup": true,
       "group": "",
       "location": "4246.094482623311 527.4307866672743"
-    },
-    {
-      "key": "61a51708-738a-4508-947a-bfdfc7f7707b",
-      "type": "DATE_FORMATTER",
-      "category": "DATE_FORMATTER",
-      "transformationStep": {
-        "id": "61a51708-738a-4508-947a-bfdfc7f7707b",
-        "title": "",
-        "transformationType": "DATE_FORMATTER",
-        "transformObject": [
-          {
-            "target": "date_start",
-            "source": "date_start",
-            "format": "YYYY/MM/DD",
-            "timezone": "UTC"
-          }
-        ]
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "891.3665404827937 -202.38031091463483"
-    },
-    {
-      "key": "ba720da4-54b3-4587-9a86-c497d724935c",
-      "type": "DATE_PARSER",
-      "category": "DATE_PARSER",
-      "transformationStep": {
-        "id": "ba720da4-54b3-4587-9a86-c497d724935c",
-        "title": "",
-        "transformationType": "DATE_PARSER",
-        "transformObject": [
-          {
-            "target": "date_start",
-            "targetColumn": "date_start",
-            "format": "YYYY/MM/DD",
-            "timeZone": "UTC"
-          }
-        ]
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "1199.9262815531602 -203.3356246986546"
     }
   ],
   "linkDataArray": [
@@ -1765,18 +1723,6 @@
     {
       "from": "89b72fee-09e5-402a-aa2c-409088c50421",
       "to": "60b20db0-954e-4b17-b890-b31440a647ec",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
-      "from": "c51932d5-e636-417c-99ac-f623ac49280b",
-      "to": "61a51708-738a-4508-947a-bfdfc7f7707b",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
-      "to": "ba720da4-54b3-4587-9a86-c497d724935c",
-      "from": "61a51708-738a-4508-947a-bfdfc7f7707b",
       "frompid": "OUT",
       "topid": "IN"
     }
