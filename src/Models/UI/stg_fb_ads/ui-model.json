@@ -772,23 +772,11 @@
         "title": "",
         "transformObject": [
           {
-            "type": "text",
-            "source": "campaign_id",
-            "target": "campaign_id",
-            "applied": true,
-            "changed": false,
-            "display": false,
-            "description": "",
-            "display_name": "campaign_id",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "text",
+            "type": "STRING",
             "source": "account_name",
             "target": "account_name",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "account_name",
@@ -796,11 +784,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "text",
+            "type": "STRING",
             "source": "ad_name",
             "target": "ad_name",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "ad_name",
@@ -808,11 +796,23 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "text",
+            "type": "STRING",
+            "source": "campaign_id",
+            "target": "campaign_id",
+            "applied": true,
+            "changed": true,
+            "display": false,
+            "description": "",
+            "display_name": "campaign_id",
+            "source_alias": "stg_fb_ads",
+            "sourceTypeChanged": false
+          },
+          {
+            "type": "STRING",
             "source": "campaign_name",
             "target": "campaign_name",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "campaign_name",
@@ -820,11 +820,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "number",
+            "type": "INTEGER",
             "source": "clicks",
             "target": "clicks",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "clicks",
@@ -832,11 +832,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "number",
+            "type": "INTEGER",
             "source": "impressions",
             "target": "impressions",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "impressions",
@@ -844,11 +844,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "number",
+            "type": "FLOAT",
             "source": "spend",
             "target": "spend",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "spend",
@@ -856,11 +856,11 @@
             "sourceTypeChanged": false
           },
           {
-            "type": "text",
+            "type": "STRING",
             "source": "ad_source",
             "target": "ad_source",
             "applied": true,
-            "changed": false,
+            "changed": true,
             "display": false,
             "description": "",
             "display_name": "ad_source",
@@ -882,34 +882,34 @@
         "title": "Action_values_type_7dclick_1dview",
         "transformObject": [
           {
-            "key": "action_type",
-            "source": "action_values",
             "target": "action_values_type",
+            "source": "action_values",
+            "key": "action_type",
+            "source_type": "ArrayScalar",
             "key_index": -1,
-            "output_type": "text",
-            "source_type": "ArrayScalar"
+            "output_type": "text"
           },
           {
-            "key": "7d_click",
-            "source": "action_values",
             "target": "action_value_7d_click",
+            "source": "action_values",
+            "key": "7d_click",
+            "source_type": "ArrayScalar",
             "key_index": -1,
-            "output_type": "text",
-            "source_type": "ArrayScalar"
+            "output_type": "text"
           },
           {
-            "key": "1d_view",
-            "source": "action_values",
             "target": "action_values_1d_view",
+            "source": "action_values",
+            "key": "1d_view",
+            "source_type": "ArrayScalar",
             "key_index": -1,
-            "output_type": "text",
-            "source_type": "ArrayScalar"
+            "output_type": "text"
           }
         ],
         "transformationType": "JSON_EXTRACTION"
       },
       "isGroup": true,
-      "location": "1702.5462152077655 527.4307866672743"
+      "location": "1687.4610220691795 840.4485442929318"
     },
     {
       "key": "f7a0bcf4-db73-4736-bec7-d3be39251028",
@@ -962,7 +962,7 @@
         "transformationType": "FILTER"
       },
       "isGroup": true,
-      "location": "1985.5462152077655 527.4307866672743"
+      "location": "1996.860110061705 846.1054917199015"
     },
     {
       "key": "ea9c9d40-f631-48ba-9909-3ec73dc1f9a4",
@@ -1020,7 +1020,7 @@
         "transformationType": "FILTER"
       },
       "isGroup": true,
-      "location": "2268.5462152077657 527.4307866672743"
+      "location": "2274.2031626347352 842.334193435255"
     },
     {
       "key": "8f1fcd71-3503-4695-a6da-e95f1294cc87",
@@ -1068,28 +1068,28 @@
         "title": "",
         "transformObject": [
           {
-            "key": "action_type",
-            "source": "actions",
             "target": "action_type",
+            "source": "actions",
+            "key": "action_type",
+            "source_type": "ArrayScalar",
             "key_index": -1,
-            "output_type": "text",
-            "source_type": "ArrayScalar"
+            "output_type": "STRING"
           },
           {
-            "key": "7d_click",
-            "source": "actions",
             "target": "action_7d_click",
+            "source": "actions",
+            "key": "7d_click",
+            "source_type": "ArrayScalar",
             "key_index": -1,
-            "output_type": "text",
-            "source_type": "ArrayScalar"
+            "output_type": "STRING"
           },
           {
-            "key": "1d_view",
-            "source": "actions",
             "target": "action_1d_view",
+            "source": "actions",
+            "key": "1d_view",
+            "source_type": "ArrayScalar",
             "key_index": -1,
-            "output_type": "text",
-            "source_type": "ArrayScalar"
+            "output_type": "STRING"
           }
         ],
         "transformationType": "JSON_EXTRACTION"
@@ -1105,8 +1105,13 @@
         "id": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
         "title": "",
         "transformObject": {
+          "global_op": [
+            "AND"
+          ],
           "filterOps": [
             {
+              "variable_field_name": "action_type",
+              "variable_type": "STRING",
               "operations": [
                 {
                   "values": [
@@ -1116,13 +1121,8 @@
                   "value_type": "NONE",
                   "operator_type": "absolute"
                 }
-              ],
-              "variable_type": "text",
-              "variable_field_name": "action_type"
+              ]
             }
-          ],
-          "global_op": [
-            "AND"
           ]
         },
         "transformationType": "FILTER"
@@ -1138,30 +1138,30 @@
         "id": "60b20db0-954e-4b17-b890-b31440a647ec",
         "title": "",
         "transformObject": {
-          "filterOps": [
-            {
-              "operations": [
-                {
-                  "values": [],
-                  "operator": "is_not_empty"
-                }
-              ],
-              "variable_type": "text",
-              "variable_field_name": "action_7d_click"
-            },
-            {
-              "operations": [
-                {
-                  "values": [],
-                  "operator": "is_not_empty"
-                }
-              ],
-              "variable_type": "text",
-              "variable_field_name": "action_1d_view"
-            }
-          ],
           "global_op": [
             "OR"
+          ],
+          "filterOps": [
+            {
+              "variable_field_name": "action_7d_click",
+              "variable_type": "STRING",
+              "operations": [
+                {
+                  "values": [],
+                  "operator": "is_not_empty"
+                }
+              ]
+            },
+            {
+              "variable_field_name": "action_1d_view",
+              "variable_type": "STRING",
+              "operations": [
+                {
+                  "values": [],
+                  "operator": "is_not_empty"
+                }
+              ]
+            }
           ]
         },
         "transformationType": "FILTER"
@@ -1737,15 +1737,6 @@
       "frompid": "OUT"
     },
     {
-      "to": "ef9a20ae-f3f2-4ba6-8d6c-481d9a4c22c4",
-      "from": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
-      "topid": "IN",
-      "zOrder": -49,
-      "frompid": "OUT",
-      "layerName": "bringToBack",
-      "fixedPosition": false
-    },
-    {
       "to": "4add3e04-e2c7-447c-83e2-9427899872e7",
       "from": "ef9a20ae-f3f2-4ba6-8d6c-481d9a4c22c4",
       "topid": "IN",
@@ -1759,15 +1750,6 @@
       "from": "4add3e04-e2c7-447c-83e2-9427899872e7",
       "topid": "IN",
       "zOrder": -57,
-      "frompid": "OUT",
-      "layerName": "bringToBack",
-      "fixedPosition": false
-    },
-    {
-      "to": "89b72fee-09e5-402a-aa2c-409088c50421",
-      "from": "1271ac6f-2300-4526-8041-ee7d89ec690a",
-      "topid": "IN",
-      "zOrder": -61,
       "frompid": "OUT",
       "layerName": "bringToBack",
       "fixedPosition": false
@@ -1856,6 +1838,12 @@
     {
       "from": "c51932d5-e636-417c-99ac-f623ac49280b",
       "to": "7fb6f498-6232-480a-acaa-c3b8316296bd",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
+      "to": "89b72fee-09e5-402a-aa2c-409088c50421",
       "frompid": "OUT",
       "topid": "IN"
     }
