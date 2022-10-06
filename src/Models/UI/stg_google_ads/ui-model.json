@@ -441,7 +441,7 @@
           "filterOps": [
             {
               "variable_field_name": "conversion_action_category",
-              "variable_type": "text",
+              "variable_type": "STRING",
               "operations": [
                 {
                   "operator": "=",
