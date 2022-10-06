@@ -1,0 +1,13 @@
+{
+  "$schema": "https://s.y42.com/integrations/google-ads/0.0.0/table",
+  "columns": [
+    "ad_id",
+    "resource_name",
+    "conversion_action",
+    "conversion_action_category",
+    "date",
+    "conversions",
+    "conversions_value"
+  ],
+  "import": "ad_group_ad_report"
+}
