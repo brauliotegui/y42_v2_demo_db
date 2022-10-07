@@ -444,12 +444,13 @@
               "variable_type": "STRING",
               "operations": [
                 {
+                  "type": "STRING",
                   "operator": "=",
-                  "values": [
-                    "PURCHASE"
-                  ],
                   "operator_type": "absolute",
-                  "value_type": "NONE"
+                  "value_type": "NONE",
+                  "values": [
+                    "BOOK_APPOINTMENT"
+                  ]
                 }
               ]
             }
