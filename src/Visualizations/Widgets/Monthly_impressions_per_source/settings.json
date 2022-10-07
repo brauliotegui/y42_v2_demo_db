@@ -1,0 +1,261 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-widget-settings.json",
+  "chart_type": "bar_line_chart",
+  "settings": {
+    "series": [
+      {
+        "field_id": "ec4c912f_f747_4230_85a6_0b96f1a5a956",
+        "mark": "bar",
+        "stack_name": 1,
+        "label": {
+          "show": true,
+          "field_ids": [],
+          "rotate": 0,
+          "align": "center",
+          "verticalAlign": "top"
+        },
+        "tooltip": {
+          "show": true,
+          "field_ids": []
+        },
+        "show_right_axis": false,
+        "format": "inherit",
+        "cumulative": false,
+        "hidden": false
+      }
+    ],
+    "show_legend": true,
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "lineStyle": {
+        "type": "solid",
+        "opacity": 1
+      }
+    },
+    "dimensions": [
+      "776ead94_6612_4bc5_9a7e_1e387d08a7e8"
+    ],
+    "breakdowns": [
+      "cb65d0a6_fa5b_4e04_8a18_5be93d85e760"
+    ],
+    "series_on_y": true,
+    "serieAxis": {
+      "min": null,
+      "max": null,
+      "show": true,
+      "type": "value",
+      "axisName": {
+        "nameRotate": 0,
+        "nameGap": 10,
+        "nameLocation": "middle",
+        "nameTextStyle": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7"
+        }
+      },
+      "axisLine": {
+        "showLabel": true,
+        "symbol": "none",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "axisLabel": {
+        "backgroundColor": "transparent",
+        "borderColor": "#f4f4fb",
+        "borderWidth": 0,
+        "fontSize": 12,
+        "align": "right",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "show": true,
+        "rotate": 0,
+        "margin": 22,
+        "suffix": "",
+        "max_characters": null,
+        "value_conversion": "Automatic",
+        "date_format": "",
+        "value_format": "inherit"
+      },
+      "splitLine": {
+        "showLabel": false,
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dataZoom": {
+        "show": false,
+        "start": 0,
+        "end": 100
+      }
+    },
+    "dimensionAxis": {
+      "min": null,
+      "max": null,
+      "show": true,
+      "type": "time",
+      "axisName": {
+        "nameRotate": 0,
+        "nameGap": 10,
+        "nameLocation": "middle",
+        "nameTextStyle": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7"
+        }
+      },
+      "axisLine": {
+        "showLabel": true,
+        "symbol": "none",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "axisLabel": {
+        "backgroundColor": "transparent",
+        "borderColor": "#f4f4fb",
+        "borderWidth": 0,
+        "fontSize": 12,
+        "align": "center",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "show": true,
+        "rotate": 0,
+        "margin": 22,
+        "suffix": "",
+        "max_characters": null,
+        "value_conversion": "Automatic",
+        "date_format": "",
+        "value_format": "inherit"
+      },
+      "splitLine": {
+        "showLabel": false,
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dataZoom": {
+        "show": true,
+        "start": 0,
+        "end": 100
+      }
+    },
+    "show_stack_by": true,
+    "show_stack_by_100_percent": false,
+    "stackFormatConfig": {
+      "format": "0a",
+      "config": {
+        "numeralFormat": "0a",
+        "formatType": "NUMBER",
+        "decimalPlaces": 0,
+        "negativeSymbol": {
+          "show": true,
+          "type": "symbol"
+        },
+        "displayType": "DISPLAY_UNITS",
+        "separator": "NONE",
+        "locale": "",
+        "prefixOrSuffix": "prefix",
+        "customFormat": ""
+      }
+    },
+    "sort": {
+      "order": "NONE",
+      "sort_by": "SERIES",
+      "sortByField": true,
+      "fieldSortKey": null,
+      "stackNameSortKey": null
+    },
+    "show_total_for_stacks": [
+      "all"
+    ]
+  },
+  "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
+  "filters": [],
+  "fields": [
+    {
+      "field": "date",
+      "aggregation": "MONTH_YEAR",
+      "type": "DATETIME",
+      "alias": "MONTH_YEAR_date_776ead94_6612_4bc5_9a7e_1e387d08a7e8",
+      "id": "776ead94_6612_4bc5_9a7e_1e387d08a7e8",
+      "lowCodeString": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "impressions",
+      "aggregation": "SUM",
+      "type": "INTEGER",
+      "alias": "SUM_impressions_ec4c912f_f747_4230_85a6_0b96f1a5a956",
+      "id": "ec4c912f_f747_4230_85a6_0b96f1a5a956",
+      "lowCodeString": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "ad_source",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_ad_source_cb65d0a6_fa5b_4e04_8a18_5be93d85e760",
+      "id": "cb65d0a6_fa5b_4e04_8a18_5be93d85e760",
+      "lowCodeString": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}
