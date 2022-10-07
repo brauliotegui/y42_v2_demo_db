@@ -445,11 +445,11 @@
               "operations": [
                 {
                   "type": "STRING",
-                  "operator": "=",
+                  "operator": "!",
                   "operator_type": "absolute",
                   "value_type": "NONE",
                   "values": [
-                    "BOOK_APPOINTMENT"
+                    "NULL"
                   ]
                 }
               ]
@@ -657,7 +657,7 @@
       "size": "196 81",
       "location": "496.1889778093506 175.83313188581718",
       "background": "#ea9d13ff",
-      "text": "Filter for conversions where the target action is PURCHASE",
+      "text": "Filter for conversions where the target action is not equal NULL",
       "textColor": "#ffffffff",
       "shadowColor": "#00000050",
       "shadowOffset": "1 12",
