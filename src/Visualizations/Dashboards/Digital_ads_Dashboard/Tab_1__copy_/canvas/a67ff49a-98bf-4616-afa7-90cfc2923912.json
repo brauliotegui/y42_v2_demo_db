@@ -2,18 +2,18 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1045.2665430256284,
-    "y": 102.99095686732448
+    "x": 438,
+    "y": 1041.9931640625
   },
   "size": {
-    "width": 400,
-    "height": 300
+    "height": 595.8418062220865,
+    "width": 762.3487497288041
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/Weekly_ad_spend___Copy_1"
+    "widgetPath": "src/Visualizations/Widgets/Monthly_clicks_per_source"
   },
   "styles": {
     "background-color": "#ffffff00",
