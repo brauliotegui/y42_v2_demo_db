@@ -760,7 +760,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "5566.50529357913 6.881482067956981"
+      "location": "5787.149339163775 10.498597569344483"
     },
     {
       "key": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
@@ -1638,7 +1638,7 @@
       "key": "a4d72c60-fa69-48fa-abe9-4ebf51e72608",
       "category": "stickyNode",
       "size": "196 81",
-      "location": "5667.463896786207 -53.771004713341426",
+      "location": "5891.7250578722405 -61.00523571611677",
       "background": "#ea9d13ff",
       "text": "Reduce to essential Columns only",
       "textColor": "#ffffffff",
