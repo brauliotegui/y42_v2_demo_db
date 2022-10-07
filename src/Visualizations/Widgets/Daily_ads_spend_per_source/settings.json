@@ -514,6 +514,22 @@
           "customFormat": ""
         }
       },
+      "color_by": {
+        "hiddenValues": {},
+        "area": "breakdowns"
+      },
+      "conditional_formatting_rules": [
+        {
+          "operator": "contains",
+          "value": "Google ",
+          "color": "#5e35b1"
+        },
+        {
+          "operator": "contains",
+          "value": "Facebook",
+          "color": "#0288d1"
+        }
+      ],
       "sort": {
         "order": "NONE",
         "sort_by": "SERIES",
