@@ -873,192 +873,6 @@
       "location": "1419.5462152077655 527.4307866672743"
     },
     {
-      "key": "ef9a20ae-f3f2-4ba6-8d6c-481d9a4c22c4",
-      "type": "JSON_EXTRACTION",
-      "category": "JSON_EXTRACTION",
-      "transformationStep": {
-        "id": "ef9a20ae-f3f2-4ba6-8d6c-481d9a4c22c4",
-        "title": "Action_values_type_7dclick_1dview",
-        "transformObject": [
-          {
-            "target": "action_values_type",
-            "source": "action_values",
-            "key": "action_type",
-            "source_type": "ArrayScalar",
-            "key_index": -1,
-            "output_type": "text"
-          },
-          {
-            "target": "action_value_7d_click",
-            "source": "action_values",
-            "key": "7d_click",
-            "source_type": "ArrayScalar",
-            "key_index": -1,
-            "output_type": "text"
-          },
-          {
-            "target": "action_values_1d_view",
-            "source": "action_values",
-            "key": "1d_view",
-            "source_type": "ArrayScalar",
-            "key_index": -1,
-            "output_type": "text"
-          }
-        ],
-        "transformationType": "JSON_EXTRACTION"
-      },
-      "isGroup": true,
-      "location": "1739.778500476386 843.2020957880483"
-    },
-    {
-      "key": "f7a0bcf4-db73-4736-bec7-d3be39251028",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "190 169",
-      "text": "Extract from the action_value field for each action_type the value of 7 day click attribution and the value of 1 day view attribution",
-      "group": "a6e012ed-ec2c-418d-aaa6-8d2d45cfe65a",
-      "zOrder": -108,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "1827.8891821914615 411.5480194544165",
-      "layerName": "bringToBack",
-      "textColor": "#ffffffff",
-      "background": "#ea9d13ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 8",
-      "fixedPosition": false,
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "4add3e04-e2c7-447c-83e2-9427899872e7",
-      "type": "FILTER",
-      "category": "FILTER",
-      "transformationStep": {
-        "id": "4add3e04-e2c7-447c-83e2-9427899872e7",
-        "title": "Action value type is offsite_conversion.fb_pixel_purchase",
-        "transformObject": {
-          "filterOps": [
-            {
-              "operations": [
-                {
-                  "values": [
-                    "offsite_conversion.fb_pixel_purchase"
-                  ],
-                  "operator": "=",
-                  "value_type": "NONE",
-                  "operator_type": "absolute"
-                }
-              ],
-              "variable_type": "text",
-              "variable_field_name": "action_values_type"
-            }
-          ],
-          "global_op": [
-            "AND"
-          ]
-        },
-        "transformationType": "FILTER"
-      },
-      "isGroup": true,
-      "location": "1996.860110061705 846.1054917199015"
-    },
-    {
-      "key": "ea9c9d40-f631-48ba-9909-3ec73dc1f9a4",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "190 116",
-      "text": "Only select action value of type 'offsite_conversion.fb_pixel_purchase'",
-      "group": "a6e012ed-ec2c-418d-aaa6-8d2d45cfe65a",
-      "zOrder": -106,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "2107.5452911074326 426.53145215087613",
-      "layerName": "bringToBack",
-      "textColor": "#ffffffff",
-      "background": "#ea9d13ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 8",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "1271ac6f-2300-4526-8041-ee7d89ec690a",
-      "type": "FILTER",
-      "category": "FILTER",
-      "transformationStep": {
-        "id": "1271ac6f-2300-4526-8041-ee7d89ec690a",
-        "title": "",
-        "transformObject": {
-          "filterOps": [
-            {
-              "operations": [
-                {
-                  "values": [],
-                  "operator": "is_not_empty"
-                }
-              ],
-              "variable_type": "text",
-              "variable_field_name": "action_value_7d_click"
-            },
-            {
-              "operations": [
-                {
-                  "values": [],
-                  "operator": "is_not_empty"
-                }
-              ],
-              "variable_type": "text",
-              "variable_field_name": "action_values_1d_view"
-            }
-          ],
-          "global_op": [
-            "OR"
-          ]
-        },
-        "transformationType": "FILTER"
-      },
-      "isGroup": true,
-      "location": "2274.2031626347352 842.334193435255"
-    },
-    {
-      "key": "8f1fcd71-3503-4695-a6da-e95f1294cc87",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "190 171",
-      "text": "Only select rows where at least one of 7 day click attribution value or 1 day view attribution value exists",
-      "group": "a6e012ed-ec2c-418d-aaa6-8d2d45cfe65a",
-      "zOrder": 3,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "2388.38487195192 423.88361160409977",
-      "layerName": "bringToFront",
-      "textColor": "#ffffffff",
-      "background": "#ea9d13ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 8",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "2894d995-2e65-4533-9a88-312857384eb6",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "761 111",
-      "text": "The action value is the monetary value attributed to each action type according to the attribution window (ie. the 7 day click action value of 'offsite_conversion.fb_pixel_purchase' is the purchase value according to 7 day click attribution)",
-      "zOrder": 4,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "2106.8831744236522 724.5250396650573",
-      "layerName": "bringToFront",
-      "textColor": "#ffffffff",
-      "background": "#553798ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 3",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
       "key": "89b72fee-09e5-402a-aa2c-409088c50421",
       "type": "JSON_EXTRACTION",
       "category": "JSON_EXTRACTION",
@@ -1113,12 +927,13 @@
               "variable_type": "STRING",
               "operations": [
                 {
-                  "values": [
-                    "offsite_conversion.fb_pixel_purchase"
-                  ],
+                  "type": "STRING",
                   "operator": "=",
+                  "operator_type": "absolute",
                   "value_type": "NONE",
-                  "operator_type": "absolute"
+                  "values": [
+                    "page_engagement"
+                  ]
                 }
               ]
             }
@@ -1127,7 +942,7 @@
         "transformationType": "FILTER"
       },
       "isGroup": true,
-      "location": "2825.1179694961497 855.5337374315176"
+      "location": "2844.874960533854 528.1827743545225"
     },
     {
       "key": "60b20db0-954e-4b17-b890-b31440a647ec",
@@ -1173,7 +988,6 @@
       "font": "normal 19px BlinkMacSystemFont",
       "size": "190 171",
       "text": "Extract from the actions field for each action_type the value of 7 day click attribution and the value of 1 day view attribution",
-      "group": "a6e012ed-ec2c-418d-aaa6-8d2d45cfe65a",
       "zOrder": 1,
       "version": 1,
       "category": "stickyNode",
@@ -1191,8 +1005,7 @@
       "key": "f4ce309f-1181-4c2e-bd55-19709a719575",
       "font": "normal 19px BlinkMacSystemFont",
       "size": "190 116",
-      "text": "Only select actions of type 'offsite_conversion.fb_pixel_purchase'",
-      "group": "a6e012ed-ec2c-418d-aaa6-8d2d45cfe65a",
+      "text": "Only select actions of type 'page_engagement'",
       "zOrder": 2,
       "version": 1,
       "category": "stickyNode",
@@ -1211,7 +1024,6 @@
       "font": "normal 19px BlinkMacSystemFont",
       "size": "190 148",
       "text": "Only select rows where at least one of 7 day click attribution or 1 day view attribution exists",
-      "group": "a6e012ed-ec2c-418d-aaa6-8d2d45cfe65a",
       "zOrder": 3,
       "version": 1,
       "category": "stickyNode",
@@ -1542,17 +1354,6 @@
       "location": "4942.589035548146 7.519137539440635"
     },
     {
-      "key": "a6e012ed-ec2c-418d-aaa6-8d2d45cfe65a",
-      "size": "1635.6502284464189 223.3355921496833",
-      "zOrder": -110,
-      "isGroup": true,
-      "version": 1,
-      "category": "groupNode",
-      "location": "1712.3891821914615 306.5480194544165",
-      "layerName": "bringToBack",
-      "isSidebarType": true
-    },
-    {
       "key": "1b094f9a-8a36-4124-ba0e-e041d8b18826",
       "size": "3180 625",
       "locked": false,
@@ -1572,7 +1373,7 @@
     {
       "key": "0131cfc0-1509-4105-9bf7-4e1dd1451759",
       "font": "bold 28px BlinkMacSystemFont",
-      "text": "EXTRACTING CONVERSIONS AND CONVERSIONS VALUE USING 7 DAY CLICK 1 DAY VIEW ATTRIBUTION",
+      "text": "EXTRACTING CONVERSIONS USING 7 DAY CLICK 1 DAY VIEW ATTRIBUTION",
       "locked": false,
       "zOrder": 7,
       "version": 1,
@@ -1666,24 +1467,6 @@
       "frompid": "OUT"
     },
     {
-      "to": "4add3e04-e2c7-447c-83e2-9427899872e7",
-      "from": "ef9a20ae-f3f2-4ba6-8d6c-481d9a4c22c4",
-      "topid": "IN",
-      "zOrder": -53,
-      "frompid": "OUT",
-      "layerName": "bringToBack",
-      "fixedPosition": false
-    },
-    {
-      "to": "1271ac6f-2300-4526-8041-ee7d89ec690a",
-      "from": "4add3e04-e2c7-447c-83e2-9427899872e7",
-      "topid": "IN",
-      "zOrder": -57,
-      "frompid": "OUT",
-      "layerName": "bringToBack",
-      "fixedPosition": false
-    },
-    {
       "to": "b64c9b11-7b31-41f5-831b-f33b50870a55",
       "from": "60b20db0-954e-4b17-b890-b31440a647ec",
       "topid": "IN",
@@ -1753,12 +1536,6 @@
       "topid": "IN"
     },
     {
-      "from": "89b72fee-09e5-402a-aa2c-409088c50421",
-      "to": "60b20db0-954e-4b17-b890-b31440a647ec",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
       "to": "2f830ec6-2a37-4863-87a3-29df0d55ca6d",
       "from": "a8821a43-2b66-4032-9152-da5aede9c311",
       "frompid": "OUT",
@@ -1767,6 +1544,18 @@
     {
       "to": "a8821a43-2b66-4032-9152-da5aede9c311",
       "from": "74d04d52-c724-4bf5-bfa3-6dd85cbd6357",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
+      "from": "89b72fee-09e5-402a-aa2c-409088c50421",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
+      "to": "60b20db0-954e-4b17-b890-b31440a647ec",
       "frompid": "OUT",
       "topid": "IN"
     }

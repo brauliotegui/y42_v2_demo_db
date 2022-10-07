@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-theme-settings.json",
+  "theme": {
+    "themeName": "westeros",
+    "type": "BuiltIn"
+  }
+}
