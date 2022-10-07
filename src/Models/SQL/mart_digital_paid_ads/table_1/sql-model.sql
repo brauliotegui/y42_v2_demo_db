@@ -6,7 +6,7 @@ Select
 from {{ ref('src/Models/UI/stg_google_ads/stg_google_ads') }}
 UNION ALL
 Select 
-    `date`,
+`date`,
   `campaign_name`,
   `ad_source`,
   `spend`
