@@ -4,7 +4,7 @@
   "settings": {
     "series": [
       {
-        "field_id": "23a34b3a_c3b8_485c_b88b_2453f26eecb6",
+        "field_id": "8a8265a3_b7bf_4a78_ac96_175fdcd92873",
         "mark": "bar",
         "stack_name": 1,
         "color": {
@@ -20,21 +20,7 @@
         },
         "show_tooltip": true,
         "show_right_axis": false,
-        "format": "0.000aEUR",
-        "formatConfig": {
-          "numeralFormat": "0.000aEUR",
-          "formatType": "CURRENCY",
-          "decimalPlaces": 3,
-          "negativeSymbol": {
-            "show": true,
-            "type": "symbol"
-          },
-          "displayType": "DISPLAY_UNITS",
-          "separator": "NONE",
-          "locale": "EUR",
-          "prefixOrSuffix": "suffix",
-          "customFormat": ""
-        }
+        "format": "inherit"
       }
     ],
     "show_legend": true,
@@ -47,7 +33,7 @@
       }
     },
     "dimensions": [
-      "9e3e4239_6ead_4845_a358_4bf7b87d4e95"
+      "ac3ea45d_52d8_4341_88b4_28ac79d6a1ce"
     ],
     "breakdowns": [],
     "show_as_donut": false,
@@ -57,21 +43,21 @@
     "filters": [],
     "fields": [
       {
-        "field": "date",
-        "aggregation": "WEEK_NUMBER",
-        "type": "DATETIME",
-        "alias": "WEEK_NUMBER_date_9e3e4239_6ead_4845_a358_4bf7b87d4e95",
-        "id": "9e3e4239_6ead_4845_a358_4bf7b87d4e95",
+        "field": "spend",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_spend_8a8265a3_b7bf_4a78_ac96_175fdcd92873",
+        "id": "8a8265a3_b7bf_4a78_ac96_175fdcd92873",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
       },
       {
-        "field": "spend",
-        "aggregation": "SUM",
-        "type": "FLOAT",
-        "alias": "SUM_spend_23a34b3a_c3b8_485c_b88b_2453f26eecb6",
-        "id": "23a34b3a_c3b8_485c_b88b_2453f26eecb6",
+        "field": "date",
+        "aggregation": "QUARTER",
+        "type": "DATETIME",
+        "alias": "QUARTER_date_ac3ea45d_52d8_4341_88b4_28ac79d6a1ce",
+        "id": "ac3ea45d_52d8_4341_88b4_28ac79d6a1ce",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
@@ -80,7 +66,7 @@
     "settings": {
       "series": [
         {
-          "field_id": "23a34b3a_c3b8_485c_b88b_2453f26eecb6",
+          "field_id": "8a8265a3_b7bf_4a78_ac96_175fdcd92873",
           "mark": "bar",
           "stack_name": 1,
           "color": {
@@ -123,7 +109,7 @@
         }
       },
       "dimensions": [
-        "9e3e4239_6ead_4845_a358_4bf7b87d4e95"
+        "ac3ea45d_52d8_4341_88b4_28ac79d6a1ce"
       ],
       "breakdowns": [],
       "show_as_donut": false,
@@ -134,21 +120,21 @@
   "filters": [],
   "fields": [
     {
-      "field": "date",
-      "aggregation": "WEEK_NUMBER",
-      "type": "DATETIME",
-      "alias": "WEEK_NUMBER_date_9e3e4239_6ead_4845_a358_4bf7b87d4e95",
-      "id": "9e3e4239_6ead_4845_a358_4bf7b87d4e95",
+      "field": "spend",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_spend_8a8265a3_b7bf_4a78_ac96_175fdcd92873",
+      "id": "8a8265a3_b7bf_4a78_ac96_175fdcd92873",
       "lowCodeString": null,
       "show_in_percentage": false,
       "filters": []
     },
     {
-      "field": "spend",
-      "aggregation": "SUM",
-      "type": "FLOAT",
-      "alias": "SUM_spend_23a34b3a_c3b8_485c_b88b_2453f26eecb6",
-      "id": "23a34b3a_c3b8_485c_b88b_2453f26eecb6",
+      "field": "date",
+      "aggregation": "QUARTER",
+      "type": "DATETIME",
+      "alias": "QUARTER_date_ac3ea45d_52d8_4341_88b4_28ac79d6a1ce",
+      "id": "ac3ea45d_52d8_4341_88b4_28ac79d6a1ce",
       "lowCodeString": null,
       "show_in_percentage": false,
       "filters": []

@@ -1,30 +1,23 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
-  "type": "Text",
+  "type": "Widget",
   "position": {
-    "x": 401,
-    "y": 74.5
+    "x": 1684.4431401126135,
+    "y": 122.56141662597656
   },
   "size": {
-    "width": 357,
-    "height": 42
+    "height": 187.52618408203125,
+    "width": 305.35010329558963
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "textStyles": {
-      "font-weight": "bold",
-      "font-size": "28px",
-      "font-family": "Helvetica Neue",
-      "text-align": "left",
-      "color": "#000"
-    },
-    "text": "DIGITAL ADS DASHBOARD"
+    "widgetPath": "src/Visualizations/Widgets/QTD_AD_SPEND"
   },
   "styles": {
-    "background-color": "none",
-    "border-color": "none",
+    "background-color": "#ffffff00",
+    "border-color": "#ffffff00",
     "border-style": "none",
     "border-width": "0",
     "border-radius": "0",
@@ -32,7 +25,7 @@
   },
   "locked": false,
   "objectProperties": {
-    "resizable": false,
+    "resizable": true,
     "movable": true,
     "selectable": true,
     "rotatable": true

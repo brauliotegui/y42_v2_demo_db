@@ -1,30 +1,23 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
-  "type": "Text",
+  "type": "Filter",
   "position": {
     "x": 401,
-    "y": 74.5
+    "y": 127.10651397705078
   },
   "size": {
-    "width": 357,
-    "height": 42
+    "height": 52.120643615722656,
+    "width": 550.5154051573935
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "textStyles": {
-      "font-weight": "bold",
-      "font-size": "28px",
-      "font-family": "Helvetica Neue",
-      "text-align": "left",
-      "color": "#000"
-    },
-    "text": "DIGITAL ADS DASHBOARD"
+    "filterPath": "src/Visualizations/Filters/1e24acfa-f049-43b1-a4bb-a41bcf0a3795.json"
   },
   "styles": {
-    "background-color": "none",
-    "border-color": "none",
+    "background-color": "#ffffff00",
+    "border-color": "#ffffff00",
     "border-style": "none",
     "border-width": "0",
     "border-radius": "0",
@@ -32,7 +25,7 @@
   },
   "locked": false,
   "objectProperties": {
-    "resizable": false,
+    "resizable": true,
     "movable": true,
     "selectable": true,
     "rotatable": true

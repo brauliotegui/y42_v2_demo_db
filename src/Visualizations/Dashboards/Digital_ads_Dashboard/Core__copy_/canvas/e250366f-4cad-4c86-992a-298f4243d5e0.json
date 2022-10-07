@@ -2,18 +2,18 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Filter",
   "position": {
-    "x": -141.60840470334688,
-    "y": 74.5
+    "x": 682.8713989257812,
+    "y": 177.48875246660458
   },
   "size": {
-    "height": 378.6394958496094,
-    "width": 465.906960544341
+    "height": 77.67151870176448,
+    "width": 280.6456604003906
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "filterPath": "src/Visualizations/Filters/69ef1c5b-aca7-4952-80b3-d934b965fd15.json"
+    "filterPath": "src/Visualizations/Filters/03a35da2-6cee-4194-b349-b13a86a327d3.json"
   },
   "styles": {
     "background-color": "#ffffff00",

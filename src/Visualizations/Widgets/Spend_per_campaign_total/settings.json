@@ -31,7 +31,64 @@
       "4bc7706a_1968_4421_b046_aa6e4ceed1d9"
     ],
     "breakdowns": [],
-    "size": []
+    "size": [],
+    "datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
+    "chart_type": "treemap_chart",
+    "filters": [],
+    "fields": [
+      {
+        "field": "campaign_name",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_campaign_name_4bc7706a_1968_4421_b046_aa6e4ceed1d9",
+        "id": "4bc7706a_1968_4421_b046_aa6e4ceed1d9",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "spend",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_spend_727f05a8_93cc_448d_aa57_e63732d887b2",
+        "id": "727f05a8_93cc_448d_aa57_e63732d887b2",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "727f05a8_93cc_448d_aa57_e63732d887b2",
+          "mark": "area",
+          "stack_name": 1,
+          "format": "inherit",
+          "show_right_axis": false,
+          "label": {
+            "show": true,
+            "field_ids": [],
+            "rotate": 0,
+            "align": "center",
+            "verticalAlign": "top"
+          }
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [
+        "4bc7706a_1968_4421_b046_aa6e4ceed1d9"
+      ],
+      "breakdowns": [],
+      "size": []
+    }
   },
   "datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
   "filters": [],

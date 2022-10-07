@@ -1,10 +1,12 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
-  "name": "Monthly ad spend per source",
+  "name": "MONTHLY AD SPEND PER SOURCE",
   "description": "",
   "tags": [],
   "owners": {
-    "user_ids": [],
+    "user_ids": [
+      "hugo.cheyne@y42.com"
+    ],
     "team_ids": []
   },
   "experts": {
@@ -15,5 +17,5 @@
     "user_ids": [],
     "team_ids": []
   },
-  "asset_status": "no status"
+  "asset_status": "verified"
 }
