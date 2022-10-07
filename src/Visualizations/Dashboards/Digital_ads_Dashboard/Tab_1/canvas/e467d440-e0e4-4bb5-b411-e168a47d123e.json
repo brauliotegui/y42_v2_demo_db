@@ -2,12 +2,12 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Filter",
   "position": {
-    "x": 693.6032908089138,
-    "y": 131.7929916381836
+    "x": -141.60840470334688,
+    "y": 74.5
   },
   "size": {
-    "height": 69.05435943603516,
-    "width": 315.05203799956365
+    "height": 378.6394958496094,
+    "width": 465.906960544341
   },
   "zIndex": 0,
   "layer": "default",

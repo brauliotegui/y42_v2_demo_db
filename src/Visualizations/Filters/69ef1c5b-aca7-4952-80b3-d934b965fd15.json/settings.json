@@ -3,7 +3,7 @@
   "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
   "field_name": "date",
   "data_type": "DATETIME",
-  "type": "date",
+  "type": "advanced",
   "operations": [],
   "options": {}
 }
