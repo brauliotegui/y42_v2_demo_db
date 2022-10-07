@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-dashboard-settings.json",
-  "theme": "src/Visualizations/Themes/Digital_ads_Dashboard-54665c99-f687-464f-b9b8-bcf9567a92c1.json",
+  "theme": "src/Visualizations/Themes/Y42 Theme-211f8ac9-0054-4264-85aa-fdcf9a366061.json",
   "order": [
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_",
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Tab_1",
