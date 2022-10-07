@@ -337,7 +337,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "2582.3028123625872 -348.5875467072197"
+      "location": "2788.7422909598963 -357.4363253964521"
     },
     {
       "key": "6df29901-4504-46c0-9feb-62df078b0a47",
@@ -945,6 +945,25 @@
       "zOrder": 1,
       "textAlignment": "center",
       "locked": false
+    },
+    {
+      "key": "ae98d1ea-411d-47bd-9948-6dea11596c64",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "ae98d1ea-411d-47bd-9948-6dea11596c64",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "cost",
+            "originalString": "@cost*3"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "2490.401683297665 -356.42477859571466"
     }
   ],
   "linkDataArray": [
@@ -1021,7 +1040,13 @@
       "topid": "IN"
     },
     {
+      "to": "ae98d1ea-411d-47bd-9948-6dea11596c64",
       "from": "509e915c-f264-4c63-a202-c4832f4fdc41",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "ae98d1ea-411d-47bd-9948-6dea11596c64",
       "to": "476cad8b-628f-4a6b-b009-0e8ad687aa3a",
       "frompid": "OUT",
       "topid": "IN"
