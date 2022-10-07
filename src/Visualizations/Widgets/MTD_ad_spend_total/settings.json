@@ -1,0 +1,143 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-widget-settings.json",
+  "chart_type": "numeric",
+  "settings": {
+    "series": [
+      {
+        "field_id": "b4e495fa_21ad_415c_bb6e_8ae6d2ef4bb1",
+        "mark": "bar",
+        "stack_name": 1,
+        "color": {
+          "field_id": null,
+          "extrema": {}
+        },
+        "label": {
+          "show": true,
+          "field_ids": [],
+          "rotate": 0,
+          "align": "center",
+          "verticalAlign": "top"
+        },
+        "show_tooltip": true,
+        "show_right_axis": false,
+        "format": "inherit"
+      }
+    ],
+    "show_legend": true,
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "lineStyle": {
+        "type": "solid",
+        "opacity": 1
+      }
+    },
+    "dimensions": [
+      "88ecea56_b42b_4f33_84eb_54467bf98ed4"
+    ],
+    "breakdowns": [],
+    "show_as_donut": false,
+    "digit_format": false,
+    "datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
+    "chart_type": "numeric",
+    "filters": [],
+    "fields": [
+      {
+        "field": "date",
+        "aggregation": "MONTH",
+        "type": "DATETIME",
+        "alias": "MONTH_date_88ecea56_b42b_4f33_84eb_54467bf98ed4",
+        "id": "88ecea56_b42b_4f33_84eb_54467bf98ed4",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "spend",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_spend_b4e495fa_21ad_415c_bb6e_8ae6d2ef4bb1",
+        "id": "b4e495fa_21ad_415c_bb6e_8ae6d2ef4bb1",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "b4e495fa_21ad_415c_bb6e_8ae6d2ef4bb1",
+          "mark": "bar",
+          "stack_name": 1,
+          "color": {
+            "field_id": null,
+            "extrema": {}
+          },
+          "label": {
+            "show": true,
+            "field_ids": [],
+            "rotate": 0,
+            "align": "center",
+            "verticalAlign": "top"
+          },
+          "show_tooltip": true,
+          "show_right_axis": false,
+          "format": "0.000aEUR",
+          "formatConfig": {
+            "numeralFormat": "0.000aEUR",
+            "formatType": "CURRENCY",
+            "decimalPlaces": 3,
+            "negativeSymbol": {
+              "show": true,
+              "type": "symbol"
+            },
+            "displayType": "DISPLAY_UNITS",
+            "separator": "NONE",
+            "locale": "EUR",
+            "prefixOrSuffix": "suffix",
+            "customFormat": ""
+          }
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [
+        "88ecea56_b42b_4f33_84eb_54467bf98ed4"
+      ],
+      "breakdowns": [],
+      "show_as_donut": false,
+      "digit_format": false
+    }
+  },
+  "datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
+  "filters": [],
+  "fields": [
+    {
+      "field": "date",
+      "aggregation": "MONTH",
+      "type": "DATETIME",
+      "alias": "MONTH_date_88ecea56_b42b_4f33_84eb_54467bf98ed4",
+      "id": "88ecea56_b42b_4f33_84eb_54467bf98ed4",
+      "lowCodeString": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "spend",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_spend_b4e495fa_21ad_415c_bb6e_8ae6d2ef4bb1",
+      "id": "b4e495fa_21ad_415c_bb6e_8ae6d2ef4bb1",
+      "lowCodeString": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

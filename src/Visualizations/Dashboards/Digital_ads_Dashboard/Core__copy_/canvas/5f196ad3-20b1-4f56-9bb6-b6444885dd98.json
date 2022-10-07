@@ -1,0 +1,33 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
+  "type": "Widget",
+  "position": {
+    "x": 401,
+    "y": 212
+  },
+  "size": {
+    "height": 756.0731289583896,
+    "width": 607.6553288084775
+  },
+  "zIndex": 0,
+  "layer": "default",
+  "angle": 0,
+  "typeSettings": {
+    "widgetPath": "src/Visualizations/Widgets/Daily_ads_spend_per_source"
+  },
+  "styles": {
+    "background-color": "#ffffff00",
+    "border-color": "#ffffff00",
+    "border-style": "none",
+    "border-width": "0",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
+  "type": "Widget",
+  "position": {
+    "x": 1045.2666015625,
+    "y": 317.40927859318094
+  },
+  "size": {
+    "height": 611.5131457232253,
+    "width": 944.526611328125
+  },
+  "zIndex": 0,
+  "layer": "default",
+  "angle": 0,
+  "typeSettings": {
+    "widgetPath": "src/Visualizations/Widgets/Spend_per_campaign_total"
+  },
+  "styles": {
+    "background-color": "#ffffff00",
+    "border-color": "#ffffff00",
+    "border-style": "none",
+    "border-width": "0",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}

@@ -253,7 +253,7 @@
     "show_total_for_stacks": [
       "all"
     ],
-    "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
+    "datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
     "chart_type": "bar_line_chart",
     "filters": [],
     "fields": [
@@ -261,8 +261,8 @@
         "field": "date",
         "aggregation": "MONTH_YEAR",
         "type": "DATETIME",
-        "alias": "MONTH_YEAR_date_9f31c677_6c99_4218_82fc_02b68685705a",
-        "id": "9f31c677_6c99_4218_82fc_02b68685705a",
+        "alias": "MONTH_YEAR_date_8e2396d2_7a67_446c_8fc9_8dc1a8d220fe",
+        "id": "8e2396d2_7a67_446c_8fc9_8dc1a8d220fe",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
@@ -271,8 +271,8 @@
         "field": "spend",
         "aggregation": "SUM",
         "type": "FLOAT",
-        "alias": "SUM_spend_2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
-        "id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+        "alias": "SUM_spend_e003c544_5759_4500_8f7d_24f5cfeb800f",
+        "id": "e003c544_5759_4500_8f7d_24f5cfeb800f",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
@@ -281,8 +281,8 @@
         "field": "ad_source",
         "aggregation": "VALUE",
         "type": "STRING",
-        "alias": "VALUE_ad_source_36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
-        "id": "36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
+        "alias": "VALUE_ad_source_31f9d5a6_0143_4156_b488_82c9f71a78d3",
+        "id": "31f9d5a6_0143_4156_b488_82c9f71a78d3",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
@@ -291,7 +291,7 @@
     "settings": {
       "series": [
         {
-          "field_id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+          "field_id": "e003c544_5759_4500_8f7d_24f5cfeb800f",
           "mark": "bar",
           "stack_name": 1,
           "label": {
@@ -306,12 +306,12 @@
             "field_ids": []
           },
           "show_right_axis": false,
-          "format": "0a",
+          "format": "0aEUR",
           "cumulative": false,
           "hidden": false,
           "formatConfig": {
-            "numeralFormat": "0a",
-            "formatType": "NUMBER",
+            "numeralFormat": "0aEUR",
+            "formatType": "CURRENCY",
             "decimalPlaces": 0,
             "negativeSymbol": {
               "show": true,
@@ -319,7 +319,7 @@
             },
             "displayType": "DISPLAY_UNITS",
             "separator": "NONE",
-            "locale": "",
+            "locale": "EUR",
             "prefixOrSuffix": "suffix",
             "customFormat": ""
           }
@@ -335,10 +335,10 @@
         }
       },
       "dimensions": [
-        "9f31c677_6c99_4218_82fc_02b68685705a"
+        "8e2396d2_7a67_446c_8fc9_8dc1a8d220fe"
       ],
       "breakdowns": [
-        "36a6c009_33d9_4327_bc9b_6b7a43a7a15d"
+        "31f9d5a6_0143_4156_b488_82c9f71a78d3"
       ],
       "series_on_y": true,
       "serieAxis": {
@@ -514,22 +514,6 @@
           "customFormat": ""
         }
       },
-      "color_by": {
-        "hiddenValues": {},
-        "area": "breakdowns"
-      },
-      "conditional_formatting_rules": [
-        {
-          "operator": "contains",
-          "value": "Google",
-          "color": "#303f9f"
-        },
-        {
-          "operator": "contains",
-          "value": "Facebook",
-          "color": "#03a9f4"
-        }
-      ],
       "sort": {
         "order": "NONE",
         "sort_by": "SERIES",
