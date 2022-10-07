@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
+  "field_name": "spend",
+  "data_type": "FLOAT",
+  "type": "dropdown",
+  "operations": [],
+  "options": [
+    "0.03",
+    "14.940000000000001",
+    "15",
+    "14.91",
+    "21",
+    "14.76",
+    "20.94",
+    "14.97",
+    "14.879999999999999"
+  ]
+}

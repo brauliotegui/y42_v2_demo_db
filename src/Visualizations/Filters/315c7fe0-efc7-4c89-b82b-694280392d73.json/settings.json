@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
+  "field_name": "impressions",
+  "data_type": "INTEGER",
+  "type": "dropdown",
+  "operations": [],
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ]
+}

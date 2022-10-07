@@ -2,18 +2,18 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1008.6553344726562,
-    "y": 117.75479125976562
+    "x": 1734.41455078125,
+    "y": 360.7619326938009
   },
   "size": {
-    "height": 243.00714143403525,
-    "width": 257.18267822265625
+    "height": 609.3526302944804,
+    "width": 615.423583984375
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/WTD_ad_spend_total"
+    "widgetPath": "src/Visualizations/Widgets/CLICKS_VS_IMPRESSIONS_BY_CAMPAIGN"
   },
   "styles": {
     "background-color": "#ffffff00",

@@ -3,17 +3,17 @@
   "type": "Filter",
   "position": {
     "x": 401,
-    "y": 179.2271607432681
+    "y": 209.21622048372933
   },
   "size": {
-    "height": 74.1947021484375,
-    "width": 266.1630073045901
+    "height": 80.57208323064114,
+    "width": 265.93742278213546
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "filterPath": "src/Visualizations/Filters/e80aab94-c74f-4413-af94-2fd4afebbd22.json"
+    "filterPath": "src/Visualizations/Filters/3e5af1da-2a83-4308-934b-439ba740ef80.json"
   },
   "styles": {
     "background-color": "#ffffff00",

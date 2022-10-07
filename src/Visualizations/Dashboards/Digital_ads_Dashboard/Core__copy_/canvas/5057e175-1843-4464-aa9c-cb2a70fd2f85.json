@@ -2,18 +2,18 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1008.6553344726562,
-    "y": 117.75479125976562
+    "x": 2069.74560546875,
+    "y": 116.5
   },
   "size": {
-    "height": 243.00714143403525,
-    "width": 257.18267822265625
+    "height": 229.39317610350278,
+    "width": 293.0143737792969
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/WTD_ad_spend_total"
+    "widgetPath": "src/Visualizations/Widgets/QTD_CLICKS"
   },
   "styles": {
     "background-color": "#ffffff00",
