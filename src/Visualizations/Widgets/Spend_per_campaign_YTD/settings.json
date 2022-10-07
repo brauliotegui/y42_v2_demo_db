@@ -45,7 +45,78 @@
       "2d9e2286_d25b_450e_a225_5831839e5f54"
     ],
     "breakdowns": [],
-    "size": []
+    "size": [],
+    "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
+    "chart_type": "treemap_chart",
+    "filters": [],
+    "fields": [
+      {
+        "field": "spend",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_spend_0de4f2cb_ffcb_4074_bf1e_b82e5a2a7d7d",
+        "id": "0de4f2cb_ffcb_4074_bf1e_b82e5a2a7d7d",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "campaign_name",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_campaign_name_2d9e2286_d25b_450e_a225_5831839e5f54",
+        "id": "2d9e2286_d25b_450e_a225_5831839e5f54",
+        "lowCodeString": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "0de4f2cb_ffcb_4074_bf1e_b82e5a2a7d7d",
+          "mark": "area",
+          "stack_name": 1,
+          "format": "",
+          "formatConfig": {
+            "numeralFormat": "",
+            "formatType": "CUSTOM",
+            "decimalPlaces": 0,
+            "negativeSymbol": {
+              "show": true,
+              "type": "symbol"
+            },
+            "displayType": "DISPLAY_UNITS",
+            "separator": "NONE",
+            "locale": "",
+            "prefixOrSuffix": "suffix",
+            "customFormat": ""
+          },
+          "show_right_axis": false,
+          "label": {
+            "show": true,
+            "field_ids": [],
+            "rotate": 0,
+            "align": "center",
+            "verticalAlign": "top"
+          }
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [
+        "2d9e2286_d25b_450e_a225_5831839e5f54"
+      ],
+      "breakdowns": [],
+      "size": []
+    }
   },
   "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
   "filters": [],
