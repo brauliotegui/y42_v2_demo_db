@@ -2,8 +2,8 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1283.4346923828125,
-    "y": 120.74729919433594
+    "x": 1283.4347229003906,
+    "y": 149.3415671826287
   },
   "size": {
     "height": 236.44741383169685,
