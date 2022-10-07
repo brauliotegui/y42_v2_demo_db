@@ -760,7 +760,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "5277.353980750952 7.5191375394408055"
+      "location": "5566.50529357913 6.881482067956981"
     },
     {
       "key": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
@@ -1612,6 +1612,25 @@
       "isGroup": true,
       "group": "",
       "location": "4246.094482623311 527.4307866672743"
+    },
+    {
+      "key": "a8821a43-2b66-4032-9152-da5aede9c311",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "a8821a43-2b66-4032-9152-da5aede9c311",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "spend",
+            "originalString": "@spend*7"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "5223.281872678319 7.013836221610681"
     }
   ],
   "linkDataArray": [
@@ -1721,8 +1740,14 @@
       "topid": "IN"
     },
     {
-      "from": "74d04d52-c724-4bf5-bfa3-6dd85cbd6357",
       "to": "2f830ec6-2a37-4863-87a3-29df0d55ca6d",
+      "from": "a8821a43-2b66-4032-9152-da5aede9c311",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "a8821a43-2b66-4032-9152-da5aede9c311",
+      "from": "74d04d52-c724-4bf5-bfa3-6dd85cbd6357",
       "frompid": "OUT",
       "topid": "IN"
     }
