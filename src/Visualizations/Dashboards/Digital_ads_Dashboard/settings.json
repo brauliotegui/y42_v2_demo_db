@@ -4,7 +4,9 @@
   "order": [
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_",
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Tab_1",
-    "src/Visualizations/Dashboards/Digital_ads_Dashboard/Tab_1__copy_"
+    "src/Visualizations/Dashboards/Digital_ads_Dashboard/Tab_1__copy_",
+    "src/Visualizations/Dashboards/Digital_ads_Dashboard/Impressions",
+    "src/Visualizations/Dashboards/Digital_ads_Dashboard/Clicks"
   ],
   "last_used_datasource_table_path": "src/Models/SQL/mart_digital_paid_ads/table_1",
   "enable_cross_filtering": true
