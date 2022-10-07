@@ -4,7 +4,9 @@
   "description": "",
   "tags": [],
   "owners": {
-    "user_ids": [],
+    "user_ids": [
+      "johannes.pittgens@y42.com"
+    ],
     "team_ids": []
   },
   "experts": {
