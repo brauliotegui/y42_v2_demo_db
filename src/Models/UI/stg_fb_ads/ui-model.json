@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "6.236784538234133 2.564326910048422"
+      "location": "0 0"
     },
     {
       "key": "84f078cc-f86d-48c6-890b-cc9b64bd6f02",
@@ -535,7 +535,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "260.9136673970952 2.564326910048422"
+      "location": "247 0"
     },
     {
       "key": "c51932d5-e636-417c-99ac-f623ac49280b",
@@ -555,7 +555,7 @@
         "transformationType": "DATE_PARSER"
       },
       "isGroup": true,
-      "location": "546.1092084448462 5.729019574921878"
+      "location": "515 0"
     },
     {
       "key": "7fb6f498-6232-480a-acaa-c3b8316296bd",
@@ -574,7 +574,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "1111 1.4210854715202004e-14"
+      "location": "783 0"
     },
     {
       "key": "2f830ec6-2a37-4863-87a3-29df0d55ca6d",
@@ -611,7 +611,7 @@
               "sourceTypeChanged": false
             },
             {
-              "type": "INTEGER",
+              "type": "NUMERIC",
               "source": "clicks",
               "target": "clicks",
               "applied": false,
@@ -620,7 +620,7 @@
               "description": "",
               "display_name": "clicks",
               "source_alias": "ads_insights",
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "type": "FLOAT",
@@ -647,7 +647,7 @@
               "sourceTypeChanged": false
             },
             {
-              "type": "NUMERIC",
+              "type": "STRING",
               "source": "conversions",
               "target": "conversions",
               "applied": false,
@@ -656,7 +656,7 @@
               "description": "",
               "display_name": "conversions",
               "source_alias": "REPLACE",
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "type": "INTEGER",
@@ -760,503 +760,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "5787.149339163775 10.498597569344483"
-    },
-    {
-      "key": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
-      "type": "FIELDS",
-      "category": "FIELDS",
-      "transformationStep": {
-        "id": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
-        "title": "",
-        "transformObject": [
-          {
-            "type": "STRING",
-            "source": "account_name",
-            "target": "account_name",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "account_name",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "STRING",
-            "source": "ad_name",
-            "target": "ad_name",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "ad_name",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "STRING",
-            "source": "campaign_id",
-            "target": "campaign_id",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "campaign_id",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "STRING",
-            "source": "campaign_name",
-            "target": "campaign_name",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "campaign_name",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "INTEGER",
-            "source": "clicks",
-            "target": "clicks",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "clicks",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "INTEGER",
-            "source": "impressions",
-            "target": "impressions",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "impressions",
-            "source_alias": "ads_insights",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "FLOAT",
-            "source": "spend",
-            "target": "spend",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "spend",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "STRING",
-            "source": "ad_source",
-            "target": "ad_source",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "ad_source",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          }
-        ],
-        "transformationType": "FIELDS"
-      },
-      "isGroup": true,
-      "location": "1419.5462152077655 527.4307866672743"
-    },
-    {
-      "key": "89b72fee-09e5-402a-aa2c-409088c50421",
-      "type": "JSON_EXTRACTION",
-      "category": "JSON_EXTRACTION",
-      "transformationStep": {
-        "id": "89b72fee-09e5-402a-aa2c-409088c50421",
-        "title": "",
-        "transformObject": [
-          {
-            "target": "action_type",
-            "source": "actions",
-            "key": "action_type",
-            "source_type": "ArrayScalar",
-            "key_index": -1,
-            "output_type": "STRING"
-          },
-          {
-            "target": "action_7d_click",
-            "source": "actions",
-            "key": "7d_click",
-            "source_type": "ArrayScalar",
-            "key_index": -1,
-            "output_type": "STRING"
-          },
-          {
-            "target": "action_1d_view",
-            "source": "actions",
-            "key": "1d_view",
-            "source_type": "ArrayScalar",
-            "key_index": -1,
-            "output_type": "STRING"
-          }
-        ],
-        "transformationType": "JSON_EXTRACTION"
-      },
-      "isGroup": true,
-      "location": "2551.5462152077657 527.4307866672743"
-    },
-    {
-      "key": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
-      "type": "FILTER",
-      "category": "FILTER",
-      "transformationStep": {
-        "id": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
-        "title": "",
-        "transformObject": {
-          "global_op": [
-            "AND"
-          ],
-          "filterOps": [
-            {
-              "variable_field_name": "action_type",
-              "variable_type": "STRING",
-              "operations": [
-                {
-                  "type": "STRING",
-                  "operator": "=",
-                  "operator_type": "absolute",
-                  "value_type": "NONE",
-                  "values": [
-                    "page_engagement"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "transformationType": "FILTER"
-      },
-      "isGroup": true,
-      "location": "2844.874960533854 528.1827743545225"
-    },
-    {
-      "key": "60b20db0-954e-4b17-b890-b31440a647ec",
-      "type": "FILTER",
-      "category": "FILTER",
-      "transformationStep": {
-        "id": "60b20db0-954e-4b17-b890-b31440a647ec",
-        "title": "",
-        "transformObject": {
-          "global_op": [
-            "OR"
-          ],
-          "filterOps": [
-            {
-              "variable_field_name": "action_7d_click",
-              "variable_type": "STRING",
-              "operations": [
-                {
-                  "values": [],
-                  "operator": "is_not_empty"
-                }
-              ]
-            },
-            {
-              "variable_field_name": "action_1d_view",
-              "variable_type": "STRING",
-              "operations": [
-                {
-                  "values": [],
-                  "operator": "is_not_empty"
-                }
-              ]
-            }
-          ]
-        },
-        "transformationType": "FILTER"
-      },
-      "isGroup": true,
-      "location": "3112.6776049995624 527.4307866672743"
-    },
-    {
-      "key": "e5909a60-9baa-4952-9d21-9d34fd126b67",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "190 171",
-      "text": "Extract from the actions field for each action_type the value of 7 day click attribution and the value of 1 day view attribution",
-      "zOrder": 1,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "2672.300799795163 422.1569966509019",
-      "layerName": "bringToFront",
-      "textColor": "#ffffffff",
-      "background": "#ea9d13ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 8",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "f4ce309f-1181-4c2e-bd55-19709a719575",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "190 116",
-      "text": "Only select actions of type 'page_engagement'",
-      "zOrder": 2,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "2957.1801929470644 430.37296830211505",
-      "layerName": "bringToFront",
-      "textColor": "#ffffffff",
-      "background": "#ea9d13ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 8",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "85cb5972-7e64-4e55-9d25-7b1590a32cb2",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "190 148",
-      "text": "Only select rows where at least one of 7 day click attribution or 1 day view attribution exists",
-      "zOrder": 3,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "3232.5394106378803 428.90787422338457",
-      "layerName": "bringToFront",
-      "textColor": "#ffffffff",
-      "background": "#ea9d13ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 8",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "a74e9046-6251-4f19-aae6-99d88a9f89db",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "754 109",
-      "text": "The action is the quantity attributed to each action type according to the attribution window (ie. the 7 day click action of 'offsite_conversion.fb_pixel_purchase' is the number of purchases according to 7 day click attribution)",
-      "zOrder": 4,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "2953.1776049995624 725.0686646170035",
-      "layerName": "bringToFront",
-      "textColor": "#ffffffff",
-      "background": "#553798ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 3",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "b64c9b11-7b31-41f5-831b-f33b50870a55",
-      "type": "REPLACE",
-      "category": "REPLACE",
-      "transformationStep": {
-        "id": "b64c9b11-7b31-41f5-831b-f33b50870a55",
-        "title": "",
-        "transformObject": [
-          {
-            "target": "action_7d_click",
-            "outputType": "NUMERIC",
-            "manipulationType": "Replace",
-            "manipulation": {
-              "targetColumn": "action_7d_click",
-              "cases": [
-                {
-                  "token": "null",
-                  "fullMatch": false,
-                  "caseSensitive": false,
-                  "replaceWith": "",
-                  "isNull": true
-                }
-              ]
-            }
-          },
-          {
-            "target": "action_1d_view",
-            "outputType": "NUMERIC",
-            "manipulationType": "Replace",
-            "manipulation": {
-              "targetColumn": "action_1d_view",
-              "cases": [
-                {
-                  "token": "null",
-                  "fullMatch": false,
-                  "caseSensitive": false,
-                  "replaceWith": "",
-                  "isNull": true
-                }
-              ]
-            }
-          }
-        ],
-        "transformationType": "REPLACE"
-      },
-      "isGroup": true,
-      "location": "3400.5462152077657 527.4307866672743"
-    },
-    {
-      "key": "c14fdad7-2fec-4bd5-b926-b8db56c69266",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
-      "transformationStep": {
-        "id": "c14fdad7-2fec-4bd5-b926-b8db56c69266",
-        "title": "",
-        "transformObject": [
-          {
-            "target": "action_7d_click_1d_view",
-            "originalString": "@action_7d_click+@action_1d_view"
-          }
-        ],
-        "transformationType": "FUNCTIONS"
-      },
-      "isGroup": true,
-      "location": "3683.5462152077657 527.4307866672743"
-    },
-    {
-      "key": "e1be5e2f-af82-479b-85a2-e40dd6a6b1c6",
-      "type": "FIELDS",
-      "category": "FIELDS",
-      "transformationStep": {
-        "id": "e1be5e2f-af82-479b-85a2-e40dd6a6b1c6",
-        "title": "",
-        "transformObject": [
-          {
-            "type": "NUMERIC",
-            "source": "action_values",
-            "target": "action_values",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "action_values",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "NUMERIC",
-            "source": "actions",
-            "target": "actions",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "actions",
-            "source_alias": "stg_fb_ads",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "STRING",
-            "source": "action_type",
-            "target": "action_type",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "action_type",
-            "source_alias": "Json Extraction",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "NUMERIC",
-            "source": "action_7d_click",
-            "target": "action_7d_click",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "action_7d_click",
-            "source_alias": "REPLACE",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "NUMERIC",
-            "source": "action_1d_view",
-            "target": "action_1d_view",
-            "applied": true,
-            "changed": true,
-            "display": false,
-            "description": "",
-            "display_name": "action_1d_view",
-            "source_alias": "REPLACE",
-            "sourceTypeChanged": false
-          },
-          {
-            "type": "NUMERIC",
-            "source": "action_7d_click_1d_view",
-            "target": "conversions",
-            "applied": true,
-            "changed": true,
-            "display": true,
-            "description": "",
-            "display_name": "conversions",
-            "source_alias": "Function Node",
-            "sourceTypeChanged": false
-          }
-        ],
-        "transformationType": "FIELDS"
-      },
-      "isGroup": true,
-      "location": "3966.5462152077657 527.4307866672743"
-    },
-    {
-      "key": "e28f9360-adc9-424d-ac52-dcf8699105bd",
-      "font": "normal 19px BlinkMacSystemFont",
-      "size": "469 88",
-      "text": "The attribution used is 7 day click 1 day view, thus we need to sum 7 day click and 1 day view actions and action values ",
-      "zOrder": 6,
-      "version": 1,
-      "category": "stickyNode",
-      "location": "3660.0473239133585 720.7911089579221",
-      "layerName": "bringToFront",
-      "textColor": "#ffffffff",
-      "background": "#553798ff",
-      "shadowBlur": 7,
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 3",
-      "isSidebarType": true,
-      "textAlignment": "center"
-    },
-    {
-      "key": "69aa9cd6-fa0b-4fab-b5f8-783fb490545e",
-      "type": "JOIN",
-      "category": "JOIN",
-      "transformationStep": {
-        "id": "69aa9cd6-fa0b-4fab-b5f8-783fb490545e",
-        "title": "",
-        "transformObject": {
-          "left": "7fb6f498-6232-480a-acaa-c3b8316296bd",
-          "type": "left",
-          "right": "e2e3845f-8c2a-4209-a3a5-49249ecf5f4f",
-          "customMapping": {
-            "date_start": "date_start",
-            "ad_id": "ad_id",
-            "conversions": "conversions_extracted"
-          },
-          "joinConditions": [
-            {
-              "left": "date_start",
-              "right": "date_start"
-            },
-            {
-              "left": "ad_id",
-              "right": "ad_id"
-            }
-          ]
-        },
-        "transformationType": "JOIN"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "4464.094482623311 9.2145712677534"
+      "location": "2102 0"
     },
     {
       "key": "ffab7b71-bae9-4b57-a3c7-4e468370e1c4",
@@ -1267,11 +771,11 @@
         "title": "",
         "transformObject": [
           {
-            "target": "conversions",
+            "target": "clicks",
             "outputType": "NUMERIC",
             "manipulationType": "Replace",
             "manipulation": {
-              "targetColumn": "conversions_extracted",
+              "targetColumn": "clicks",
               "cases": [
                 {
                   "token": "null",
@@ -1288,7 +792,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "4692.121620086797 9.2145712677534"
+      "location": "1051 0"
     },
     {
       "key": "74d04d52-c724-4bf5-bfa3-6dd85cbd6357",
@@ -1351,68 +855,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "4942.589035548146 7.519137539440635"
-    },
-    {
-      "key": "1b094f9a-8a36-4124-ba0e-e041d8b18826",
-      "size": "3180 625",
-      "locked": false,
-      "zOrder": -111,
-      "version": 1,
-      "category": "shapeNode",
-      "geometry": "f M 512 512 H 0 V 0 h 512 v 512 Z",
-      "location": "1021.6419799819914 166.95408683864696",
-      "layerName": "bringToBack",
-      "background": "#f4f4fcff",
-      "shadowBlur": 0,
-      "borderColor": "#553798ff",
-      "shadowColor": "#00000040",
-      "shadowOffset": "0 0",
-      "isSidebarType": true
-    },
-    {
-      "key": "0131cfc0-1509-4105-9bf7-4e1dd1451759",
-      "font": "bold 28px BlinkMacSystemFont",
-      "text": "EXTRACTING CONVERSIONS USING 7 DAY CLICK 1 DAY VIEW ATTRIBUTION",
-      "locked": false,
-      "zOrder": 7,
-      "version": 1,
-      "category": "textNode",
-      "location": "2079.9729113812755 234.99701673385147",
-      "layerName": "bringToFront",
-      "textColor": "#553798ff",
-      "shadowBlur": 0,
-      "shadowColor": "#00000040",
-      "shadowOffset": "0 0",
-      "isSidebarType": true,
-      "textAlignment": "left",
-      "textHighlightColor": null
-    },
-    {
-      "key": "e2e3845f-8c2a-4209-a3a5-49249ecf5f4f",
-      "type": "GROUP_BY",
-      "category": "GROUP_BY",
-      "transformationStep": {
-        "id": "e2e3845f-8c2a-4209-a3a5-49249ecf5f4f",
-        "title": "",
-        "transformObject": {
-          "columns": [
-            {
-              "name": "conversions",
-              "alias": "conversions",
-              "func": "SUM"
-            }
-          ],
-          "groupBy": [
-            "date_start|day",
-            "ad_id"
-          ]
-        },
-        "transformationType": "GROUP_BY"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "4246.094482623311 527.4307866672743"
+      "location": "1319 0"
     },
     {
       "key": "a8821a43-2b66-4032-9152-da5aede9c311",
@@ -1431,7 +874,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "5223.281872678319 7.013836221610681"
+      "location": "1587 0"
     },
     {
       "isSidebarType": true,
@@ -1467,71 +910,14 @@
       "frompid": "OUT"
     },
     {
-      "to": "b64c9b11-7b31-41f5-831b-f33b50870a55",
-      "from": "60b20db0-954e-4b17-b890-b31440a647ec",
-      "topid": "IN",
-      "zOrder": -73,
-      "frompid": "OUT",
-      "layerName": "bringToBack",
-      "fixedPosition": false
-    },
-    {
-      "to": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
-      "from": "7fb6f498-6232-480a-acaa-c3b8316296bd",
-      "topid": "IN",
-      "frompid": "OUT"
-    },
-    {
-      "to": "69aa9cd6-fa0b-4fab-b5f8-783fb490545e",
-      "from": "7fb6f498-6232-480a-acaa-c3b8316296bd",
-      "topid": "L",
-      "frompid": "OUT"
-    },
-    {
-      "to": "ffab7b71-bae9-4b57-a3c7-4e468370e1c4",
-      "from": "69aa9cd6-fa0b-4fab-b5f8-783fb490545e",
-      "topid": "IN",
-      "frompid": "OUT"
-    },
-    {
       "to": "74d04d52-c724-4bf5-bfa3-6dd85cbd6357",
       "from": "ffab7b71-bae9-4b57-a3c7-4e468370e1c4",
       "topid": "IN",
       "frompid": "OUT"
     },
     {
-      "to": "c14fdad7-2fec-4bd5-b926-b8db56c69266",
-      "from": "b64c9b11-7b31-41f5-831b-f33b50870a55",
-      "topid": "IN",
-      "frompid": "OUT"
-    },
-    {
-      "to": "e1be5e2f-af82-479b-85a2-e40dd6a6b1c6",
-      "from": "c14fdad7-2fec-4bd5-b926-b8db56c69266",
-      "topid": "IN",
-      "frompid": "OUT"
-    },
-    {
-      "to": "e2e3845f-8c2a-4209-a3a5-49249ecf5f4f",
-      "from": "e1be5e2f-af82-479b-85a2-e40dd6a6b1c6",
-      "topid": "IN",
-      "frompid": "OUT"
-    },
-    {
-      "to": "69aa9cd6-fa0b-4fab-b5f8-783fb490545e",
-      "from": "e2e3845f-8c2a-4209-a3a5-49249ecf5f4f",
-      "topid": "R",
-      "frompid": "OUT"
-    },
-    {
       "from": "c51932d5-e636-417c-99ac-f623ac49280b",
       "to": "7fb6f498-6232-480a-acaa-c3b8316296bd",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
-      "from": "7e5b7bbc-44c9-4077-9e93-44b4dc4aafbf",
-      "to": "89b72fee-09e5-402a-aa2c-409088c50421",
       "frompid": "OUT",
       "topid": "IN"
     },
@@ -1548,14 +934,8 @@
       "topid": "IN"
     },
     {
-      "to": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
-      "from": "89b72fee-09e5-402a-aa2c-409088c50421",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
-      "from": "bb2e4f5a-1ae6-4e7e-a057-d2b9873653a1",
-      "to": "60b20db0-954e-4b17-b890-b31440a647ec",
+      "from": "7fb6f498-6232-480a-acaa-c3b8316296bd",
+      "to": "ffab7b71-bae9-4b57-a3c7-4e468370e1c4",
       "frompid": "OUT",
       "topid": "IN"
     }
