@@ -894,6 +894,25 @@
       "zOrder": 1,
       "textAlignment": "center",
       "locked": false
+    },
+    {
+      "isSidebarType": true,
+      "version": 1,
+      "key": "da524050-33c7-491f-b392-d10af1f47920",
+      "category": "stickyNode",
+      "size": "196 81",
+      "location": "1158.6795940672173 -93.68805225544168",
+      "background": "#ea9d13ff",
+      "text": "Ensure Non-Null Values\n-> to be added",
+      "textColor": "#ffffffff",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 12",
+      "shadowBlur": 7,
+      "font": "normal 19px BlinkMacSystemFont",
+      "layerName": "bringToFront",
+      "zOrder": 1,
+      "textAlignment": "center",
+      "locked": false
     }
   ],
   "linkDataArray": [
