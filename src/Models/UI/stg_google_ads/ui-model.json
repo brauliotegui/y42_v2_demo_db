@@ -337,7 +337,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "2788.7422909598963 -357.4363253964521"
+      "location": "2788.7422909598963 -353.0115334490551"
     },
     {
       "key": "6df29901-4504-46c0-9feb-62df078b0a47",
@@ -386,7 +386,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "1988.041671572359 -351.70406483001665"
+      "location": "1985.8292755986608 -349.4916688563182"
     },
     {
       "key": "f8e4b6ad-eb43-4450-9beb-dee382a4d4dd",
@@ -958,12 +958,16 @@
           {
             "target": "cost",
             "originalString": "@cost*3"
+          },
+          {
+            "target": "campaign_name",
+            "originalString": "MD5(@campaign_name)"
           }
         ]
       },
       "isGroup": true,
       "group": "",
-      "location": "2490.401683297665 -356.42477859571466"
+      "location": "2492.614079271363 -351.9999866483177"
     },
     {
       "isSidebarType": true,
