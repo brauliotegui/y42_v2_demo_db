@@ -1,0 +1,27 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/alert/status-alert-settings.json",
+  "feature_type": "SQL-Model",
+  "alert_on": [
+    "success"
+  ],
+  "triggered_by": [
+    "user",
+    "orchestration"
+  ],
+  "title": "Marketing Model ran successfully",
+  "message_body": "<p>More info here: {{url}}</p>",
+  "patterns": [
+    "mart_digital_ads"
+  ],
+  "tags": [],
+  "destinations": [
+    {
+      "type": "email",
+      "custom_emails": [
+        "johannes.pittgens@y42.com"
+      ],
+      "user_ids": [],
+      "team_ids": []
+    }
+  ]
+}
