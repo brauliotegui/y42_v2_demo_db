@@ -1,0 +1,106 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/orchestration/orchestration-settings.json",
+  "cronExpression": "",
+  "forceSchedule": false,
+  "linkDataArray": [
+    {
+      "from": "602e1431-1b9e-4490-8725-ea4603d6443b",
+      "to": "905c0521-f3f3-4b46-b8d0-87453110adaa"
+    },
+    {
+      "from": "74ae16e1-6acb-4c8f-b5cc-eb83eb1b0722",
+      "to": "905c0521-f3f3-4b46-b8d0-87453110adaa"
+    },
+    {
+      "from": "32491026-e9a6-47db-b87f-e763c6ea7272",
+      "to": "905c0521-f3f3-4b46-b8d0-87453110adaa"
+    },
+    {
+      "from": "905c0521-f3f3-4b46-b8d0-87453110adaa",
+      "to": "462df5d0-281f-43e8-9e73-a0ac0683ad0e"
+    },
+    {
+      "from": "a3d799ad-7057-48dd-ad46-1e30fbb351ab",
+      "to": "f7066019-b133-457c-9fad-6a10b905381f"
+    },
+    {
+      "from": "f7066019-b133-457c-9fad-6a10b905381f",
+      "to": "462df5d0-281f-43e8-9e73-a0ac0683ad0e"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "462df5d0-281f-43e8-9e73-a0ac0683ad0e",
+      "path": "src/Models/SQL/mart_digital_ads/mart_digital_ads",
+      "location": "1048.0913899932318 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "905c0521-f3f3-4b46-b8d0-87453110adaa",
+      "path": "src/Models/UI/stg_google_ads/stg_google_ads",
+      "location": "524.0456949966158 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "602e1431-1b9e-4490-8725-ea4603d6443b",
+      "path": "src/Integrations/google_ads_new_conversion/ad_group_ad_report",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "74ae16e1-6acb-4c8f-b5cc-eb83eb1b0722",
+      "path": "src/Integrations/google_ads_integration_new/ad_group_ad_report",
+      "location": "0 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "32491026-e9a6-47db-b87f-e763c6ea7272",
+      "path": "src/Integrations/google_ads_integration_new/customer_client",
+      "location": "0 124",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "f7066019-b133-457c-9fad-6a10b905381f",
+      "path": "src/Models/UI/stg_fb_ads/stg_fb_ads",
+      "location": "524.0456949966158 186",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "a3d799ad-7057-48dd-ad46-1e30fbb351ab",
+      "path": "src/Integrations/FB_ads_integration/ads_insights",
+      "location": "0 186",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "80166a90-d4e4-4eca-b959-e839617743ac",
+      "path": "src/Models/SQL/mart_digital_ads/test_mart",
+      "location": "0 248",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
+  "visualDataArray": []
+}
