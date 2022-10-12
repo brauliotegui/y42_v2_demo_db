@@ -760,7 +760,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "1810.9920171005404 4.440892098500626e-16"
+      "location": "1810.9920171005417 0"
     },
     {
       "key": "ffab7b71-bae9-4b57-a3c7-4e468370e1c4",
@@ -883,25 +883,6 @@
     {
       "isSidebarType": true,
       "version": 1,
-      "key": "a4d72c60-fa69-48fa-abe9-4ebf51e72608",
-      "category": "stickyNode",
-      "size": "196 81",
-      "location": "5891.7250578722405 -61.00523571611677",
-      "background": "#ea9d13ff",
-      "text": "Reduce to essential Columns only",
-      "textColor": "#ffffffff",
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 12",
-      "shadowBlur": 7,
-      "font": "normal 19px BlinkMacSystemFont",
-      "layerName": "bringToFront",
-      "zOrder": 1,
-      "textAlignment": "center",
-      "locked": false
-    },
-    {
-      "isSidebarType": true,
-      "version": 1,
       "key": "da524050-33c7-491f-b392-d10af1f47920",
       "category": "stickyNode",
       "size": "196 102",
@@ -955,6 +936,25 @@
       "zOrder": 1,
       "textAlignment": "center",
       "locked": false
+    },
+    {
+      "key": "f7e38d85-7c86-4103-b485-3b8e59ef0263",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "stickyNode",
+      "size": "190 166",
+      "location": "1923.2970360743097 237.22920027368804",
+      "background": "#BE88C7",
+      "text": "Changed name of the date column to match Google`s naming convention",
+      "textColor": "#03053D",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 12",
+      "shadowBlur": 7,
+      "font": "bold 22px Arial",
+      "group": "",
+      "layerName": "bringToFront",
+      "zOrder": 2,
+      "textAlignment": "center"
     }
   ],
   "linkDataArray": [
