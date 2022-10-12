@@ -1,4 +1,329 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/data-test/data-test-settings.json",
-  "tests": []
+  "tests": [
+    {
+      "type": "schema",
+      "allow_new_columns": false,
+      "schema": [
+        {
+          "column": "account_currency",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "account_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "account_name",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "action_values",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "actions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "ad_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "ad_name",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "adset_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "adset_name",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "campaign_id",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "campaign_name",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "canvas_avg_view_percent",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "canvas_avg_view_time",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "clicks",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "conversion_rate_ranking",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "conversions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "cost_per_action_type",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "cost_per_conversion",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "cost_per_inline_link_click",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "cost_per_inline_post_engagement",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "cost_per_unique_action_type",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "cost_per_unique_click",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "cost_per_unique_inline_link_click",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "cpc",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "cpm",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "cpp",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "ctr",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "date_start",
+          "allow_null_values": true,
+          "required": true,
+          "type": "TIMESTAMP"
+        },
+        {
+          "column": "date_stop",
+          "allow_null_values": true,
+          "required": true,
+          "type": "TIMESTAMP"
+        },
+        {
+          "column": "engagement_rate_ranking",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "frequency",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "impressions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "inline_link_click_ctr",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "inline_link_clicks",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "inline_post_engagement",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "objective",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "outbound_clicks",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "quality_ranking",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "reach",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "social_spend",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "spend",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "unique_actions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "unique_clicks",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "unique_ctr",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "unique_inline_link_click_ctr",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "unique_inline_link_clicks",
+          "allow_null_values": true,
+          "required": true,
+          "type": "INTEGER"
+        },
+        {
+          "column": "unique_link_clicks_ctr",
+          "allow_null_values": true,
+          "required": true,
+          "type": "FLOAT"
+        },
+        {
+          "column": "video_30_sec_watched_actions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "video_p100_watched_actions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "video_p25_watched_actions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "video_p50_watched_actions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "video_p75_watched_actions",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        },
+        {
+          "column": "website_ctr",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
+        }
+      ]
+    }
+  ]
 }
