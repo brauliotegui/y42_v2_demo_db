@@ -4,7 +4,7 @@
   "settings": {
     "series": [
       {
-        "field_id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+        "field_id": "2b937117_884d_4d5d_aee9_5f7b34d4c375",
         "mark": "bar",
         "stack_name": 1,
         "label": {
@@ -19,12 +19,12 @@
           "field_ids": []
         },
         "show_right_axis": false,
-        "format": "0a",
+        "format": "0aEUR",
         "cumulative": false,
         "hidden": false,
         "formatConfig": {
-          "numeralFormat": "0a",
-          "formatType": "NUMBER",
+          "numeralFormat": "0aEUR",
+          "formatType": "CURRENCY",
           "decimalPlaces": 0,
           "negativeSymbol": {
             "show": true,
@@ -32,7 +32,7 @@
           },
           "displayType": "DISPLAY_UNITS",
           "separator": "NONE",
-          "locale": "",
+          "locale": "EUR",
           "prefixOrSuffix": "suffix",
           "customFormat": ""
         }
@@ -48,10 +48,10 @@
       }
     },
     "dimensions": [
-      "9f31c677_6c99_4218_82fc_02b68685705a"
+      "1966930f_ad53_4bba_a45c_369312e6383d"
     ],
     "breakdowns": [
-      "36a6c009_33d9_4327_bc9b_6b7a43a7a15d"
+      "54ed058c_2732_4a28_9e55_b54d08dabf6d"
     ],
     "series_on_y": true,
     "serieAxis": {
@@ -203,7 +203,7 @@
         }
       },
       "dataZoom": {
-        "show": true,
+        "show": false,
         "start": 0,
         "end": 100
       }
@@ -211,38 +211,22 @@
     "show_stack_by": true,
     "show_stack_by_100_percent": false,
     "stackFormatConfig": {
-      "format": "0a",
+      "format": "inherit",
       "config": {
-        "numeralFormat": "0a",
-        "formatType": "NUMBER",
+        "customFormat": "",
         "decimalPlaces": 0,
+        "displayType": "DISPLAY_UNITS",
+        "formatType": "NUMBER",
+        "locale": "",
         "negativeSymbol": {
           "show": true,
           "type": "symbol"
         },
-        "displayType": "DISPLAY_UNITS",
-        "separator": "NONE",
-        "locale": "",
+        "numeralFormat": "0a",
         "prefixOrSuffix": "prefix",
-        "customFormat": ""
+        "separator": "NONE"
       }
     },
-    "color_by": {
-      "hiddenValues": {},
-      "area": "breakdowns"
-    },
-    "conditional_formatting_rules": [
-      {
-        "operator": "contains",
-        "value": "Google",
-        "color": "#303f9f"
-      },
-      {
-        "operator": "contains",
-        "value": "Facebook",
-        "color": "#03a9f4"
-      }
-    ],
     "sort": {
       "order": "NONE",
       "sort_by": "SERIES",
@@ -253,7 +237,7 @@
     "show_total_for_stacks": [
       "all"
     ],
-    "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
+    "datasource_table_path": "src/Models/SQL/mrt_digital_ads_new/table_1",
     "chart_type": "bar_line_chart",
     "filters": [],
     "fields": [
@@ -261,8 +245,8 @@
         "field": "date",
         "aggregation": "MONTH_YEAR",
         "type": "DATETIME",
-        "alias": "MONTH_YEAR_date_9f31c677_6c99_4218_82fc_02b68685705a",
-        "id": "9f31c677_6c99_4218_82fc_02b68685705a",
+        "alias": "MONTH_YEAR_date_1966930f_ad53_4bba_a45c_369312e6383d",
+        "id": "1966930f_ad53_4bba_a45c_369312e6383d",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
@@ -271,8 +255,8 @@
         "field": "spend",
         "aggregation": "SUM",
         "type": "FLOAT",
-        "alias": "SUM_spend_2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
-        "id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+        "alias": "SUM_spend_2b937117_884d_4d5d_aee9_5f7b34d4c375",
+        "id": "2b937117_884d_4d5d_aee9_5f7b34d4c375",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
@@ -281,8 +265,8 @@
         "field": "ad_source",
         "aggregation": "VALUE",
         "type": "STRING",
-        "alias": "VALUE_ad_source_36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
-        "id": "36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
+        "alias": "VALUE_ad_source_54ed058c_2732_4a28_9e55_b54d08dabf6d",
+        "id": "54ed058c_2732_4a28_9e55_b54d08dabf6d",
         "lowCodeString": null,
         "show_in_percentage": false,
         "filters": []
@@ -291,7 +275,7 @@
     "settings": {
       "series": [
         {
-          "field_id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+          "field_id": "2b937117_884d_4d5d_aee9_5f7b34d4c375",
           "mark": "bar",
           "stack_name": 1,
           "label": {
@@ -306,12 +290,12 @@
             "field_ids": []
           },
           "show_right_axis": false,
-          "format": "0a",
+          "format": "0aEUR",
           "cumulative": false,
           "hidden": false,
           "formatConfig": {
-            "numeralFormat": "0a",
-            "formatType": "NUMBER",
+            "numeralFormat": "0aEUR",
+            "formatType": "CURRENCY",
             "decimalPlaces": 0,
             "negativeSymbol": {
               "show": true,
@@ -319,7 +303,7 @@
             },
             "displayType": "DISPLAY_UNITS",
             "separator": "NONE",
-            "locale": "",
+            "locale": "EUR",
             "prefixOrSuffix": "suffix",
             "customFormat": ""
           }
@@ -335,10 +319,10 @@
         }
       },
       "dimensions": [
-        "9f31c677_6c99_4218_82fc_02b68685705a"
+        "1966930f_ad53_4bba_a45c_369312e6383d"
       ],
       "breakdowns": [
-        "36a6c009_33d9_4327_bc9b_6b7a43a7a15d"
+        "54ed058c_2732_4a28_9e55_b54d08dabf6d"
       ],
       "series_on_y": true,
       "serieAxis": {
@@ -490,7 +474,7 @@
           }
         },
         "dataZoom": {
-          "show": true,
+          "show": false,
           "start": 0,
           "end": 100
         }
@@ -498,38 +482,22 @@
       "show_stack_by": true,
       "show_stack_by_100_percent": false,
       "stackFormatConfig": {
-        "format": "0a",
+        "format": "inherit",
         "config": {
-          "numeralFormat": "0a",
-          "formatType": "NUMBER",
+          "customFormat": "",
           "decimalPlaces": 0,
+          "displayType": "DISPLAY_UNITS",
+          "formatType": "NUMBER",
+          "locale": "",
           "negativeSymbol": {
             "show": true,
             "type": "symbol"
           },
-          "displayType": "DISPLAY_UNITS",
-          "separator": "NONE",
-          "locale": "",
+          "numeralFormat": "0a",
           "prefixOrSuffix": "prefix",
-          "customFormat": ""
+          "separator": "NONE"
         }
       },
-      "color_by": {
-        "hiddenValues": {},
-        "area": "breakdowns"
-      },
-      "conditional_formatting_rules": [
-        {
-          "operator": "contains",
-          "value": "Google",
-          "color": "#303f9f"
-        },
-        {
-          "operator": "contains",
-          "value": "Facebook",
-          "color": "#03a9f4"
-        }
-      ],
       "sort": {
         "order": "NONE",
         "sort_by": "SERIES",
@@ -542,15 +510,15 @@
       ]
     }
   },
-  "datasource_table_path": "src/Models/UI/mrt_paid_mktg/mrt_paid_mktg",
+  "datasource_table_path": "src/Models/SQL/mrt_digital_ads_new/table_1",
   "filters": [],
   "fields": [
     {
       "field": "date",
-      "aggregation": "MONTH_YEAR",
+      "aggregation": "YEAR",
       "type": "DATETIME",
-      "alias": "MONTH_YEAR_date_9f31c677_6c99_4218_82fc_02b68685705a",
-      "id": "9f31c677_6c99_4218_82fc_02b68685705a",
+      "alias": "YEAR_date_1966930f_ad53_4bba_a45c_369312e6383d",
+      "id": "1966930f_ad53_4bba_a45c_369312e6383d",
       "lowCodeString": null,
       "show_in_percentage": false,
       "filters": []
@@ -559,8 +527,8 @@
       "field": "spend",
       "aggregation": "SUM",
       "type": "FLOAT",
-      "alias": "SUM_spend_2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
-      "id": "2a576328_9a2d_4c7e_9cc9_b2da25f4dfe0",
+      "alias": "SUM_spend_2b937117_884d_4d5d_aee9_5f7b34d4c375",
+      "id": "2b937117_884d_4d5d_aee9_5f7b34d4c375",
       "lowCodeString": null,
       "show_in_percentage": false,
       "filters": []
@@ -569,8 +537,8 @@
       "field": "ad_source",
       "aggregation": "VALUE",
       "type": "STRING",
-      "alias": "VALUE_ad_source_36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
-      "id": "36a6c009_33d9_4327_bc9b_6b7a43a7a15d",
+      "alias": "VALUE_ad_source_54ed058c_2732_4a28_9e55_b54d08dabf6d",
+      "id": "54ed058c_2732_4a28_9e55_b54d08dabf6d",
       "lowCodeString": null,
       "show_in_percentage": false,
       "filters": []
