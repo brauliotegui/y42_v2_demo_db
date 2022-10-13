@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
-  "name": "google_ads_integration_new",
+  "name": "google_ads_integration_customer",
   "description": "Used for the Product Demo",
   "tags": [],
   "owners": {

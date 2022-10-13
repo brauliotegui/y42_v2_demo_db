@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
-  "name": "google_ads_new_conversion",
+  "name": "google_ads_new_conversion_customer",
   "description": "",
   "tags": [],
   "owners": {
