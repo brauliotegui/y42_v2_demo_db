@@ -1,0 +1,37 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
+  "type": "Comment",
+  "position": {
+    "x": 832.7605590820312,
+    "y": 47.411651611328125
+  },
+  "size": {
+    "width": 40,
+    "height": 40
+  },
+  "zIndex": 0,
+  "layer": "commentPins",
+  "angle": 0,
+  "typeSettings": {
+    "attachedTo": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_/canvas/d5d0234a-b9e8-49f8-aed7-9eaf902c862d.json",
+    "attachmentPositionRatio": {
+      "x": 0.35371701121324534,
+      "y": 0.03084868607164585
+    }
+  },
+  "styles": {
+    "background-color": "none",
+    "border-color": "none",
+    "border-style": "none",
+    "border-width": "0",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": false,
+    "movable": true,
+    "selectable": false,
+    "rotatable": false
+  }
+}
