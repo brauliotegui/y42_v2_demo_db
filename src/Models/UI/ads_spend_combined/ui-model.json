@@ -244,6 +244,17 @@
       "isGroup": true,
       "group": "",
       "location": "817.6233560305266 132.5921354007961"
+    },
+    {
+      "key": "1cc3291b-bfe3-4841-8041-972ce9dfbfc5",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "928 93",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
     }
   ],
   "linkDataArray": [
@@ -272,5 +283,5 @@
       "to": "b9582db3-9c6b-4ae1-9cfe-f5a51e68325a"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
+  "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
