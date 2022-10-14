@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
-  "name": "MONTHLY AD SPEND PER SOURCE",
+  "name": "Month_add_spend_relevant",
   "description": "",
   "tags": [],
   "owners": {
