@@ -3,7 +3,6 @@
   "theme": "src/Visualizations/Themes/Y42 Theme-211f8ac9-0054-4264-85aa-fdcf9a366061.json",
   "order": [
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_",
-    "src/Visualizations/Dashboards/Digital_ads_Dashboard/Tab_1",
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Tab_1__copy_",
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Impressions",
     "src/Visualizations/Dashboards/Digital_ads_Dashboard/Clicks"
