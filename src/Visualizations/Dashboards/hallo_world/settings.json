@@ -1,8 +1,0 @@
-{
-  "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-dashboard-settings.json",
-  "theme": "src/Visualizations/Themes/hallo world-7e0033a4-ef6a-44b2-b4c5-738942f74c0f.json",
-  "order": [
-    "src/Visualizations/Dashboards/hallo_world/Tab_1"
-  ],
-  "enable_cross_filtering": true
-}
