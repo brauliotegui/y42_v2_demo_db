@@ -917,6 +917,24 @@
       "zOrder": 1,
       "textAlignment": "center",
       "locked": false
+    },
+    {
+      "key": "6e554149-f17a-47f2-aed6-fec2c3f80ed2",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "stickyNode",
+      "size": "190 190",
+      "location": "1975.7296577440275 291.84733525470574",
+      "background": "#F5D128",
+      "text": "Changed the name of date column matching Google’s naming convention",
+      "textColor": "#03053D",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 12",
+      "shadowBlur": 7,
+      "font": "bold 23px Segoe UI",
+      "group": "",
+      "layerName": "bringToFront",
+      "zOrder": 2
     }
   ],
   "linkDataArray": [
