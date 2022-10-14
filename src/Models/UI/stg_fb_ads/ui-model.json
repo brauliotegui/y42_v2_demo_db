@@ -673,7 +673,7 @@
             {
               "type": "DATE",
               "source": "date",
-              "target": "date_start",
+              "target": "date",
               "applied": false,
               "changed": false,
               "display": true,
