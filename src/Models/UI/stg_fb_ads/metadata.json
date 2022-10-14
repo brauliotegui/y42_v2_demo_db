@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
-  "name": "stg_fb_ads_customer",
+  "name": "stg_fb_ads",
   "description": "",
   "tags": [],
   "owners": {
