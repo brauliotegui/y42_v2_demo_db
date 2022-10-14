@@ -40,6 +40,7 @@
     "unique_inline_link_click_ctr",
     "unique_inline_link_clicks",
     "unique_link_clicks_ctr",
+    "hourly_stats_aggregated_by_advertiser_time_zone",
     "action_values",
     "actions",
     "conversions",
@@ -55,5 +56,5 @@
     "video_p75_watched_actions",
     "website_ctr"
   ],
-  "import": "ads_insights"
+  "import": "ads_insights_hourly_advertiser_time"
 }
