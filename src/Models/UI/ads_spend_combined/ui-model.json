@@ -273,6 +273,83 @@
       "group": "",
       "layerName": "bringToFront",
       "zOrder": 1
+    },
+    {
+      "key": "d15ce303-0679-4c51-99d9-4a960f019101",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "d15ce303-0679-4c51-99d9-4a960f019101",
+        "title": "",
+        "transformationType": "GROUP_BY",
+        "transformObject": {
+          "columns": [
+            {
+              "name": "adspend",
+              "alias": "adspend",
+              "func": "SUM"
+            }
+          ],
+          "groupBy": [
+            "order_date|month",
+            "last_click_channel"
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "811.5844052879905 300.4804614689166"
+    },
+    {
+      "key": "2a5a96f3-9406-42e8-86ef-fc6f17a8cb37",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "2a5a96f3-9406-42e8-86ef-fc6f17a8cb37",
+        "title": "ads_spend_combined_mepal",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "ads_spend_combined_mepal",
+          "fields": [
+            {
+              "target": "order_date",
+              "source": "order_date",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "last_click_channel",
+              "source": "last_click_channel",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adspend",
+              "source": "adspend",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "1080.8901904119575 301.3295180726901"
     }
   ],
   "linkDataArray": [
@@ -299,6 +376,18 @@
     {
       "from": "2d8f39ef-47a6-49dd-b3eb-8e1f38c81ac2",
       "to": "b9582db3-9c6b-4ae1-9cfe-f5a51e68325a"
+    },
+    {
+      "from": "2d8f39ef-47a6-49dd-b3eb-8e1f38c81ac2",
+      "to": "d15ce303-0679-4c51-99d9-4a960f019101",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "2a5a96f3-9406-42e8-86ef-fc6f17a8cb37",
+      "from": "d15ce303-0679-4c51-99d9-4a960f019101",
+      "frompid": "OUT",
+      "topid": "IN"
     }
   ],
   "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
