@@ -1,6 +1,6 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
-  "name": "mart_digital_paid_ads_customer",
+  "name": "mrt_ads_spend",
   "description": "",
   "tags": [],
   "owners": {

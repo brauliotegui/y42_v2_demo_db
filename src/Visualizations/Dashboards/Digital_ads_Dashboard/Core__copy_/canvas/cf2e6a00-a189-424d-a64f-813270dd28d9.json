@@ -2,12 +2,12 @@
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
   "type": "Picture",
   "position": {
-    "x": 2172.348544864249,
-    "y": 78.74729919433594
+    "x": 1607.6288716837894,
+    "y": 56.55250689593379
   },
   "size": {
-    "height": 32.31098169503298,
-    "width": 151.6462015220281
+    "height": 28.204555769879562,
+    "width": 102.36912846707037
   },
   "zIndex": 0,
   "layer": "default",

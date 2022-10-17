@@ -1,26 +1,23 @@
 {
   "$schema": "https://s.y42.com/frontend/0.0.7/visualization/visualization-canvas-element.json",
-  "type": "Text",
+  "type": "Comment",
   "position": {
-    "x": 401,
-    "y": 74.5
+    "x": 832.7605590820312,
+    "y": 47.411651611328125
   },
   "size": {
-    "width": 341,
-    "height": 41
+    "width": 40,
+    "height": 40
   },
   "zIndex": 0,
-  "layer": "default",
+  "layer": "commentPins",
   "angle": 0,
   "typeSettings": {
-    "textStyles": {
-      "font-weight": "normal",
-      "font-size": "28px",
-      "font-family": "Arial",
-      "text-align": "left",
-      "color": "#000"
-    },
-    "text": "Digital Ad Spend Dashboard"
+    "attachedTo": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_/canvas/d5d0234a-b9e8-49f8-aed7-9eaf902c862d.json",
+    "attachmentPositionRatio": {
+      "x": 0.35371701121324534,
+      "y": 0.03084868607164585
+    }
   },
   "styles": {
     "background-color": "none",
@@ -34,7 +31,7 @@
   "objectProperties": {
     "resizable": false,
     "movable": true,
-    "selectable": true,
-    "rotatable": true
+    "selectable": false,
+    "rotatable": false
   }
 }
