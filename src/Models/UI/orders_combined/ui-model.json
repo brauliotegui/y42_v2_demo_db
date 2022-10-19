@@ -639,13 +639,70 @@
               "source_alias": "",
               "applied": false,
               "sourceTypeChanged": false
+            },
+            {
+              "target": "email",
+              "source": "email",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
             }
           ]
         }
       },
       "isGroup": true,
       "group": "",
-      "location": "2633.040635887775 6.187046900943244"
+      "location": "3082.6062513571974 -0.36002516899981174"
+    },
+    {
+      "key": "b74b1acf-e622-47af-8cd3-6e25865790a4",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "b74b1acf-e622-47af-8cd3-6e25865790a4",
+        "title": "Order Emails - order_emails.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "Shopify",
+        "transformObject": {
+          "source": "src/Integrations/Shopify",
+          "table": "src/Integrations/Shopify/Order Emails - order_emails.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "2409.2855286902754 192.3399583075087"
+    },
+    {
+      "key": "b56c84b2-27be-4000-817a-c8d84b552589",
+      "type": "JOIN",
+      "category": "JOIN",
+      "transformationStep": {
+        "id": "b56c84b2-27be-4000-817a-c8d84b552589",
+        "title": "",
+        "transformationType": "JOIN",
+        "transformObject": {
+          "type": "left",
+          "left": "39263a2d-ef01-4bf0-915d-65fdd2d68575",
+          "right": "b74b1acf-e622-47af-8cd3-6e25865790a4",
+          "joinConditions": [
+            {
+              "left": "orders_id",
+              "right": "orders_id"
+            }
+          ],
+          "customMapping": {
+            "orders_id": "orders_id"
+          }
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "2706.971224016629 2.0914788146006913"
     }
   ],
   "linkDataArray": [
@@ -690,12 +747,6 @@
       "to": "39263a2d-ef01-4bf0-915d-65fdd2d68575"
     },
     {
-      "to": "af71316c-f759-427e-a0de-557cb10d42cb",
-      "from": "39263a2d-ef01-4bf0-915d-65fdd2d68575",
-      "frompid": "OUT",
-      "topid": "IN"
-    },
-    {
       "from": "b5ba72fd-b562-4754-ade3-5549dfbe9c2e",
       "to": "01098e56-378d-47fe-be72-9b865c2dd5ee",
       "frompid": "OUT",
@@ -706,6 +757,24 @@
       "to": "01098e56-378d-47fe-be72-9b865c2dd5ee",
       "frompid": "OUT",
       "topid": "L"
+    },
+    {
+      "to": "b56c84b2-27be-4000-817a-c8d84b552589",
+      "from": "39263a2d-ef01-4bf0-915d-65fdd2d68575",
+      "frompid": "OUT",
+      "topid": "L"
+    },
+    {
+      "from": "b74b1acf-e622-47af-8cd3-6e25865790a4",
+      "to": "b56c84b2-27be-4000-817a-c8d84b552589",
+      "frompid": "OUT",
+      "topid": "R"
+    },
+    {
+      "from": "b56c84b2-27be-4000-817a-c8d84b552589",
+      "to": "af71316c-f759-427e-a0de-557cb10d42cb",
+      "frompid": "OUT",
+      "topid": "IN"
     }
   ],
   "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
