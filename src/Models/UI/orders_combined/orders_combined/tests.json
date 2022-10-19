@@ -94,6 +94,12 @@
           "allow_null_values": true,
           "required": true,
           "type": "FLOAT"
+        },
+        {
+          "column": "email",
+          "allow_null_values": true,
+          "required": true,
+          "type": "STRING"
         }
       ]
     },
