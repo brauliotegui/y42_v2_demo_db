@@ -1,5 +1,0 @@
-{
-  "$schema": "https://s.y42.com/exports/google_sheets/0.0.0/table",
-  "datasource_table_path": "src/Models/UI/orders_combined/orders_combined",
-  "sheet_id": "1tJVfMpGnmCiEIFJ6LFp2kESOcXRPhQHrcvzM-nGyHg4"
-}
