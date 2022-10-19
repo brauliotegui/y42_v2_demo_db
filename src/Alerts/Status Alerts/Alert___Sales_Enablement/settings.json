@@ -1,0 +1,27 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.7/alert/status-alert-settings.json",
+  "feature_type": "Export",
+  "alert_on": [
+    "failure"
+  ],
+  "triggered_by": [
+    "orchestration"
+  ],
+  "title": "",
+  "message_body": "\n<p>Hey hey,</p><br/>\n\n<p>The following {{feature_type}} was a {{status}}:</p><br/>\n\n<p>Name: {{object_name}}</p>\n<p>Triggered by: {{triggered_by_type}}</p>\n<p>At: {{completed_at}}</p>\n<p>Runtime: {{runtime}}</p><br/>\n\n<p>Git Path: {{git_url}}</p>\n<p>Link to {{feature_type}}: {{url}}</p><br/>\n\n<p>Have a nice day,</p>\n<p>Y42</p>\n",
+  "patterns": [
+    "Sales_Enablement_2023"
+  ],
+  "tags": [],
+  "destinations": [
+    {
+      "type": "email",
+      "custom_emails": [],
+      "user_ids": [
+        "hd@y42.com",
+        "hugo.cheyne@y42.com"
+      ],
+      "team_ids": []
+    }
+  ]
+}
