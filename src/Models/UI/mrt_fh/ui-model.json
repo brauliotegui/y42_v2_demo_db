@@ -1,5 +1,104 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "0304fa48-d557-4806-a1be-800da57f016f",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "0304fa48-d557-4806-a1be-800da57f016f",
+        "title": "table_1",
+        "transformationType": "INPUT",
+        "datasourceName": "ad_spend_agg",
+        "transformObject": {
+          "source": "src/Models/SQL/ad_spend_agg",
+          "table": "src/Models/SQL/ad_spend_agg/table_1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-568.6611570247934 -211.39622641509436"
+    },
+    {
+      "key": "c1bcb33f-9193-47a1-86ea-37350b39673d",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "c1bcb33f-9193-47a1-86ea-37350b39673d",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "total_spend",
+            "source": "total_adspend",
+            "type": "INTEGER",
+            "display": true,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-241.90909090909088 -192.1320754716981"
+    },
+    {
+      "key": "eb15d916-e87a-4e6f-836a-af3a64c3b804",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "eb15d916-e87a-4e6f-836a-af3a64c3b804",
+        "title": "mrt_fh",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "mrt_fh",
+          "fields": [
+            {
+              "target": "total_spend",
+              "source": "total_spend",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "channel",
+              "source": "channel",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "280.9256198347107 -216.2830188679245"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "0304fa48-d557-4806-a1be-800da57f016f",
+      "to": "c1bcb33f-9193-47a1-86ea-37350b39673d",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "c1bcb33f-9193-47a1-86ea-37350b39673d",
+      "to": "eb15d916-e87a-4e6f-836a-af3a64c3b804",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
