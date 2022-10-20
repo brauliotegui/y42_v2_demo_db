@@ -244,24 +244,6 @@
       "isGroup": true,
       "group": "",
       "location": "817.6233560305266 132.5921354007961"
-    },
-    {
-      "key": "78deb1db-da69-4148-bcda-8dc22b0c6d85",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "stickyNode",
-      "size": "190 190",
-      "location": "933.6883219847367 171",
-      "background": "#533496",
-      "text": "This is the final model.",
-      "textColor": "#03053D",
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 12",
-      "shadowBlur": 7,
-      "font": "normal 20px Segoe UI",
-      "group": "",
-      "layerName": "bringToFront",
-      "zOrder": 1
     }
   ],
   "linkDataArray": [
