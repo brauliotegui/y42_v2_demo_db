@@ -1,10 +1,17 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.1/core/y42-metadata.json",
+  "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
   "name": "Amazon Ads",
-  "description": "",
-  "tags": [],
+  "description": "<p>This integration contains the critical tables for Amazon Ads. Handle with care, contains very precious information (:</p>",
+  "tags": [
+    "E-commerce",
+    "Eshop",
+    "Marketing",
+    "Brands"
+  ],
   "owners": {
-    "user_ids": [],
+    "user_ids": [
+      "raul.berganza@y42.com"
+    ],
     "team_ids": []
   },
   "experts": {
@@ -15,5 +22,6 @@
     "user_ids": [],
     "team_ids": []
   },
-  "asset_status": "no status"
+  "asset_status": "verified",
+  "asset_status_message": "<p>Dear analyst, this was integrated with love 💜</p>"
 }

@@ -1,8 +1,12 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.1/core/y42-metadata.json",
+  "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
   "name": "Amazon Shop",
-  "description": "",
-  "tags": [],
+  "description": "<p><span style=\"color: rgb(0, 0, 0);\">This integration contains the critical tables for Amazon Shop. Handle with care, contains very precious information (:</span></p>",
+  "tags": [
+    "Sales",
+    "E-commerce",
+    "Revenue"
+  ],
   "owners": {
     "user_ids": [],
     "team_ids": []
@@ -15,5 +19,6 @@
     "user_ids": [],
     "team_ids": []
   },
-  "asset_status": "no status"
+  "asset_status": "verified",
+  "asset_status_message": "<p>Production grade data incoming 👀</p>"
 }

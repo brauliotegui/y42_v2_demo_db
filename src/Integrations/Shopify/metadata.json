@@ -1,8 +1,13 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.1/core/y42-metadata.json",
+  "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
   "name": "Shopify",
   "description": "",
-  "tags": [],
+  "tags": [
+    "E-commerce",
+    "Shop",
+    "Sales",
+    "Revenue"
+  ],
   "owners": {
     "user_ids": [],
     "team_ids": []
