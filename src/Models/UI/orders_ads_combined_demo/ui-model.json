@@ -234,46 +234,6 @@
       "isGroup": true,
       "group": "",
       "location": "-78.61157024793386 -212.4811320754717"
-    },
-    {
-      "key": "4e99a92d-32a7-4b4a-bd6d-6cbb1e8e78fb",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "stickyNode",
-      "size": "190 190",
-      "location": "-232 62",
-      "background": "#FFF1CC",
-      "text": "I think we should join other data sources onto this table",
-      "textColor": "#03053D",
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 12",
-      "shadowBlur": 7,
-      "font": "normal 20px Segoe UI",
-      "group": "",
-      "layerName": "bringToFront",
-      "zOrder": 1
-    },
-    {
-      "key": "beca12a2-26cb-42fa-87fd-ba3393e6d670",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "pinNode",
-      "location": "-255 72",
-      "layerName": "",
-      "zOrder": {
-        "class": "NaN"
-      }
-    },
-    {
-      "key": "230a27b8-a76d-437f-8967-0ab0322670f7",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "pinNode",
-      "location": "-163 -86",
-      "layerName": "",
-      "zOrder": {
-        "class": "NaN"
-      }
     }
   ],
   "linkDataArray": [

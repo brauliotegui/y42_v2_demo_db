@@ -272,5 +272,5 @@
       "to": "b9582db3-9c6b-4ae1-9cfe-f5a51e68325a"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
+  "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }

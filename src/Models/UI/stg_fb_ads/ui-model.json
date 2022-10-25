@@ -7,10 +7,10 @@
       "transformationStep": {
         "id": "a148dc07-01e9-4cef-982f-65da1a3e7bc3",
         "title": "ads_insights",
-        "datasourceName": "FB_ads_integration",
+        "datasourceName": "facebook_ads_integration",
         "transformObject": {
-          "source": "src/Integrations/FB_ads_integration",
-          "table": "src/Integrations/FB_ads_integration/ads_insights",
+          "source": "src/Integrations/fb_integration_1",
+          "table": "src/Integrations/fb_integration_1/ads_insights",
           "lang": ""
         },
         "transformationType": "INPUT"
@@ -883,44 +883,6 @@
     {
       "isSidebarType": true,
       "version": 1,
-      "key": "a4d72c60-fa69-48fa-abe9-4ebf51e72608",
-      "category": "stickyNode",
-      "size": "196 81",
-      "location": "5891.7250578722405 -61.00523571611677",
-      "background": "#ea9d13ff",
-      "text": "Reduce to essential Columns only",
-      "textColor": "#ffffffff",
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 12",
-      "shadowBlur": 7,
-      "font": "normal 19px BlinkMacSystemFont",
-      "layerName": "bringToFront",
-      "zOrder": 1,
-      "textAlignment": "center",
-      "locked": false
-    },
-    {
-      "isSidebarType": true,
-      "version": 1,
-      "key": "da524050-33c7-491f-b392-d10af1f47920",
-      "category": "stickyNode",
-      "size": "196 102",
-      "location": "1158.6795940672173 -104.18805225544168",
-      "background": "#ea9d13ff",
-      "text": "Ensure Non-Null Values\n-> to be added during demo",
-      "textColor": "#ffffffff",
-      "shadowColor": "#00000050",
-      "shadowOffset": "1 12",
-      "shadowBlur": 7,
-      "font": "normal 19px BlinkMacSystemFont",
-      "layerName": "bringToFront",
-      "zOrder": 1,
-      "textAlignment": "center",
-      "locked": false
-    },
-    {
-      "isSidebarType": true,
-      "version": 1,
       "key": "002f0546-81a8-42ba-91d9-8730bb7dcb55",
       "category": "stickyNode",
       "size": "196 102",
@@ -955,6 +917,24 @@
       "zOrder": 1,
       "textAlignment": "center",
       "locked": false
+    },
+    {
+      "key": "6e554149-f17a-47f2-aed6-fec2c3f80ed2",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "stickyNode",
+      "size": "190 190",
+      "location": "1975.7296577440275 291.84733525470574",
+      "background": "#F5D128",
+      "text": "Changed the name of date column matching Google’s naming convention",
+      "textColor": "#03053D",
+      "shadowColor": "#00000050",
+      "shadowOffset": "1 12",
+      "shadowBlur": 7,
+      "font": "bold 23px Segoe UI",
+      "group": "",
+      "layerName": "bringToFront",
+      "zOrder": 2
     }
   ],
   "linkDataArray": [
