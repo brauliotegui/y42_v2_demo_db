@@ -7,7 +7,9 @@
     "Social Media"
   ],
   "owners": {
-    "user_ids": [],
+    "user_ids": [
+      "raul.berganza@y42.com"
+    ],
     "team_ids": []
   },
   "experts": {
