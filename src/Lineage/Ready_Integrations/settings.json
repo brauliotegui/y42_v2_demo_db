@@ -1,0 +1,685 @@
+{
+  "$schema": "https://s.y42.com/frontend/0.0.8/lineage/lineage-settings.json",
+  "linkDataArray": [
+    {
+      "from": "src/Models/UI/orders_combined/orders_combined",
+      "to": "src/Exports/Orders_CSV/orders_combined___orders_combined"
+    },
+    {
+      "from": "src/Models/UI/orders_combined/orders_combined",
+      "to": "src/Exports/Sales_Enablement_2023/orders_combined___orders_combined"
+    },
+    {
+      "from": "src/Integrations/postgresql/Financial Sample.xlsx",
+      "to": "src/Models/SQL/Thea/table_1"
+    },
+    {
+      "from": "src/Models/UI/stg_fb_ads/stg_fb_ads",
+      "to": "src/Models/SQL/mart_digital_paid_ads/table_1"
+    },
+    {
+      "from": "src/Models/UI/stg_google_ads/stg_google_ads",
+      "to": "src/Models/SQL/mart_digital_paid_ads/table_1"
+    },
+    {
+      "from": "src/Integrations/Amazon_Ads/demo_amazon_ads.csv",
+      "to": "src/Models/SQL/ad_spend_agg/table_1"
+    },
+    {
+      "from": "src/Integrations/google_ads_new_conversion/ad_group_ad_report",
+      "to": "src/Models/UI/stg_google_ads/stg_google_ads"
+    },
+    {
+      "from": "src/Integrations/google_ads_integration_new/ad_group_ad_report",
+      "to": "src/Models/UI/stg_google_ads/stg_google_ads"
+    },
+    {
+      "from": "src/Integrations/google_ads_integration_new/customer_client",
+      "to": "src/Models/UI/stg_google_ads/stg_google_ads"
+    },
+    {
+      "from": "src/Models/UI/orders_combined/orders_combined",
+      "to": "src/Models/UI/orders_ads_combined/orders_ads_combined"
+    },
+    {
+      "from": "src/Models/UI/ads_spend_combined/ads_spend_combined",
+      "to": "src/Models/UI/orders_ads_combined/orders_ads_combined"
+    },
+    {
+      "from": "src/Integrations/Shopify/b97a4df6-a617-4d60-980a-6a5c5a8aa2f6-demo_orders_mock_data-000000000000.csv",
+      "to": "src/Models/UI/orders_ads_combined/orders_ads_combined"
+    },
+    {
+      "from": "src/Models/SQL/ad_spend_agg/table_1",
+      "to": "src/Models/UI/mrt_fh/mrt_fh"
+    },
+    {
+      "from": "src/Integrations/fb_integration_1/ads_insights",
+      "to": "src/Models/UI/stg_fb_ads/stg_fb_ads"
+    },
+    {
+      "from": "src/Integrations/Shopify/Order Emails - order_emails.csv",
+      "to": "src/Models/UI/orders_combined/orders_combined"
+    },
+    {
+      "from": "src/Integrations/Amazon_Shop/demo_orders_amazon.csv",
+      "to": "src/Models/UI/orders_combined/orders_combined"
+    },
+    {
+      "from": "src/Integrations/Shopify/demo_orders_shopify.csv",
+      "to": "src/Models/UI/orders_combined/orders_combined"
+    },
+    {
+      "from": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "to": "src/Models/UI/orders_ads_combined_demo/orders_ads_combined_demo"
+    },
+    {
+      "from": "src/Integrations/Amazon_Ads/demo_amazon_ads.csv",
+      "to": "src/Models/UI/ads_spend_combined/ads_spend_combined"
+    },
+    {
+      "from": "src/Integrations/Facebook_Ads/demo_facebook_ads.csv",
+      "to": "src/Models/UI/ads_spend_combined/ads_spend_combined"
+    },
+    {
+      "from": "src/Integrations/Google_Ads/demo_google_ads.csv",
+      "to": "src/Models/UI/ads_spend_combined/ads_spend_combined"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Avg__CAC_by_Channel",
+      "to": "src/Visualizations/Dashboards/Product___Tech_KPIs/Tab_2"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Avg__CAC_by_Channel",
+      "to": "src/Visualizations/Dashboards/Awesome_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Monthly_Adspend_by_Channel",
+      "to": "src/Visualizations/Dashboards/Awesome_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Avg__CAC_by_Channel",
+      "to": "src/Visualizations/Dashboards/Awesome_Dashboard/Costs"
+    },
+    {
+      "from": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon",
+      "to": "src/Visualizations/Dashboards/Demo_Marketing/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Avg__CAC_by_Channel",
+      "to": "src/Visualizations/Dashboards/Demo_Marketing/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon___Copy",
+      "to": "src/Visualizations/Dashboards/Demo_Marketing/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Monthly_Adspend_by_Channel",
+      "to": "src/Visualizations/Dashboards/Demo_Marketing/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/MTD_ad_spend_total",
+      "to": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Spend_per_campaign_total",
+      "to": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_"
+    },
+    {
+      "from": "src/Visualizations/Widgets/WTD_ad_spend_total",
+      "to": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Daily_ads_spend_per_source",
+      "to": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_"
+    },
+    {
+      "from": "src/Visualizations/Widgets/QTD_AD_SPEND",
+      "to": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_"
+    },
+    {
+      "from": "src/Models/SQL/mart_digital_paid_ads/table_1",
+      "to": "src/Visualizations/Widgets/MTD_ad_spend_total"
+    },
+    {
+      "from": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "to": "src/Visualizations/Widgets/Avg__CAC_by_Channel"
+    },
+    {
+      "from": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "to": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon"
+    },
+    {
+      "from": "src/Models/SQL/mart_digital_paid_ads/table_1",
+      "to": "src/Visualizations/Widgets/Daily_ads_spend_per_source"
+    },
+    {
+      "from": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "to": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon___Copy"
+    },
+    {
+      "from": "src/Models/SQL/mart_digital_paid_ads/table_1",
+      "to": "src/Visualizations/Widgets/WTD_ad_spend_total"
+    },
+    {
+      "from": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "to": "src/Visualizations/Widgets/Monthly_Adspend_by_Channel"
+    },
+    {
+      "from": "src/Models/SQL/mart_digital_paid_ads/table_1",
+      "to": "src/Visualizations/Widgets/QTD_AD_SPEND"
+    },
+    {
+      "from": "src/Models/SQL/mart_digital_paid_ads/table_1",
+      "to": "src/Visualizations/Widgets/Spend_per_campaign_total"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "src/Exports/Orders_CSV/orders_combined___orders_combined",
+      "category": "Export",
+      "isGroup": false,
+      "group": "src/Exports/Orders_CSV"
+    },
+    {
+      "key": "src/Exports/Sales_Enablement_2023/orders_combined___orders_combined",
+      "category": "Export",
+      "isGroup": false,
+      "group": "src/Exports/Sales_Enablement_2023"
+    },
+    {
+      "key": "src/Exports/Orders_CSV",
+      "category": "Export",
+      "location": "781.0456949966159 937",
+      "isGroup": true
+    },
+    {
+      "key": "src/Exports/Sales_Enablement_2023",
+      "category": "Export",
+      "location": "781.0456949966159 1009",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/google_ads_integration_new/customer_client",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/google_ads_integration_new"
+    },
+    {
+      "key": "src/Integrations/google_ads_integration_new/ad_group_ad_report",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/google_ads_integration_new"
+    },
+    {
+      "key": "src/Integrations/Google_Ads/demo_google_ads.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Google_Ads"
+    },
+    {
+      "key": "src/Integrations/postgresql/Financial Sample.xlsx",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/postgresql"
+    },
+    {
+      "key": "src/Integrations/Shopify/Order Emails - order_emails.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Shopify"
+    },
+    {
+      "key": "src/Integrations/Shopify/demo_orders_shopify.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Shopify"
+    },
+    {
+      "key": "src/Integrations/Shopify/b97a4df6-a617-4d60-980a-6a5c5a8aa2f6-demo_orders_mock_data-000000000000.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Shopify"
+    },
+    {
+      "key": "src/Integrations/Shopify/demo_analytics_transactions.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Shopify"
+    },
+    {
+      "key": "src/Integrations/Amazon_Ads/demo_amazon_ads.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Amazon_Ads"
+    },
+    {
+      "key": "src/Integrations/Facebook_Ads/demo_facebook_ads.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Facebook_Ads"
+    },
+    {
+      "key": "src/Integrations/financial_data/Financial Sample.xlsx",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/financial_data"
+    },
+    {
+      "key": "src/Integrations/fb_integration_1/ads_insights",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/fb_integration_1"
+    },
+    {
+      "key": "src/Integrations/Amazon_Shop/demo_orders_amazon.csv",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Amazon_Shop"
+    },
+    {
+      "key": "src/Integrations/google_ads_new_conversion/ad_group_ad_report",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/google_ads_new_conversion"
+    },
+    {
+      "key": "src/Integrations/google_ads_integration_new",
+      "category": "Integration",
+      "location": "12 51",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/Google_Ads",
+      "category": "Integration",
+      "location": "12 113",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/test2",
+      "category": "Integration",
+      "location": "12 751",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/postgresql",
+      "category": "Integration",
+      "location": "12 175",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/new_ads_ingration",
+      "category": "Integration",
+      "location": "12 875",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/Shopify",
+      "category": "Integration",
+      "location": "12 237",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/Amazon_Ads",
+      "category": "Integration",
+      "location": "12 299",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/Facebook_Ads",
+      "category": "Integration",
+      "location": "12 361",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/financial_data",
+      "category": "Integration",
+      "location": "12 423",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/fb_integration_1",
+      "category": "Integration",
+      "location": "12 485",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/Amazon_Shop",
+      "category": "Integration",
+      "location": "12 547",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/google_ads_new_conversion",
+      "category": "Integration",
+      "location": "12 609",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/Thea/table_1",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/Thea"
+    },
+    {
+      "key": "src/Models/SQL/mart_digital_paid_ads/table_1",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/mart_digital_paid_ads"
+    },
+    {
+      "key": "src/Models/SQL/ad_spend_agg/table_1",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/ad_spend_agg"
+    },
+    {
+      "key": "src/Models/SQL/Thea",
+      "category": "SqlModel",
+      "location": "396.52284749830795 813",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/mart_digital_paid_ads",
+      "category": "SqlModel",
+      "location": "781.0456949966159 195",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/ad_spend_agg",
+      "category": "SqlModel",
+      "location": "396.52284749830795 1071",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/test",
+      "category": "SqlModel",
+      "location": "12 1443",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/stg_google_ads/stg_google_ads",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/stg_google_ads"
+    },
+    {
+      "key": "src/Models/UI/orders_ads_combined/orders_ads_combined",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/orders_ads_combined"
+    },
+    {
+      "key": "src/Models/UI/mrt_fh/mrt_fh",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/mrt_fh"
+    },
+    {
+      "key": "src/Models/UI/stg_fb_ads/stg_fb_ads",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/stg_fb_ads"
+    },
+    {
+      "key": "src/Models/UI/orders_combined/orders_combined",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/orders_combined"
+    },
+    {
+      "key": "src/Models/UI/orders_ads_combined_demo/orders_ads_combined_demo",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/orders_ads_combined_demo"
+    },
+    {
+      "key": "src/Models/UI/ads_spend_combined/ads_spend_combined",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/ads_spend_combined"
+    },
+    {
+      "key": "src/Models/UI/stg_google_ads",
+      "category": "UiModel",
+      "location": "396.52284749830795 195",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/orders_ads_combined",
+      "category": "UiModel",
+      "location": "781.0456949966159 545",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/mrt_fh",
+      "category": "UiModel",
+      "location": "781.0456949966159 1071",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/stg_fb_ads",
+      "category": "UiModel",
+      "location": "396.52284749830795 1257",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/orders_combined",
+      "category": "UiModel",
+      "location": "396.52284749830795 973",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/orders_ads_combined_demo",
+      "category": "UiModel",
+      "location": "1165.5685424949238 401",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/ads_spend_combined",
+      "category": "UiModel",
+      "location": "396.52284749830795 545",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Product___Tech_KPIs/Tab_2",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Product___Tech_KPIs"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Product___Tech_KPIs/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Product___Tech_KPIs"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Awesome_Dashboard/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Awesome_Dashboard"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Awesome_Dashboard/Costs",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Awesome_Dashboard"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Awesome_Dashboard/Revenues",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Awesome_Dashboard"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Demo_Marketing/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Demo_Marketing"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Digital_ads_Dashboard/Core__copy_",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Digital_ads_Dashboard"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Product___Tech_KPIs",
+      "category": "Dashboard",
+      "location": "1550.0913899932318 401",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Awesome_Dashboard",
+      "category": "Dashboard",
+      "location": "1550.0913899932318 473",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Demo_Marketing",
+      "category": "Dashboard",
+      "location": "1550.0913899932318 545",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Digital_ads_Dashboard",
+      "category": "Dashboard",
+      "location": "1550.0913899932318 51",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Widgets/MTD_ad_spend_total",
+      "category": "Widget",
+      "location": "1153.5685424949238 0",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Avg__CAC_by_Channel",
+      "category": "Widget",
+      "location": "1153.5685424949238 422",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Monthly_clicks_per_source",
+      "category": "Widget",
+      "location": "0 1454",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon",
+      "category": "Widget",
+      "location": "1153.5685424949238 494",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Spend_per_campaign_YTD",
+      "category": "Widget",
+      "location": "0 1516",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Daily_ads_spend_per_source",
+      "category": "Widget",
+      "location": "1153.5685424949238 72",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/adgroup_group_name_details",
+      "category": "Widget",
+      "location": "0 1578",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Spend_per_campaign_YTD___Copy_1",
+      "category": "Widget",
+      "location": "0 1640",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Weekly_ad_spend___Copy_1",
+      "category": "Widget",
+      "location": "0 1702",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/MTD_ad_spend",
+      "category": "Widget",
+      "location": "0 1764",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Monthly_impressions_per_source",
+      "category": "Widget",
+      "location": "0 1826",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/New_Repeat_Revenue___Amazon___Copy",
+      "category": "Widget",
+      "location": "1153.5685424949238 566",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/WTD_ad_spend_total",
+      "category": "Widget",
+      "location": "1153.5685424949238 144",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Monthly_Adspend_by_Channel",
+      "category": "Widget",
+      "location": "1153.5685424949238 638",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/QTD_AD_SPEND",
+      "category": "Widget",
+      "location": "1153.5685424949238 216",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Monthly_conversions_per_source",
+      "category": "Widget",
+      "location": "0 1888",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Spend_per_campaign_total",
+      "category": "Widget",
+      "location": "1153.5685424949238 288",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Weekly_ad_spend",
+      "category": "Widget",
+      "location": "0 1950",
+      "isGroup": false
+    },
+    {
+      "key": "af163637-6af7-4e9c-96f5-3ac4b8f621ce",
+      "category": "Empty",
+      "group": "src/Integrations/test2"
+    },
+    {
+      "key": "d1bff9bd-14f6-4c85-9cc3-5efc3c3e934c",
+      "category": "Empty",
+      "group": "src/Integrations/new_ads_ingration"
+    },
+    {
+      "key": "27a030d8-6bc8-477d-8c97-15e258504ab2",
+      "category": "Empty",
+      "group": "src/Models/SQL/test"
+    }
+  ],
+  "visualDataArray": [],
+  "selectedFilters": [
+    {
+      "type": "Module",
+      "value": "Integration"
+    },
+    {
+      "type": "LastJobStatus",
+      "value": "ready"
+    }
+  ]
+}
