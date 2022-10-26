@@ -286,13 +286,13 @@
     {
       "key": "src/Integrations/google_ads_integration_new",
       "category": "Integration",
-      "location": "502 163.85714285714286",
+      "location": "12 51",
       "isGroup": true
     },
     {
       "key": "src/Integrations/Google_Ads",
       "category": "Integration",
-      "location": "502 463.57142857142856",
+      "location": "12 113",
       "isGroup": true
     },
     {
@@ -316,19 +316,19 @@
     {
       "key": "src/Integrations/Shopify",
       "category": "Integration",
-      "location": "12 237",
+      "location": "582.0000000000001 242.71428571428572",
       "isGroup": true
     },
     {
       "key": "src/Integrations/Amazon_Ads",
       "category": "Integration",
-      "location": "502 237",
+      "location": "12 299",
       "isGroup": true
     },
     {
       "key": "src/Integrations/Facebook_Ads",
       "category": "Integration",
-      "location": "502 312.42857142857144",
+      "location": "689.1428571428572 356.7142857142857",
       "isGroup": true
     },
     {
@@ -340,7 +340,7 @@
     {
       "key": "src/Integrations/fb_integration_1",
       "category": "Integration",
-      "location": "502 390.1428571428572",
+      "location": "627.7142857142859 448.7142857142857",
       "isGroup": true
     },
     {
@@ -352,7 +352,7 @@
     {
       "key": "src/Integrations/google_ads_new_conversion",
       "category": "Integration",
-      "location": "502 529.1428571428571",
+      "location": "12 547",
       "isGroup": true
     },
     {
