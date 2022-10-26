@@ -1,7 +1,7 @@
 {
-  "$schema": "https://s.y42.com/frontend/0.0.7/core/y42-metadata.json",
+  "$schema": "https://s.y42.com/frontend/0.0.8/core/y42-metadata.json",
   "name": "Google Ads",
-  "description": "",
+  "description": "<p><span style=\"background-color: rgb(255, 255, 255);\">This integration contains the critical tables for Google Ads. Handle with care, contains very precious information (:</span></p>",
   "tags": [
     "Marketing",
     "Social Media"
@@ -20,6 +20,6 @@
     "user_ids": [],
     "team_ids": []
   },
-  "asset_status": "no status",
-  "asset_status_message": "<p>Looks good to me 👀</p>"
+  "asset_status": "verified",
+  "asset_status_message": "<p>Looks great to me 👀</p>"
 }
