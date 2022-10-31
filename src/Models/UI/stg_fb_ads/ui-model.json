@@ -760,7 +760,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "1837.982514737903 0"
+      "location": "2199.556584732347 0"
     },
     {
       "key": "ffab7b71-bae9-4b57-a3c7-4e468370e1c4",
@@ -935,6 +935,25 @@
       "group": "",
       "layerName": "bringToFront",
       "zOrder": 2
+    },
+    {
+      "key": "1d2c21c9-3ef8-449a-91e9-241cd6509eea",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "1d2c21c9-3ef8-449a-91e9-241cd6509eea",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "ad_source",
+            "originalString": "'Facebook'"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "1868.2497774437313 -1.0009738416414393"
     }
   ],
   "linkDataArray": [
@@ -975,7 +994,13 @@
       "topid": "IN"
     },
     {
+      "to": "1d2c21c9-3ef8-449a-91e9-241cd6509eea",
       "from": "a8821a43-2b66-4032-9152-da5aede9c311",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "1d2c21c9-3ef8-449a-91e9-241cd6509eea",
       "to": "2f830ec6-2a37-4863-87a3-29df0d55ca6d",
       "frompid": "OUT",
       "topid": "IN"
